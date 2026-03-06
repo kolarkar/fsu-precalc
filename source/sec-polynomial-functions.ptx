@@ -1,0 +1,762 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-polynomial-functions">
+        <title>Polynomial Functions (ALEKS 2.2)</title>
+
+        <definition xml:id="def-polynomial-function">
+          <title>Polynomial function</title>
+          <statement>
+            <p>
+              A <b>polynomial function of degree <m>n</m></b> is a function that can be expressed as
+              <me>f\left( x\right)=a_{n}x^{n}+a_{n-1}x^{n-1}+...+a_{1}x+a_{0}</me>
+              where <m>n</m> is a non-negative integer and <m>a_n \neq 0</m>.
+            </p>
+            <p>
+              The given expression is called <b>standard form</b>, <fillin characters="15" /> is the <b>leading term</b>, and <fillin characters="15" /> is the <b>constant term</b>.
+            </p>
+            <p>
+              The <b>domain</b> of a polynomial is the set of all real numbers.
+            </p>
+            <p>
+              The <b>graph</b> of a polynomial is smooth and continuous.
+            </p>
+          </statement>
+        </definition>
+
+        <example xml:id="ex-identify-polynomials">
+          <statement>
+            <p>
+              Identify which of the following are polynomial functions and which are not.
+              Write the polynomial functions in standard form and state the degree, leading term, and constant term.
+            </p>
+            <table>
+              <title>Polynomial Identification</title>
+              <tabular halign="center" top="medium" bottom="medium" left="medium" right="medium">
+                <row header="yes" bottom="medium">
+                  <cell>Function</cell>
+                  <cell>Poly? Y/N</cell>
+                  <cell>Standard Form</cell>
+                  <cell>Degree</cell>
+                  <cell>Leading Term</cell>
+                  <cell>Constant Term</cell>
+                </row>
+                <row><cell><m>f(x) = -\pi x^5-1</m></cell><cell/><cell/><cell/><cell/><cell/></row>
+                <row><cell><m>g(x) = -5x^\pi-1</m></cell><cell/><cell/><cell/><cell/><cell/></row>
+                <row><cell><m>h(x) = \displaystyle \frac{x^2+3}{4}</m></cell><cell/><cell/><cell/><cell/><cell/></row>
+                <row><cell><m>i(x) = \displaystyle \frac{x^2+3}{x}</m></cell><cell/><cell/><cell/><cell/><cell/></row>
+                <row><cell><m>p(x) = \frac{1}{4}x^2+\sqrt{2}x</m></cell><cell/><cell/><cell/><cell/><cell/></row>
+                <row><cell><m>q(x) = \frac{1}{4}x^2+\sqrt{2x}</m></cell><cell/><cell/><cell/><cell/><cell/></row>
+              </tabular>
+            </table>
+          </statement>
+        </example>
+
+        <assemblage xml:id="box-basic-power-functions">
+          <title>Two Basic Power Functions</title>
+          <p><b>1.</b> The graph of <m>y=x^n</m>, where <m>n</m> is a positive <b>even</b> integer.</p>
+          <sidebyside widths="45% 45%" margins="auto" valign="middle">
+            <stack>
+              <p>Domain?</p>
+              <p>Range?</p>
+              <p>Points?</p>
+              <p>Symmetry?</p>
+            </stack>
+            <figure xml:id="fig-power-even">
+              <caption><m>y=x^2</m></caption>
+              <image>
+                <prefigure xmlns="https://prefigure.org" label="prefig-power-even">
+                  <diagram dimensions="(200,200)" margins="15">
+                    <definition>f(x) = x^2</definition>
+                    <coordinates bbox="(-5,-6,5,6)">
+                      <grid-axes xlabel="x" ylabel="y" />
+                      <graph function="f" domain="[-5,5]" color="blue" thickness="1.5" />
+                    </coordinates>
+                  </diagram>
+                </prefigure>
+              </image>
+            </figure>
+          </sidebyside>
+          
+          <p><b>2.</b> The graph of <m>y=x^n</m>, where <m>n</m> is a positive <b>odd</b> integer.</p>
+          <sidebyside widths="45% 45%" margins="auto" valign="middle">
+            <stack>
+              <p>Domain?</p>
+              <p>Range?</p>
+              <p>Points?</p>
+              <p>Symmetry?</p>
+            </stack>
+            <figure xml:id="fig-power-odd">
+              <caption><m>y=x^3</m></caption>
+              <image>
+                <prefigure xmlns="https://prefigure.org" label="prefig-power-odd">
+                  <diagram dimensions="(200,200)" margins="15">
+                    <definition>f(x) = x^3</definition>
+                    <coordinates bbox="(-5,-6,5,6)">
+                      <grid-axes xlabel="x" ylabel="y" />
+                      <graph function="f" domain="[-5,5]" color="blue" thickness="1.5" />
+                    </coordinates>
+                  </diagram>
+                </prefigure>
+              </image>
+            </figure>
+          </sidebyside>
+        </assemblage>
+
+        <assemblage xml:id="box-transformations-xn">
+          <title>Transformations of <m>y=x^n</m> as <m>y=a(x-h)^n+k</m></title>
+          <sbsgroup>
+            <sidebyside widths="30% 30% 30%" margins="auto" valign="middle">
+              <stack>
+                <p halign="center"><m>a \gt 0</m>, <m>n</m> even</p>
+                <figure xml:id="fig-trans-a-pos-even">
+                  <image>
+                    <prefigure xmlns="https://prefigure.org" label="prefig-trans-a-pos-even">
+                      <diagram dimensions="(150,150)" margins="15">
+                        <definition>f(x) = x^2</definition>
+                        <coordinates bbox="(-2,-1,2,3)">
+                          <grid-axes xlabel="x" ylabel="y" />
+                          <graph function="f" domain="[-1.75,1.75]" color="blue" thickness="1.5" />
+                          <point p="(0,0)" color="red" size="3" />
+                        </coordinates>
+                      </diagram>
+                    </prefigure>
+                  </image>
+                </figure>
+                <p halign="center">opens up</p>
+              </stack>
+              <stack>
+                <ul>
+                  <li><m>a \lt 0</m>: Reflect over <m>x</m>-axis</li>
+                  <li><m>a</m> scales vertically</li>
+                  <li><m>h</m> shifts horizontally</li>
+                  <li><m>k</m> shifts vertically</li>
+                </ul>
+              </stack>
+              <stack>
+                <p halign="center"><m>a \gt 0</m>, <m>n</m> odd</p>
+                <figure xml:id="fig-trans-a-pos-odd">
+                  <image>
+                    <prefigure xmlns="https://prefigure.org" label="prefig-trans-a-pos-odd">
+                      <diagram dimensions="(150,150)" margins="15">
+                        <definition>f(x) = x^3</definition>
+                        <coordinates bbox="(-4,-3.5,4,3.5)">
+                          <grid-axes xlabel="x" ylabel="y" />
+                          <graph function="f" domain="[-1.5,1.5]" color="blue" thickness="1.5" />
+                          <point p="(0,0)" color="red" size="3" />
+                        </coordinates>
+                      </diagram>
+                    </prefigure>
+                  </image>
+                </figure>
+                <p halign="center">always increasing</p>
+              </stack>
+            </sidebyside>
+            <sidebyside widths="30% 30% 30%" margins="auto" valign="middle">
+              <stack>
+                <p halign="center"><m>a \lt 0</m>, <m>n</m> even</p>
+                <figure xml:id="fig-trans-a-neg-even">
+                  <image>
+                    <prefigure xmlns="https://prefigure.org" label="prefig-trans-a-neg-even">
+                      <diagram dimensions="(150,150)" margins="15">
+                        <definition>f(x) = -(x^2)+2</definition>
+                        <coordinates bbox="(-2,-1,2,3)">
+                          <grid-axes xlabel="x" ylabel="y" />
+                          <graph function="f" domain="[-1.75,1.75]" color="blue" thickness="1.5" />
+                          <point p="(0,2)" color="red" size="3" />
+                        </coordinates>
+                      </diagram>
+                    </prefigure>
+                  </image>
+                </figure>
+                <p halign="center">opens down</p>
+              </stack>
+              <p></p>
+              <stack>
+                <p halign="center"><m>a \lt 0</m>, <m>n</m> odd</p>
+                <figure xml:id="fig-trans-a-neg-odd">
+                  <image>
+                    <prefigure xmlns="https://prefigure.org" label="prefig-trans-a-neg-odd">
+                      <diagram dimensions="(150,150)" margins="15">
+                        <definition>f(x) = -x^3</definition>
+                        <coordinates bbox="(-4,-3.5,4,3.5)">
+                          <grid-axes xlabel="x" ylabel="y" />
+                          <graph function="f" domain="[-1.5,1.5]" color="blue" thickness="1.5" />
+                          <point p="(0,0)" color="red" size="3" />
+                        </coordinates>
+                      </diagram>
+                    </prefigure>
+                  </image>
+                </figure>
+                <p halign="center">always decreasing</p>
+              </stack>
+            </sidebyside>
+          </sbsgroup>
+        </assemblage>
+
+        <p>
+          <term>REMARK:</term> For power functions <m>y=x^{n}</m> as <m>n</m> increases the graph becomes flatter when <m>-1 \lt x \lt 1</m> and steeper when <m>\vert x \vert \gt 1</m> but the basic shape remains the same.
+        </p>
+
+        <assemblage xml:id="obj-end-behavior">
+          <title>Determine the end behavior of a polynomial function</title>
+          <p>
+            The end behavior of a polynomial function is the behavior of the graph of <m>f(x)</m> as <m>x</m> approaches positive infinity or negative infinity.
+            The degree of the polynomial and the leading coefficient determine the end behavior of the graph.
+          </p>
+        </assemblage>
+
+        <table>
+          <title>Notation for end behavior</title>
+          <tabular halign="left" top="medium" bottom="medium" left="none" right="none">
+            <row header="yes" bottom="medium">
+              <cell>The symbol..</cell>
+              <cell>is read as..</cell>
+              <cell>which means that..</cell>
+            </row>
+            <row>
+              <cell><m>x\rightarrow \infty</m></cell>
+              <cell>"<m>x</m> approaches infinity"</cell>
+              <cell><m>x</m> becomes infinitely large in the positive direction</cell>
+            </row>
+            <row>
+              <cell><m>x\rightarrow -\infty</m></cell>
+              <cell>"<m>x</m> approaches negative infinity"</cell>
+              <cell><m>x</m> becomes infinitely large in the negative direction</cell>
+            </row>
+            <row>
+              <cell><m>f\left( x\right) \rightarrow \infty</m></cell>
+              <cell>"<m>f(x)</m> approaches infinity"</cell>
+              <cell>the <m>y</m> value becomes infinitely large in the positive direction</cell>
+            </row>
+            <row>
+              <cell><m>f\left( x\right) \rightarrow -\infty</m></cell>
+              <cell>"<m>f(x)</m> approaches negative infinity"</cell>
+              <cell>the <m>y</m> value becomes infinitely large in the negative direction</cell>
+            </row>
+          </tabular>
+        </table>
+
+        <assemblage xml:id="box-leading-term-test">
+          <title>The Leading Term Test</title>
+          <sbsgroup>
+            <sidebyside widths="45% 45%" margins="auto">
+              <stack>
+                <p halign="center"><b><m>a_n x^{\text{even}}</m></b></p>
+                <p halign="center"><m>a_n \gt 0</m></p>
+                <p>As <m>x\rightarrow \infty</m>, <m>f\left( x\right) \rightarrow </m> <fillin characters="5" /></p>
+                <p>As <m>x\rightarrow -\infty</m>, <m>f\left( x\right) \rightarrow </m> <fillin characters="5" /></p>
+                <figure xml:id="fig-lead-even-pos">
+                  <image>
+                    <prefigure xmlns="https://prefigure.org" label="prefig-lead-even-pos">
+                      <diagram dimensions="(150,150)" margins="10">
+                        <definition>f(x) = 2*(x^4) - 5*(x^3) + 3*x + 3</definition>
+                        <coordinates bbox="(-0.9,0,2.35,6)">
+                          <grid-axes xlabel="x" ylabel="y" />
+                          <graph function="f" domain="[-0.8,2.3]" color="blue" thickness="1.5" />
+                        </coordinates>
+                      </diagram>
+                    </prefigure>
+                  </image>
+                </figure>
+              </stack>
+              <stack>
+                <p halign="center"><b><m>a_n x^{\text{even}}</m></b></p>
+                <p halign="center"><m>a_n \lt 0</m></p>
+                <p>As <m>x\rightarrow \infty</m>, <m>f\left( x\right) \rightarrow </m> <fillin characters="5" /></p>
+                <p>As <m>x\rightarrow -\infty</m>, <m>f\left( x\right) \rightarrow </m> <fillin characters="5" /></p>
+                <figure xml:id="fig-lead-even-neg">
+                  <image>
+                    <prefigure xmlns="https://prefigure.org" label="prefig-lead-even-neg">
+                      <diagram dimensions="(150,150)" margins="10">
+                        <definition>f(x) = -(2*(x^4) - 5*(x^3) + 3*x + 3)</definition>
+                        <coordinates bbox="(-2.3,0,0.95,6)">
+                          <grid-axes xlabel="x" ylabel="y" />
+                          <graph function="f" domain="[-2.25,0.935]" color="red" thickness="1.5" />
+                        </coordinates>
+                      </diagram>
+                    </prefigure>
+                  </image>
+                </figure>
+              </stack>
+            </sidebyside>
+            <sidebyside widths="45% 45%" margins="auto">
+              <stack>
+                <p halign="center"><b><m>a_n x^{\text{odd}}</m></b></p>
+                <p halign="center"><m>a_n \gt 0</m></p>
+                <p>As <m>x\rightarrow \infty</m>, <m>f\left( x\right) \rightarrow </m> <fillin characters="5" /></p>
+                <p>As <m>x\rightarrow -\infty</m>, <m>f\left( x\right) \rightarrow </m> <fillin characters="5" /></p>
+                <figure xml:id="fig-lead-odd-pos">
+                  <image>
+                    <prefigure xmlns="https://prefigure.org" label="prefig-lead-odd-pos">
+                      <diagram dimensions="(150,150)" margins="10">
+                        <definition>f(x) = x^3 - 4*x</definition>
+                        <coordinates bbox="(-2.1,-3.5,2.1,3.5)">
+                          <grid-axes xlabel="x" ylabel="y" />
+                          <graph function="f" domain="[-2.1,2.1]" color="blue" thickness="1.5" />
+                        </coordinates>
+                      </diagram>
+                    </prefigure>
+                  </image>
+                </figure>
+              </stack>
+              <stack>
+                <p halign="center"><b><m>a_n x^{\text{odd}}</m></b></p>
+                <p halign="center"><m>a_n \lt 0</m></p>
+                <p>As <m>x\rightarrow \infty</m>, <m>f\left( x\right) \rightarrow </m> <fillin characters="5" /></p>
+                <p>As <m>x\rightarrow -\infty</m>, <m>f\left( x\right) \rightarrow </m> <fillin characters="5" /></p>
+                <figure xml:id="fig-lead-odd-neg">
+                  <image>
+                    <prefigure xmlns="https://prefigure.org" label="prefig-lead-odd-neg">
+                      <diagram dimensions="(150,150)" margins="10">
+                        <definition>f(x) = -3*(x^3) - 5*(x^2) + x + 1</definition>
+                        <coordinates bbox="(-2,-3,1,2)">
+                          <grid-axes xlabel="x" ylabel="y" />
+                          <graph function="f" domain="[-1.9,0.72]" color="red" thickness="1.5" />
+                        </coordinates>
+                      </diagram>
+                    </prefigure>
+                  </image>
+                </figure>
+              </stack>
+            </sidebyside>
+          </sbsgroup>
+        </assemblage>
+
+        <p>
+          <term>REMARK:</term> For a polynomial <m>f\left( x\right) =a_{n}x^{n}+a_{n-1}x^{n-1}+...+a_{1}x+a_{0}</m>, we can observe the general direction the function follows by looking at the leading term, <m>a_{n}x^{n}</m>.
+          This is because the leading term dominates the behavior of the remaining terms as <m>x\rightarrow \pm\infty</m>.
+        </p>
+
+        <example xml:id="ex-det-end-behavior">
+          <introduction>
+            <p>Determine the end behavior of the graph of the following functions.</p>
+          </introduction>
+          <task xml:id="task-end-behav-1">
+            <statement><p><m>f\left( x\right) =x^{5}-5x^{3}+4x</m></p></statement>
+          </task>
+          <task xml:id="task-end-behav-2">
+            <statement><p><m>g\left( x\right) =-2\left( x-5\right) \left( x+1\right) ^{3}</m></p></statement>
+          </task>
+        </example>
+
+        <assemblage xml:id="obj-ident-zeros-multiplicity">
+          <title>Identify zeros and multiplicities of zeros</title>
+          <p>
+            The values of <m>x</m> in the domain of <m>f</m> for which <m>f\left( x\right) =0</m> are called the <b>zeros of the function</b>.
+            These are the real solutions (or <b>roots</b>) of the equation <m>f\left( x\right) =0</m> and correspond to the <m>x</m>-intercepts of the graph of <m>y=f\left( x\right)</m>.
+          </p>
+        </assemblage>
+
+        <example xml:id="ex-determine-zeros">
+          <statement>
+            <p>Determine the zeros of <m>f\left( x\right) =x^{3}-5x^{2}-16x+80</m></p>
+          </statement>
+        </example>
+
+        <p><b>Students - Check your understanding</b></p>
+
+        <exercise xml:id="cyu-leading-term-g">
+          <introduction>
+            <p>
+              Use the leading term to determine the end behavior of
+              <me>g\left( x\right) = \frac{1}{4}x\left( 2x-3\right) ^{3}\left( x+4\right) ^{2}.</me>
+            </p>
+          </introduction>
+          <task xml:id="task-cyu-behav-1">
+            <statement><p>Graph rises at both ends.</p></statement>
+          </task>
+          <task xml:id="task-cyu-behav-2">
+            <statement><p>Graph falls at both ends.</p></statement>
+          </task>
+          <task xml:id="task-cyu-behav-3">
+            <statement><p>Graph rises to the right and falls to the left.</p></statement>
+          </task>
+          <task xml:id="task-cyu-behav-4">
+            <statement><p>Graph falls to the right and rises to the left.</p></statement>
+          </task>
+        </exercise>
+
+        <exercise xml:id="cyu-power-functions-pts">
+          <introduction>
+            <p>
+              The graph of power functions of the form <m>f(x) = x^{n}</m>, where <m>n</m> is an even integer, always contain what three points?
+            </p>
+          </introduction>
+          <task xml:id="task-cyu-pts-1">
+            <statement><p><m>(-1, -1), (0, 0), (1, -1)</m></p></statement>
+          </task>
+          <task xml:id="task-cyu-pts-2">
+            <statement><p><m>(-1, -1), (0, 0), (1, 1)</m></p></statement>
+          </task>
+          <task xml:id="task-cyu-pts-3">
+            <statement><p><m>(-1, 1), (0, 0), (1, 1)</m></p></statement>
+          </task>
+          <task xml:id="task-cyu-pts-4">
+            <statement><p><m>(-1, 1), (0, 0), (1, -1)</m></p></statement>
+          </task>
+        </exercise>
+
+        <exercise xml:id="cyu-construct-poly">
+          <introduction>
+            <p>Construct a polynomial function <m>f</m> with the following characteristics.</p>
+            <ul>
+              <li>zeros: <m>- 1</m>, <m>1</m>, and <m>4</m></li>
+              <li>degree: <m>3</m></li>
+              <li>y-intercept: <m>12</m></li>
+            </ul>
+          </introduction>
+          <task xml:id="task-cyu-poly-1">
+            <statement><p><m>f\left( x\right) = (x + 1)(x - 1)(x - 4)</m></p></statement>
+          </task>
+          <task xml:id="task-cyu-poly-2">
+            <statement><p><m>f\left( x\right) = 3(x + 1)^{2}(x - 1)(x - 4)</m></p></statement>
+          </task>
+          <task xml:id="task-cyu-poly-3">
+            <statement><p><m>f\left( x\right) = 3(x + 1)(x - 1)(x - 4)</m></p></statement>
+          </task>
+          <task xml:id="task-cyu-poly-4">
+            <statement><p><m>f\left( x\right) = -3(x + 1)(x - 1)(x - 4)</m></p></statement>
+          </task>
+        </exercise>
+
+        <definition xml:id="def-multiple-zeros">
+          <title>Multiplicity of a zero</title>
+          <statement>
+            <p>
+              If <m>(x-c)^{k}</m> is a factor of the polynomial <m>f\left( x\right)</m>
+              and <m>(x-c)^{k+1}</m> is not, then we say <b>c is a zero of multiplicity k</b> of <m>f(x)</m>.
+              In other words, if a polynomial function has a factor <m>\left( x-c\right)</m> that appears
+              exactly <m>k</m> times, then <m>c</m> is a zero of multiplicity <m>k</m>.
+            </p>
+          </statement>
+        </definition>
+
+        <example xml:id="ex-determine-mult">
+          <statement>
+            <p>
+              Determine the zeros and their multiplicities for the following polynomial.
+              <me>f\left( x\right) =8x\left( x-1\right) ^{2}\left( x+3\right) ^{3}</me>
+            </p>
+            <table>
+              <title>Zeros and Multiplicity Table</title>
+              <tabular halign="center" top="medium" bottom="medium" left="medium" right="medium">
+                <row header="yes" bottom="medium">
+                  <cell>Factors</cell>
+                  <cell>Zeroes</cell>
+                  <cell>Multiplicity</cell>
+                </row>
+                <row><cell/><cell/><cell/></row>
+                <row><cell/><cell/><cell/></row>
+                <row><cell/><cell/><cell/></row>
+              </tabular>
+            </table>
+          </statement>
+        </example>
+
+        <assemblage xml:id="box-multiplicity-xints">
+          <title>Multiplicity, <m>x</m>-intercepts, and graphing <m>f(x)</m></title>
+          <p>
+            If <m>c</m> is a zero of <b>odd</b> multiplicity, then the graph <fillin characters="10"/> the <m>x</m>-axis at <m>c</m>.
+            If <m>c</m> is a zero of <b>even</b> multiplicity, then the graph <fillin characters="10"/> the <m>x</m>-axis at <m>c</m>.
+          </p>
+        </assemblage>
+
+        <p>
+          <term>REMARK:</term> Notice the effect the multiplicity of the zero has on the graph.
+        </p>
+
+        <sidebyside widths="30% 30% 30%" margins="auto" valign="middle">
+          <stack>
+            <p halign="center">a) <m>y = x\left( x-1\right)\left( x+3\right)</m></p>
+            <figure xml:id="fig-mult-odd">
+              <image>
+                <prefigure xmlns="https://prefigure.org" label="prefig-mult-odd">
+                  <diagram dimensions="(180,180)" margins="15">
+                    <definition>f(x) = (x^3) + 2*(x^2) - 3*x</definition>
+                    <coordinates bbox="(-3.5,-3,2,7)">
+                      <grid-axes xlabel="x" ylabel="y" />
+                      <graph function="f" domain="[-3.15,1.8]" color="black" thickness="1.5" />
+                      <point p="(1,0)" color="red" size="3" />
+                      <point p="(0,0)" color="blue" size="3" />
+                      <point p="(-3,0)" color="blue" size="3" />
+                    </coordinates>
+                  </diagram>
+                </prefigure>
+              </image>
+            </figure>
+          </stack>
+          <stack>
+            <p halign="center">b) <m>y = x\left( x-1\right)^{2}\left( x+3\right)</m></p>
+            <figure xml:id="fig-mult-even-mid">
+              <image>
+                <prefigure xmlns="https://prefigure.org" label="prefig-mult-even-mid">
+                  <diagram dimensions="(180,180)" margins="15">
+                    <definition>f(x) = (x^4) + (x^3) - 5*(x^2) + 3*x</definition>
+                    <coordinates bbox="(-3.5,-21,2.5,7)">
+                      <grid-axes xlabel="x" ylabel="y" />
+                      <graph function="f" domain="[-3.1,1.7]" color="black" thickness="1.5" />
+                      <point p="(1,0)" color="red" size="3" />
+                      <point p="(0,0)" color="blue" size="3" />
+                      <point p="(-3,0)" color="blue" size="3" />
+                    </coordinates>
+                  </diagram>
+                </prefigure>
+              </image>
+            </figure>
+          </stack>
+          <stack>
+            <p halign="center">c) <m>y = x\left( x-1\right)\left( x+3\right)^{2}</m></p>
+            <figure xml:id="fig-mult-even-left">
+              <image>
+                <prefigure xmlns="https://prefigure.org" label="prefig-mult-even-left">
+                  <diagram dimensions="(180,180)" margins="15">
+                    <definition>f(x) = (x^4) + 5*(x^3) + 3*(x^2) - 9*x</definition>
+                    <coordinates bbox="(-3.75,-4,2.5,10)">
+                      <grid-axes xlabel="x" ylabel="y" />
+                      <graph function="f" domain="[-3.75,1.38]" color="black" thickness="1.5" />
+                      <point p="(1,0)" color="blue" size="3" />
+                      <point p="(0,0)" color="red" size="3" />
+                      <point p="(-3,0)" color="blue" size="3" />
+                    </coordinates>
+                  </diagram>
+                </prefigure>
+              </image>
+            </figure>
+          </stack>
+        </sidebyside>
+
+        <example xml:id="ex-ident-zeros-cross-touch">
+          <statement>
+            <p>
+              Given <m>f\left( x\right) =-3x^{2}\left( x+4\right) \left( x-7\right) ^{3}</m>,
+              identify the zeros of the function and whether there is a cross point or a touch point at each zero.
+            </p>
+            <table>
+              <title>Cross and Touch Table</title>
+              <tabular halign="center" top="medium" bottom="medium" left="medium" right="medium">
+                <row header="yes" bottom="medium">
+                  <cell>Factors</cell>
+                  <cell>Zeroes</cell>
+                  <cell>Multiplicity</cell>
+                  <cell>Cross/Touch</cell>
+                </row>
+                <row><cell/><cell/><cell/><cell/></row>
+                <row><cell/><cell/><cell/><cell/></row>
+                <row><cell/><cell/><cell/><cell/></row>
+              </tabular>
+            </table>
+          </statement>
+        </example>
+
+        <assemblage xml:id="obj-turning-points">
+          <title>Identifying turning points</title>
+          <p>
+            The turning points of a polynomial function are the points where the function changes from increasing to decreasing or vice versa.
+            The graph of a polynomial function of degree <m>n</m> has at most <m>n-1</m> turning points.
+          </p>
+        </assemblage>
+
+        <example xml:id="ex-turning-points">
+          <statement>
+            <p>Give the maximum number of turning points for <m>f\left( x\right) =x^{3}-21x+20</m></p>
+            <figure xml:id="fig-turning-pts">
+              <image width="50%">
+                <prefigure xmlns="https://prefigure.org" label="prefig-turning-pts">
+                  <diagram dimensions="(250,250)" margins="15">
+                    <definition>f(x) = x^3 - 21*x + 20</definition>
+                    <coordinates bbox="(-6,-100,6,100)">
+                      <grid-axes xlabel="x" ylabel="y" />
+                      <graph function="f" domain="[-6.5,6]" color="black" thickness="1.5" />
+                    </coordinates>
+                  </diagram>
+                </prefigure>
+              </image>
+            </figure>
+          </statement>
+        </example>
+
+        <theorem xml:id="thm-ivt">
+          <title>Intermediate Value Theorem</title>
+          <statement>
+            <p>
+              Let <m>f</m> be a polynomial function.
+              For <m>a \lt b</m>, if <m>f\left( a\right)</m> and <m>f\left( b\right)</m> have opposite signs, then <m>f</m> has at least one zero in the interval <m>\left[ a,b\right]</m>.
+              If the signs of <m>f(a)</m> and <m>f(b)</m> are the same, then the Intermediate Value Theorem is inconclusive.
+            </p>
+          </statement>
+        </theorem>
+
+        <assemblage xml:id="obj-apply-ivt">
+          <title>Applying the Intermediate Value Theorem (IVT)</title>
+          <p>
+            The Intermediate Value Theorem only asserts the existence of a zero when its hypothesis is satisfied.
+            We can use the Intermediate Value Theorem repeatedly in a technique called "the bisection method" to approximate the value of a zero.
+          </p>
+        </assemblage>
+
+        <example xml:id="ex-apply-ivt">
+          <introduction>
+            <p>
+              Determine whether or not the Intermediate Value Theorem guarantees that <m>f\left( x\right) =x^{3}-13x^{2}+33x+35</m> has a zero in the given interval.
+            </p>
+          </introduction>
+          <task xml:id="task-ivt-1">
+            <statement><p><m>\left[ -1,0\right]</m></p></statement>
+          </task>
+          <task xml:id="task-ivt-2">
+            <statement><p><m>\left[ 1,2\right]</m></p></statement>
+          </task>
+          <task xml:id="task-ivt-3">
+            <statement><p><m>\left[ 8,9\right]</m></p></statement>
+          </task>
+        </example>
+
+        <assemblage xml:id="obj-sketch-poly">
+          <title>Sketch a Polynomial Function</title>
+          <p>To graph a polynomial function defined by <m>y = f\left(x\right)</m>,</p>
+          <ul>
+            <li>Use the leading term to determine the end behavior of the graph.</li>
+            <li>Determine the <m>y</m>-intercept by evaluating <m>f\left(0\right)</m>.</li>
+            <li>Determine the real zeros of <m>f</m> and their multiplicities (these are the <m>x</m>-intercepts of the graph of <m>f</m>).</li>
+            <li>Plot the <m>x</m>- and <m>y</m>-intercepts and sketch the end behavior.</li>
+            <li>Draw a sketch starting from the left-end behavior. Connect the <m>x</m>- and <m>y</m>-intercepts in the order that they appear from left to right. The curve will cross the <m>x</m>-axis if the zero has odd multiplicity and touch but not cross if the zero has even multiplicity.</li>
+            <li>Plot more points if a greater level of accuracy is desired. In particular, to estimate the location of turning points, find several points between two consecutive <m>x</m>-intercepts.</li>
+            <li>If the test for symmetry is easy to apply, plot additional points.
+              <ul>
+                <li><m>f</m> is an even function (symmetric to the <m>y</m>-axis) if <m>f\left(-x\right)=f\left(x\right)</m>.</li>
+                <li><m>f</m> is an odd function (symmetric to the origin) if <m>f\left(-x\right)=-f\left(x\right)</m>.</li>
+              </ul>
+            </li>
+          </ul>
+        </assemblage>
+
+        <example xml:id="ex-sketch-poly">
+          <statement>
+            <p>Sketch the function <m>f\left( x\right) =\left( x-1\right) ^{2}\left( x+3\right) \left( x-4\right)</m>.</p>
+            <figure xml:id="fig-blank-grid-poly-1">
+              <caption>Blank Grid</caption>
+              <image width="50%">
+                <prefigure xmlns="https://prefigure.org" label="prefig-blank-grid-poly-1">
+                  <diagram dimensions="(300,300)" margins="15">
+                    <coordinates bbox="(-6,-15,6,5)">
+                      <grid-axes xlabel="x" ylabel="y" />
+                    </coordinates>
+                  </diagram>
+                </prefigure>
+              </image>
+            </figure>
+          </statement>
+        </example>
+
+        <p><b>Students - Check your understanding</b></p>
+
+        <exercise xml:id="cyu-graph-poly-function">
+          <statement>
+            <p>
+              Graph the function <m>f\left( x\right) =-\left( x+1\right) \left( x-3\right)^{2}</m>.
+              Identify the leading term, intercepts and multiplicity of zeros.
+            </p>
+            <figure xml:id="fig-blank-grid-poly-2">
+              <caption>Blank Grid</caption>
+              <image width="50%">
+                <prefigure xmlns="https://prefigure.org" label="prefig-blank-grid-poly-2">
+                  <diagram dimensions="(300,300)" margins="15">
+                    <coordinates bbox="(-6,-12,6,6)">
+                      <grid-axes xlabel="x" ylabel="y" />
+                    </coordinates>
+                  </diagram>
+                </prefigure>
+              </image>
+            </figure>
+          </statement>
+        </exercise>
+
+        <exercise xml:id="cyu-zeros-touch-cross">
+          <introduction>
+            <p>
+              Determine the zeros and multiplicities for <m>m\left( x\right) =\left( x-4\right) ^{2}\left( 2x+5\right) ^{3}</m>. Does the graph touch or cross at the zeros? Select all that apply.
+            </p>
+          </introduction>
+          <task xml:id="task-cyu-tc-1">
+            <statement><p><m>x=4</m>, multiplicity is <m>2</m>, graph touches at the zero</p></statement>
+          </task>
+          <task xml:id="task-cyu-tc-2">
+            <statement><p><m>x=4</m>, multiplicity is <m>3</m>, graph crosses at the zero</p></statement>
+          </task>
+          <task xml:id="task-cyu-tc-3">
+            <statement><p><m>x= - \displaystyle\frac{5}{2}</m>, multiplicity is <m>2</m>, graph touches at the zero</p></statement>
+          </task>
+          <task xml:id="task-cyu-tc-4">
+            <statement><p><m>x= - \displaystyle\frac{5}{2}</m>, multiplicity is <m>3</m>, graph crosses at the zero</p></statement>
+          </task>
+        </exercise>
+
+        <exercise xml:id="cyu-use-ivt">
+          <introduction>
+            <p>
+              Use the Intermediate Value Theorem to determine if a zero exists for 
+              <me>f\left( x\right) =x^{4}+6x^{3}-26x+15</me>
+              in the interval <m>\left[ 1,2\right]</m>.
+            </p>
+          </introduction>
+          <task xml:id="task-cyu-ivt-1">
+            <statement><p>Yes, <m>f(x)</m> has at least one zero in <m>\left[ 1,2\right]</m>.</p></statement>
+          </task>
+          <task xml:id="task-cyu-ivt-2">
+            <statement><p>No zeros exist in <m>\left[ 1,2\right]</m> for <m>f(x)</m>.</p></statement>
+          </task>
+          <task xml:id="task-cyu-ivt-3">
+            <statement><p>The Intermediate Value Theorem does not apply.</p></statement>
+          </task>
+        </exercise>
+
+        <exercise xml:id="cyu-poly-graph-analysis">
+          <introduction>
+            <p>Below is the graph of a polynomial function with real coefficients. Use the graph to answer the following questions.</p>
+            <ul>
+              <li>Zeros: <m>-5.5, -1.5, 3.5, 7.5</m>.</li>
+              <li>y-intercept is <m>-1.7</m>.</li>
+              <li>Local maximum at <m>\left(-4, 2.5\right)</m> and <m>(6, 2.5)</m>.</li>
+              <li>Local minimum at <m>\left(1, -2\right)</m>.</li>
+            </ul>
+            <figure xml:id="fig-poly-graph-analysis">
+              <caption>Polynomial Graph</caption>
+              <image width="50%">
+                <prefigure xmlns="https://prefigure.org" label="prefig-poly-graph-analysis">
+                  <diagram dimensions="(300,300)" margins="15">
+                    <definition>f(x) = -0.0077*(x^4) + 0.0308*(x^3) + 0.32725*(x^2) - 0.7161*x - 1.6555</definition>
+                    <coordinates bbox="(-10,-10,10,10)">
+                      <grid-axes xlabel="x" ylabel="y" />
+                      <graph function="f" domain="[-7.1,9.1]" color="black" thickness="1.5" />
+                    </coordinates>
+                  </diagram>
+                </prefigure>
+              </image>
+            </figure>
+          </introduction>
+          <task xml:id="task-poly-analysis-1">
+            <statement>
+              <p>
+                Over which intervals is the function decreasing? Choose all that apply.
+                <m>(-\infty, -4)</m>, <m>(-4,1)</m>, <m>(1, 6)</m>, <m>(-4,6)</m>, <m>(6, \infty)</m>
+              </p>
+            </statement>
+          </task>
+          <task xml:id="task-poly-analysis-2">
+            <statement><p>At which x-values does the function have local maxima? If there is more than one value, separate them with commas.</p></statement>
+          </task>
+          <task xml:id="task-poly-analysis-3">
+            <statement><p>What is the sign of the function's leading coefficient?</p></statement>
+          </task>
+          <task xml:id="task-poly-analysis-4">
+            <statement>
+              <p>
+                Which of the following is a possibility for the degree of the function? Choose all that apply.
+                <m>4</m>, <m>5</m>, <m>6</m>, <m>7</m>, <m>8</m>, <m>9</m>
+              </p>
+            </statement>
+          </task>
+        </exercise>
+
+      </section>
+      

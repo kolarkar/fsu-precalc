@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<!--******************************************-->
+<!--*  Authored with PreTeXt                 *-->
+<!--*  pretextbook.org                       *-->
+<!--*  Theme: default-modern                 *-->
+<!--*  Palette:                              *-->
+<!--******************************************-->
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>MAC1140 Pre-Calculus Algebra</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+<link href="https://cdn.jsdelivr.net/gh/PreTeXtBook/html-static@2.37/dist/_static/pretext/css/theme-default-modern.min.css" rel="stylesheet" type="text/css">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math"
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "https://cdn.jsdelivr.net/gh/PreTeXtBook/html-static@2.37/dist/_static/pretext/js"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="MAC1140 Pre-Calculus Algebra">
+<meta property="book:author" content="All Instructors">
+<script src="https://cdn.jsdelivr.net/gh/PreTeXtBook/html-static@2.37/dist/_static/pretext/js/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/gh/PreTeXtBook/html-static@2.37/dist/_static/pretext/js/pretext.js"></script><script src="https://cdn.jsdelivr.net/gh/PreTeXtBook/html-static@2.37/dist/_static/pretext/js/pretext_add_on.js?x=1"></script><!--** eBookCongig is necessary to configure interactive       **-->
+<!--** Runestone components to run locally in reader's browser **-->
+<!--** No external communication:                              **-->
+<!--**     log level is 0, Runestone Services are disabled     **-->
+<script type="text/javascript">
+eBookConfig = {};
+eBookConfig.useRunestoneServices = false;
+eBookConfig.host = 'http://127.0.0.1:8000';
+eBookConfig.course = 'PTX_Course_Title_Here';
+eBookConfig.basecourse = 'PTX_Base_Course';
+eBookConfig.isLoggedIn = false;
+eBookConfig.email = '';
+eBookConfig.isInstructor = false;
+eBookConfig.logLevel = 0;
+eBookConfig.username = '';
+eBookConfig.readings = null;
+eBookConfig.activities = null;
+eBookConfig.downloadsEnabled = false;
+eBookConfig.allow_pairs = false;
+eBookConfig.enableScratchAC = false;
+eBookConfig.build_info = "";
+eBookConfig.python3 = null;
+eBookConfig.runestone_version = '7.11.14';
+eBookConfig.jobehost = '';
+eBookConfig.proxyuri_runs = '';
+eBookConfig.proxyuri_files = '';
+eBookConfig.enable_chatcodes =  false;
+</script>
+<!--*** Runestone Services ***-->
+<script src="https://cdn.jsdelivr.net/gh/PreTeXtBook/html-static@2.37/dist/_static/prefix-runtime.d892923478694492.bundle.js"></script><script src="https://cdn.jsdelivr.net/gh/PreTeXtBook/html-static@2.37/dist/_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="https://cdn.jsdelivr.net/gh/PreTeXtBook/html-static@2.37/dist/_static/prefix-runestone.1d6e4aba17c2c7f2.bundle.js"></script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/PreTeXtBook/html-static@2.37/dist/_static/prefix-723.3bccd435914aa0ff.css">
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/PreTeXtBook/html-static@2.37/dist/_static/prefix-runestone.6ec5960970d8b364.css">
+<script src="https://cdn.jsdelivr.net/gh/PreTeXtBook/html-static@2.37/dist/_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="https://cdn.jsdelivr.net/gh/PreTeXtBook/html-static@2.37/dist/_static/pretext/js/pretext_search.js"></script><script src="https://cdn.jsdelivr.net/gh/PreTeXtBook/html-static@2.37/dist/_static/pretext/js/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script>
+</head>
+<body class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner"><div class="title-container">
+<h1 class="heading"><a href="mac1140-precalc.html"><span class="title">MAC1140 Pre-Calculus Algebra</span> <span class="subtitle">Lecture Outline</span></a></h1>
+<p class="byline">All Instructors</p>
+</div></div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><div class="ptx-navbar-contents">
+<button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="searchbox">
+<div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<div class="search-results-controls">
+<input aria-label="Search term" id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search term"><button title="Close search" id="closesearchresults" class="closesearchresults"><span class="material-symbols-outlined">close</span></button>
+</div>
+<h2 class="search-results-heading">Search Results: </h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div>
+<span class="nav-other-controls"><button id="light-dark-button" class="light-dark-button button" title="Dark Mode"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span class="name">Dark Mode</span></button></span><span class="treebuttons"><span class="previous-button button disabled"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></span><span class="up-button button disabled"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></span><span class="next-button button disabled"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></span></span>
+</div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2 focused" data-preexpanded-levels="0" data-max-levels="2"><ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-frontmatter"><div class="toc-title-box"><a href="#frontmatter" class="internal"><span class="title">Front Matter</span></a></div></li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="#ch-review" class="internal"><span class="codenumber">1</span> <span class="title">Review</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-section"><div class="toc-title-box"><a href="#sec-complex-numbers" class="internal"><span class="codenumber">1.1</span> <span class="title">Complex Numbers (ALEKS R.6)</span></a></div></li></ul>
+</li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="book" id="mac1140-precalc"><section class="frontmatter" id="frontmatter"><h2 class="heading">
+<span class="title">MAC1140 Pre-Calculus Algebra</span><span class="subtitle">Lecture Outline</span>
+</h2>
+<div class="author">
+<div class="author-name">All Instructors</div>
+<div class="author-info"></div>
+</div>
+<div class="autopermalink" data-description="Front Matter"><a href="#frontmatter" title="Copy heading and permalink for Front Matter" aria-label="Copy heading and permalink for Front Matter">🔗</a></div></section><section class="chapter" id="ch-review"><h2 class="heading">
+<span class="type">Chapter</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Review</span>
+</h2>
+<section class="section" id="sec-complex-numbers"><h3 class="heading hide-type">
+<span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.1</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Complex Numbers (ALEKS R.6)</span>
+</h3>
+<div class="para" id="sec-complex-numbers-2">One property of any given real number is that its square is always nonnegative. That is, there is no real number <span class="process-math">\(x\)</span> such that <span class="process-math">\(x^2 = -1\text{.}\)</span> To remedy this situation, we introduce a new number called an imaginary unit.<div class="autopermalink" data-description="Paragraph"><a href="#sec-complex-numbers-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<article class="definition definition-like" id="def-imaginary-unit"><h4 class="heading">
+<span class="type">Definition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.1.1</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Imaginary Unit.</span>
+</h4>
+<div class="para" id="def-imaginary-unit-2-1">The <dfn class="terminology">imaginary unit</dfn>, <span class="process-math">\(i\text{,}\)</span> is defined to be a solution to the equation <span class="process-math">\(x^2 = -1\text{.}\)</span> The solution set for the equation <span class="process-math">\(x^2=-1\)</span> is <span class="process-math">\(\{i,-i\}\text{,}\)</span> where <span class="process-math">\(i\)</span> is the <dfn class="terminology">principal square root</dfn> of <span class="process-math">\(-1\text{.}\)</span> Thus, <span class="process-math">\(i^2=-1\)</span> by definition, and we use the notation <span class="process-math">\(i = \sqrt{-1}\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#def-imaginary-unit-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Definition 1.1.1: Imaginary Unit"><a href="#def-imaginary-unit" title="Copy heading and permalink for Definition 1.1.1: Imaginary Unit" aria-label="Copy heading and permalink for Definition 1.1.1: Imaginary Unit">🔗</a></div></article><details id="ex-simplify-imaginary" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.1.2</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h4></summary><article class="example example-like knowl__content"><div class="para" id="ex-simplify-imaginary-1-1">Simplify the following.<div class="autopermalink" data-description="Paragraph"><a href="#ex-simplify-imaginary-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <ol class="decimal cols2 multicolumn" id="ex-simplify-imaginary-1-2">
+<li id="ex-simplify-imaginary-1-2-1">
+<div class="para" id="p-derived-ex-simplify-imaginary-1-2-1"><span class="process-math">\(\displaystyle \sqrt{-12}\)</span></div>
+<div class="autopermalink" data-description="Item 1"><a href="#ex-simplify-imaginary-1-2-1" title="Copy heading and permalink for Item 1" aria-label="Copy heading and permalink for Item 1">🔗</a></div>
+</li>
+<li id="ex-simplify-imaginary-1-2-2">
+<div class="para" id="p-derived-ex-simplify-imaginary-1-2-2"><span class="process-math">\(\displaystyle -\sqrt{-25}\)</span></div>
+<div class="autopermalink" data-description="Item 2"><a href="#ex-simplify-imaginary-1-2-2" title="Copy heading and permalink for Item 2" aria-label="Copy heading and permalink for Item 2">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Example 1.1.2"><a href="#ex-simplify-imaginary" title="Copy heading and permalink for Example 1.1.2" aria-label="Copy heading and permalink for Example 1.1.2">🔗</a></div></article></details><article class="assemblage assemblage-like" id="obj-simplifying-imaginary"><h4 class="heading"><span class="title">Simplifying imaginary numbers.</span></h4>
+<div class="para" id="obj-simplifying-imaginary-2">The powers of <span class="process-math">\(i\)</span> repeat with every fourth power. Even powers of <span class="process-math">\(i\)</span> result in <span class="process-math">\(1\)</span> or <span class="process-math">\(-1\text{,}\)</span> whereas odd powers of <span class="process-math">\(i\)</span> result in <span class="process-math">\(i\)</span> or <span class="process-math">\(-i\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#obj-simplifying-imaginary-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Assemblage: Simplifying imaginary numbers"><a href="#obj-simplifying-imaginary" title="Copy heading and permalink for Assemblage: Simplifying imaginary numbers" aria-label="Copy heading and permalink for Assemblage: Simplifying imaginary numbers">🔗</a></div></article><details id="ex-powers-of-i" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.1.3</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h4></summary><article class="example example-like knowl__content"><div class="para" id="ex-powers-of-i-1-1">Simplify the given powers of <span class="process-math">\(i\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#ex-powers-of-i-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <ol class="decimal cols2 multicolumn" id="ex-powers-of-i-1-2">
+<li id="ex-powers-of-i-1-2-1">
+<div class="para" id="p-derived-ex-powers-of-i-1-2-1"><span class="process-math">\(\displaystyle i^{3}\)</span></div>
+<div class="autopermalink" data-description="Item 1"><a href="#ex-powers-of-i-1-2-1" title="Copy heading and permalink for Item 1" aria-label="Copy heading and permalink for Item 1">🔗</a></div>
+</li>
+<li id="ex-powers-of-i-1-2-2">
+<div class="para" id="p-derived-ex-powers-of-i-1-2-2"><span class="process-math">\(\displaystyle i^{4}\)</span></div>
+<div class="autopermalink" data-description="Item 2"><a href="#ex-powers-of-i-1-2-2" title="Copy heading and permalink for Item 2" aria-label="Copy heading and permalink for Item 2">🔗</a></div>
+</li>
+<li id="ex-powers-of-i-1-2-3">
+<div class="para" id="p-derived-ex-powers-of-i-1-2-3"><span class="process-math">\(\displaystyle i^{5}\)</span></div>
+<div class="autopermalink" data-description="Item 3"><a href="#ex-powers-of-i-1-2-3" title="Copy heading and permalink for Item 3" aria-label="Copy heading and permalink for Item 3">🔗</a></div>
+</li>
+<li id="ex-powers-of-i-1-2-4">
+<div class="para" id="p-derived-ex-powers-of-i-1-2-4"><span class="process-math">\(\displaystyle i^{6}\)</span></div>
+<div class="autopermalink" data-description="Item 4"><a href="#ex-powers-of-i-1-2-4" title="Copy heading and permalink for Item 4" aria-label="Copy heading and permalink for Item 4">🔗</a></div>
+</li>
+<li id="ex-powers-of-i-1-2-5">
+<div class="para" id="p-derived-ex-powers-of-i-1-2-5"><span class="process-math">\(\displaystyle i^{103}\)</span></div>
+<div class="autopermalink" data-description="Item 5"><a href="#ex-powers-of-i-1-2-5" title="Copy heading and permalink for Item 5" aria-label="Copy heading and permalink for Item 5">🔗</a></div>
+</li>
+<li id="ex-powers-of-i-1-2-6">
+<div class="para" id="p-derived-ex-powers-of-i-1-2-6"><span class="process-math">\(\displaystyle i^{-30}\)</span></div>
+<div class="autopermalink" data-description="Item 6"><a href="#ex-powers-of-i-1-2-6" title="Copy heading and permalink for Item 6" aria-label="Copy heading and permalink for Item 6">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Example 1.1.3"><a href="#ex-powers-of-i" title="Copy heading and permalink for Example 1.1.3" aria-label="Copy heading and permalink for Example 1.1.3">🔗</a></div></article></details><article class="definition definition-like" id="def-complex-number"><h4 class="heading">
+<span class="type">Definition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.1.4</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Complex Number.</span>
+</h4>
+<div class="para" id="def-complex-number-2-1">The <dfn class="terminology">standard form</dfn> of a <dfn class="terminology">complex number</dfn> is <span class="process-math">\(a+bi\text{,}\)</span> where <span class="process-math">\(a\)</span> and <span class="process-math">\(b\)</span> are real numbers. The value <span class="process-math">\(a\)</span> is called the <dfn class="terminology">real part</dfn> and the value <span class="process-math">\(b\)</span> is called the <dfn class="terminology">imaginary part</dfn>.<div class="autopermalink" data-description="Paragraph"><a href="#def-complex-number-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Definition 1.1.4: Complex Number"><a href="#def-complex-number" title="Copy heading and permalink for Definition 1.1.4: Complex Number" aria-label="Copy heading and permalink for Definition 1.1.4: Complex Number">🔗</a></div></article><article class="assemblage assemblage-like" id="obj-operations-complex"><h4 class="heading"><span class="title">Operations with complex numbers.</span></h4>
+<div class="para" id="obj-operations-complex-2">Addition, subtraction, multiplication, and division of complex numbers follows a natural set of rules, as discussed below.<div class="autopermalink" data-description="Paragraph"><a href="#obj-operations-complex-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Assemblage: Operations with complex numbers"><a href="#obj-operations-complex" title="Copy heading and permalink for Assemblage: Operations with complex numbers" aria-label="Copy heading and permalink for Assemblage: Operations with complex numbers">🔗</a></div></article><details id="ex-standard-form-complex" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.1.5</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h4></summary><article class="example example-like knowl__content"><div class="para" id="ex-standard-form-complex-1-1">Write the following numbers in standard <span class="process-math">\(a + bi\)</span> form.<div class="autopermalink" data-description="Paragraph"><a href="#ex-standard-form-complex-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <ol class="decimal cols2 multicolumn" id="ex-standard-form-complex-1-2">
+<li id="ex-standard-form-complex-1-2-1">
+<div class="para" id="p-derived-ex-standard-form-complex-1-2-1"><span class="process-math">\(\displaystyle 4i-(3+2i)+(1-3i)\)</span></div>
+<div class="autopermalink" data-description="Item 1"><a href="#ex-standard-form-complex-1-2-1" title="Copy heading and permalink for Item 1" aria-label="Copy heading and permalink for Item 1">🔗</a></div>
+</li>
+<li id="ex-standard-form-complex-1-2-2">
+<div class="para" id="p-derived-ex-standard-form-complex-1-2-2"><span class="process-math">\(\displaystyle (4+2i)(3-i)\)</span></div>
+<div class="autopermalink" data-description="Item 2"><a href="#ex-standard-form-complex-1-2-2" title="Copy heading and permalink for Item 2" aria-label="Copy heading and permalink for Item 2">🔗</a></div>
+</li>
+<li id="ex-standard-form-complex-1-2-3">
+<div class="para" id="p-derived-ex-standard-form-complex-1-2-3"><span class="process-math">\(\displaystyle (3 + 4i)^{2}\)</span></div>
+<div class="autopermalink" data-description="Item 3"><a href="#ex-standard-form-complex-1-2-3" title="Copy heading and permalink for Item 3" aria-label="Copy heading and permalink for Item 3">🔗</a></div>
+</li>
+<li id="ex-standard-form-complex-1-2-4">
+<div class="para" id="p-derived-ex-standard-form-complex-1-2-4"><span class="process-math">\(\displaystyle \sqrt{-3}\cdot\sqrt{-12}\)</span></div>
+<div class="autopermalink" data-description="Item 4"><a href="#ex-standard-form-complex-1-2-4" title="Copy heading and permalink for Item 4" aria-label="Copy heading and permalink for Item 4">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Example 1.1.5"><a href="#ex-standard-form-complex" title="Copy heading and permalink for Example 1.1.5" aria-label="Copy heading and permalink for Example 1.1.5">🔗</a></div></article></details><article class="definition definition-like" id="def-complex-conjugate"><h4 class="heading">
+<span class="type">Definition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.1.6</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Complex Conjugate.</span>
+</h4>
+<div class="para" id="def-complex-conjugate-2-1">The <dfn class="terminology">complex conjugate</dfn> of <span class="process-math">\(z=a+bi\)</span> is <span class="process-math">\(\overline{z} =a-bi\text{.}\)</span> Notice that the product of conjugates is a real number. In particular,<div class="autopermalink" data-description="Paragraph"><a href="#def-complex-conjugate-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="def-complex-conjugate-2-2">
+<span class="process-math">\(z\overline{z}=(a+bi)(a-bi) = \)</span> <span class="fillin underline" role="img" aria-label="15-character blank" style="width: 6.818181818181818em;"></span>.<div class="autopermalink" data-description="Paragraph"><a href="#def-complex-conjugate-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Definition 1.1.6: Complex Conjugate"><a href="#def-complex-conjugate" title="Copy heading and permalink for Definition 1.1.6: Complex Conjugate" aria-label="Copy heading and permalink for Definition 1.1.6: Complex Conjugate">🔗</a></div></article><details id="ex-divide-complex" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.1.7</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h4></summary><article class="example example-like knowl__content"><div class="para" id="ex-divide-complex-1-1">Divide the following complex numbers and write answer in <span class="process-math">\(a+bi\)</span> form.<div class="autopermalink" data-description="Paragraph"><a href="#ex-divide-complex-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <ol class="decimal cols2 multicolumn" id="ex-divide-complex-1-2">
+<li id="ex-divide-complex-1-2-1">
+<div class="para" id="p-derived-ex-divide-complex-1-2-1"><span class="process-math">\(\displaystyle \displaystyle\frac{4+2i}{3-i}\)</span></div>
+<div class="autopermalink" data-description="Item 1"><a href="#ex-divide-complex-1-2-1" title="Copy heading and permalink for Item 1" aria-label="Copy heading and permalink for Item 1">🔗</a></div>
+</li>
+<li id="ex-divide-complex-1-2-2">
+<div class="para" id="p-derived-ex-divide-complex-1-2-2"><span class="process-math">\(\displaystyle \displaystyle\frac{4}{3+5i}\)</span></div>
+<div class="autopermalink" data-description="Item 2"><a href="#ex-divide-complex-1-2-2" title="Copy heading and permalink for Item 2" aria-label="Copy heading and permalink for Item 2">🔗</a></div>
+</li>
+<li id="ex-divide-complex-1-2-3">
+<div class="para" id="p-derived-ex-divide-complex-1-2-3"><span class="process-math">\(\displaystyle \displaystyle\frac{\sqrt{-24}}{\sqrt{-8}}\)</span></div>
+<div class="autopermalink" data-description="Item 3"><a href="#ex-divide-complex-1-2-3" title="Copy heading and permalink for Item 3" aria-label="Copy heading and permalink for Item 3">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Example 1.1.7"><a href="#ex-divide-complex" title="Copy heading and permalink for Example 1.1.7" aria-label="Copy heading and permalink for Example 1.1.7">🔗</a></div></article></details><div class="para" id="sec-complex-numbers-12">Students - Check your understanding<div class="autopermalink" data-description="Paragraph"><a href="#sec-complex-numbers-12" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<details id="cyu-standard-form" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.1.8</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h4></summary><article class="exercise exercise-like knowl__content"><div class="para" id="cyu-standard-form-1-1">Write down the following as a complex number in its standard form. Leave no negative numbers under radicals and no radicals in denominator.<div class="autopermalink" data-description="Paragraph"><a href="#cyu-standard-form-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <ol class="decimal cols3 multicolumn" id="cyu-standard-form-1-2">
+<li id="cyu-standard-form-1-2-1">
+<div class="para" id="p-derived-cyu-standard-form-1-2-1"><span class="process-math">\(\displaystyle -\sqrt{-17}\)</span></div>
+<div class="autopermalink" data-description="Item 1.1.8.1"><a href="#cyu-standard-form-1-2-1" title="Copy heading and permalink for Item 1.1.8.1" aria-label="Copy heading and permalink for Item 1.1.8.1">🔗</a></div>
+</li>
+<li id="cyu-standard-form-1-2-2">
+<div class="para" id="p-derived-cyu-standard-form-1-2-2"><span class="process-math">\(\displaystyle \sqrt{-5}\cdot\sqrt{-20}\)</span></div>
+<div class="autopermalink" data-description="Item 1.1.8.2"><a href="#cyu-standard-form-1-2-2" title="Copy heading and permalink for Item 1.1.8.2" aria-label="Copy heading and permalink for Item 1.1.8.2">🔗</a></div>
+</li>
+<li id="cyu-standard-form-1-2-3">
+<div class="para" id="p-derived-cyu-standard-form-1-2-3"><span class="process-math">\(\displaystyle \displaystyle\frac{\sqrt{-81}}{\sqrt{3}}\)</span></div>
+<div class="autopermalink" data-description="Item 1.1.8.3"><a href="#cyu-standard-form-1-2-3" title="Copy heading and permalink for Item 1.1.8.3" aria-label="Copy heading and permalink for Item 1.1.8.3">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Checkpoint 1.1.8"><a href="#cyu-standard-form" title="Copy heading and permalink for Checkpoint 1.1.8" aria-label="Copy heading and permalink for Checkpoint 1.1.8">🔗</a></div></article></details><details id="cyu-powers-i" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.1.9</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h4></summary><article class="exercise exercise-like knowl__content"><div class="para" id="cyu-powers-i-1-1">Simplify the following powers of <span class="process-math">\(i\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#cyu-powers-i-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <ol class="decimal cols3 multicolumn" id="cyu-powers-i-1-2">
+<li id="cyu-powers-i-1-2-1">
+<div class="para" id="p-derived-cyu-powers-i-1-2-1"><span class="process-math">\(\displaystyle i^{48}\)</span></div>
+<div class="autopermalink" data-description="Item 1.1.9.1"><a href="#cyu-powers-i-1-2-1" title="Copy heading and permalink for Item 1.1.9.1" aria-label="Copy heading and permalink for Item 1.1.9.1">🔗</a></div>
+</li>
+<li id="cyu-powers-i-1-2-2">
+<div class="para" id="p-derived-cyu-powers-i-1-2-2"><span class="process-math">\(\displaystyle i^{23}\)</span></div>
+<div class="autopermalink" data-description="Item 1.1.9.2"><a href="#cyu-powers-i-1-2-2" title="Copy heading and permalink for Item 1.1.9.2" aria-label="Copy heading and permalink for Item 1.1.9.2">🔗</a></div>
+</li>
+<li id="cyu-powers-i-1-2-3">
+<div class="para" id="p-derived-cyu-powers-i-1-2-3"><span class="process-math">\(\displaystyle i^{-19}\)</span></div>
+<div class="autopermalink" data-description="Item 1.1.9.3"><a href="#cyu-powers-i-1-2-3" title="Copy heading and permalink for Item 1.1.9.3" aria-label="Copy heading and permalink for Item 1.1.9.3">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Checkpoint 1.1.9"><a href="#cyu-powers-i" title="Copy heading and permalink for Checkpoint 1.1.9" aria-label="Copy heading and permalink for Checkpoint 1.1.9">🔗</a></div></article></details><details id="cyu-operations-complex" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.1.10</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h4></summary><article class="exercise exercise-like knowl__content"><div class="para" id="cyu-operations-complex-1-1">Perform the indicated operations. Write answer in <span class="process-math">\(a+bi\)</span> form.<div class="autopermalink" data-description="Paragraph"><a href="#cyu-operations-complex-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <ol class="decimal" id="cyu-operations-complex-1-2">
+<li id="cyu-operations-complex-1-2-1">
+<div class="para" id="p-derived-cyu-operations-complex-1-2-1"><span class="process-math">\(\displaystyle \left( 8-3i\right) -\left( 2+4i\right) +\left( 5+7i\right)\)</span></div>
+<div class="autopermalink" data-description="Item 1.1.10.1"><a href="#cyu-operations-complex-1-2-1" title="Copy heading and permalink for Item 1.1.10.1" aria-label="Copy heading and permalink for Item 1.1.10.1">🔗</a></div>
+</li>
+<li id="cyu-operations-complex-1-2-2">
+<div class="para" id="p-derived-cyu-operations-complex-1-2-2"><span class="process-math">\(\displaystyle \left( -5+4i\right) \left( 3-i\right)\)</span></div>
+<div class="autopermalink" data-description="Item 1.1.10.2"><a href="#cyu-operations-complex-1-2-2" title="Copy heading and permalink for Item 1.1.10.2" aria-label="Copy heading and permalink for Item 1.1.10.2">🔗</a></div>
+</li>
+<li id="cyu-operations-complex-1-2-3">
+<div class="para" id="p-derived-cyu-operations-complex-1-2-3"><span class="process-math">\(\displaystyle \left( 10-3i\right) \left( 10+3i\right)\)</span></div>
+<div class="autopermalink" data-description="Item 1.1.10.3"><a href="#cyu-operations-complex-1-2-3" title="Copy heading and permalink for Item 1.1.10.3" aria-label="Copy heading and permalink for Item 1.1.10.3">🔗</a></div>
+</li>
+<li id="cyu-operations-complex-1-2-4">
+<div class="para" id="p-derived-cyu-operations-complex-1-2-4"><span class="process-math">\(\displaystyle \displaystyle\frac{5+6i}{2-7i}\)</span></div>
+<div class="autopermalink" data-description="Item 1.1.10.4"><a href="#cyu-operations-complex-1-2-4" title="Copy heading and permalink for Item 1.1.10.4" aria-label="Copy heading and permalink for Item 1.1.10.4">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Checkpoint 1.1.10"><a href="#cyu-operations-complex" title="Copy heading and permalink for Checkpoint 1.1.10" aria-label="Copy heading and permalink for Checkpoint 1.1.10">🔗</a></div></article></details><article class="assemblage assemblage-like" id="obj-solve-poly-complex"><h4 class="heading"><span class="title">Solving polynomials over the set of complex numbers.</span></h4>
+<div class="para logical" id="obj-solve-poly-complex-2">
+<div class="para">The quadratic equation <span class="process-math">\(ax^2+bx+c=0\)</span> has either one or two unique solution(s), given by</div>
+<div class="displaymath process-math" id="obj-solve-poly-complex-2-2">
+\begin{equation*}
+\displaystyle x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}.
+\end{equation*}
+</div>
+<div class="para">Solving higher order polynomials involves other techniques (see Chapter 2). For instance, the expressions representing the sum and difference of two cubes can be factored as follows:</div>
+<div class="displaymath process-math" id="obj-solve-poly-complex-2-3">
+\begin{align*}
+a^3 + b^3 \amp = (a + b)(a^2 - ab + b^2)\\
+a^3 - b^3 \amp = (a - b)(a^2 + ab + b^2)
+\end{align*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#obj-solve-poly-complex-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Assemblage: Solving polynomials over the set of complex numbers"><a href="#obj-solve-poly-complex" title="Copy heading and permalink for Assemblage: Solving polynomials over the set of complex numbers" aria-label="Copy heading and permalink for Assemblage: Solving polynomials over the set of complex numbers">🔗</a></div></article><details id="ex-complex-zeros" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.1.11</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h4></summary><article class="example example-like knowl__content"><div class="para" id="ex-complex-zeros-1-1">Find all complex zeros of <span class="process-math">\(f(x) = x^4+27x\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#ex-complex-zeros-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Example 1.1.11"><a href="#ex-complex-zeros" title="Copy heading and permalink for Example 1.1.11" aria-label="Copy heading and permalink for Example 1.1.11">🔗</a></div></article></details><details id="ex-solve-quadratic-form" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.1.12</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h4></summary><article class="example example-like knowl__content"><div class="para" id="ex-solve-quadratic-form-1-1">Solve <span class="process-math">\((2x+5)^{2} - 7(2x+5) - 30 = 0\)</span><div class="autopermalink" data-description="Paragraph"><a href="#ex-solve-quadratic-form-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Example 1.1.12"><a href="#ex-solve-quadratic-form" title="Copy heading and permalink for Example 1.1.12" aria-label="Copy heading and permalink for Example 1.1.12">🔗</a></div></article></details><article class="definition definition-like" id="def-discriminant"><h4 class="heading">
+<span class="type">Definition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.1.13</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Discriminant.</span>
+</h4>
+<div class="para" id="def-discriminant-2-1">The discriminant of the quadratic equation <span class="process-math">\(ax^2+bx+c=0\)</span> is <span class="fillin underline" role="img" aria-label="15-character blank" style="width: 6.818181818181818em;"></span>.<div class="autopermalink" data-description="Paragraph"><a href="#def-discriminant-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="def-discriminant-2-2">If the discriminant of a quadratic equation is:<div class="autopermalink" data-description="Paragraph"><a href="#def-discriminant-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <ol class="decimal" id="def-discriminant-2-3">
+<li id="def-discriminant-2-3-1">
+<div class="para" id="p-derived-def-discriminant-2-3-1">zero, there is <span class="fillin underline" role="img" aria-label="15-character blank" style="width: 6.818181818181818em;"></span>.</div>
+<div class="autopermalink" data-description="Item 1"><a href="#def-discriminant-2-3-1" title="Copy heading and permalink for Item 1" aria-label="Copy heading and permalink for Item 1">🔗</a></div>
+</li>
+<li id="def-discriminant-2-3-2">
+<div class="para" id="p-derived-def-discriminant-2-3-2">positive, there are <span class="fillin underline" role="img" aria-label="15-character blank" style="width: 6.818181818181818em;"></span>.</div>
+<div class="autopermalink" data-description="Item 2"><a href="#def-discriminant-2-3-2" title="Copy heading and permalink for Item 2" aria-label="Copy heading and permalink for Item 2">🔗</a></div>
+</li>
+<li id="def-discriminant-2-3-3">
+<div class="para" id="p-derived-def-discriminant-2-3-3">negative, there are <span class="fillin underline" role="img" aria-label="15-character blank" style="width: 6.818181818181818em;"></span>.</div>
+<div class="autopermalink" data-description="Item 3"><a href="#def-discriminant-2-3-3" title="Copy heading and permalink for Item 3" aria-label="Copy heading and permalink for Item 3">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Definition 1.1.13: Discriminant"><a href="#def-discriminant" title="Copy heading and permalink for Definition 1.1.13: Discriminant" aria-label="Copy heading and permalink for Definition 1.1.13: Discriminant">🔗</a></div></article><article class="assemblage assemblage-like" id="obj-discriminant-nature"><h4 class="heading"><span class="title">Using the discriminant to determine nature of solutions.</span></h4>
+<div class="para" id="obj-discriminant-nature-2">The discriminant is a number associated with quadratic equations, which tells us the number and type of solutions to the equation.<div class="autopermalink" data-description="Paragraph"><a href="#obj-discriminant-nature-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Assemblage: Using the discriminant to determine nature of solutions"><a href="#obj-discriminant-nature" title="Copy heading and permalink for Assemblage: Using the discriminant to determine nature of solutions" aria-label="Copy heading and permalink for Assemblage: Using the discriminant to determine nature of solutions">🔗</a></div></article><details id="ex-use-discriminant" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.1.14</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h4></summary><article class="example example-like knowl__content"><div class="para" id="ex-use-discriminant-1-1">Use the discriminant to determine the number and type of solutions for each equation.<div class="autopermalink" data-description="Paragraph"><a href="#ex-use-discriminant-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <ol class="decimal" id="ex-use-discriminant-1-2">
+<li id="ex-use-discriminant-1-2-1">
+<div class="para" id="p-derived-ex-use-discriminant-1-2-1"><span class="process-math">\(\displaystyle 5x^{2}-3x+1=0\)</span></div>
+<div class="autopermalink" data-description="Item 1"><a href="#ex-use-discriminant-1-2-1" title="Copy heading and permalink for Item 1" aria-label="Copy heading and permalink for Item 1">🔗</a></div>
+</li>
+<li id="ex-use-discriminant-1-2-2">
+<div class="para" id="p-derived-ex-use-discriminant-1-2-2"><span class="process-math">\(\displaystyle 2x^{2}=3-6x\)</span></div>
+<div class="autopermalink" data-description="Item 2"><a href="#ex-use-discriminant-1-2-2" title="Copy heading and permalink for Item 2" aria-label="Copy heading and permalink for Item 2">🔗</a></div>
+</li>
+<li id="ex-use-discriminant-1-2-3">
+<div class="para" id="p-derived-ex-use-discriminant-1-2-3"><span class="process-math">\(\displaystyle 4x^{2}+12x=-9\)</span></div>
+<div class="autopermalink" data-description="Item 3"><a href="#ex-use-discriminant-1-2-3" title="Copy heading and permalink for Item 3" aria-label="Copy heading and permalink for Item 3">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Example 1.1.14"><a href="#ex-use-discriminant" title="Copy heading and permalink for Example 1.1.14" aria-label="Copy heading and permalink for Example 1.1.14">🔗</a></div></article></details><div class="para" id="sec-complex-numbers-22">Students - Check your understanding<div class="autopermalink" data-description="Paragraph"><a href="#sec-complex-numbers-22" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<details id="cyu-solve-equations" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.1.15</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h4></summary><article class="exercise exercise-like knowl__content"><div class="para" id="cyu-solve-equations-1-1">Solve the following equations.<div class="autopermalink" data-description="Paragraph"><a href="#cyu-solve-equations-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <ol class="decimal" id="cyu-solve-equations-1-2">
+<li id="cyu-solve-equations-1-2-1">
+<div class="para" id="p-derived-cyu-solve-equations-1-2-1"><span class="process-math">\(\displaystyle \frac{3}{10}x^{2}-\frac{2}{5}x+\frac{7}{10}=0\)</span></div>
+<div class="autopermalink" data-description="Item 1.1.15.1"><a href="#cyu-solve-equations-1-2-1" title="Copy heading and permalink for Item 1.1.15.1" aria-label="Copy heading and permalink for Item 1.1.15.1">🔗</a></div>
+</li>
+<li id="cyu-solve-equations-1-2-2">
+<div class="para" id="p-derived-cyu-solve-equations-1-2-2"><span class="process-math">\(x^4 - 5x^2 + 6 = 0\text{.}\)</span></div>
+<div class="autopermalink" data-description="Item 1.1.15.2"><a href="#cyu-solve-equations-1-2-2" title="Copy heading and permalink for Item 1.1.15.2" aria-label="Copy heading and permalink for Item 1.1.15.2">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Checkpoint 1.1.15"><a href="#cyu-solve-equations" title="Copy heading and permalink for Checkpoint 1.1.15" aria-label="Copy heading and permalink for Checkpoint 1.1.15">🔗</a></div></article></details><details id="cyu-find-discriminant" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.1.16</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h4></summary><article class="exercise exercise-like knowl__content"><div class="para" id="cyu-find-discriminant-1-1">Find the discriminant and give the number and type of solution(s) of the quadratic equation <span class="process-math">\(2x^2-3x+7=0\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#cyu-find-discriminant-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Checkpoint 1.1.16"><a href="#cyu-find-discriminant" title="Copy heading and permalink for Checkpoint 1.1.16" aria-label="Copy heading and permalink for Checkpoint 1.1.16">🔗</a></div></article></details><div class="autopermalink" data-description="Section 1.1: Complex Numbers (ALEKS R.6)"><a href="#sec-complex-numbers" title="Copy heading and permalink for Section 1.1: Complex Numbers (ALEKS R.6)" aria-label="Copy heading and permalink for Section 1.1: Complex Numbers (ALEKS R.6)">🔗</a></div></section><div class="autopermalink" data-description="Chapter 1: Review"><a href="#ch-review" title="Copy heading and permalink for Chapter 1: Review" aria-label="Copy heading and permalink for Chapter 1: Review">🔗</a></div></section><div class="autopermalink" data-description="Book: MAC1140 Pre-Calculus Algebra"><a href="#mac1140-precalc" title="Copy heading and permalink for Book: MAC1140 Pre-Calculus Algebra" aria-label="Copy heading and permalink for Book: MAC1140 Pre-Calculus Algebra">🔗</a></div></section></div>
+<div id="ptx-content-footer" class="ptx-content-footer">
+<span class="previous-button button disabled"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></span><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><span class="next-button button disabled"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></span>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="338 3000 8772 6866" role="img"><title>PreTeXt logo</title><g style="stroke-width:.025in; stroke:currentColor; fill:none"><polyline points="472,3590 472,9732 " style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png" alt="Runstone Academy logo"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png" alt="MathJax logo"></a>
+</div>
+<script>var ptx_lunr_search_style = "textbook";
+var ptx_lunr_docs = [
+{
+  "id": "mac1140-precalc",
+  "level": "1",
+  "url": "#mac1140-precalc",
+  "type": "Book",
+  "number": "",
+  "title": "MAC1140 Pre-Calculus Algebra",
+  "body": " MAC1140 Pre-Calculus Algebra  Lecture Outline  All Instructors     Review   Complex Numbers (ALEKS R.6)  One property of any given real number is that its square is always nonnegative. That is, there is no real number such that . To remedy this situation, we introduce a new number called an imaginary unit.   Imaginary Unit   The imaginary unit , , is defined to be a solution to the equation . The solution set for the equation is , where is the principal square root of . Thus, by definition, and we use the notation .      Simplify the following.         Simplifying imaginary numbers  The powers of repeat with every fourth power. Even powers of result in or , whereas odd powers of result in or .     Simplify the given powers of .             Complex Number   The standard form of a complex number is , where and are real numbers. The value is called the real part and the value is called the imaginary part .     Operations with complex numbers  Addition, subtraction, multiplication, and division of complex numbers follows a natural set of rules, as discussed below.     Write the following numbers in standard form.           Complex Conjugate   The complex conjugate of is . Notice that the product of conjugates is a real number. In particular,    .      Divide the following complex numbers and write answer in form.         Students - Check your understanding    Write down the following as a complex number in its standard form. Leave no negative numbers under radicals and no radicals in denominator.           Simplify the following powers of .           Perform the indicated operations. Write answer in form.           Solving polynomials over the set of complex numbers  The quadratic equation has either one or two unique solution(s), given by Solving higher order polynomials involves other techniques (see Chapter 2). For instance, the expressions representing the sum and difference of two cubes can be factored as follows:      Find all complex zeros of .      Solve     Discriminant   The discriminant of the quadratic equation is .  If the discriminant of a quadratic equation is:   zero, there is .  positive, there are .  negative, there are .      Using the discriminant to determine nature of solutions  The discriminant is a number associated with quadratic equations, which tells us the number and type of solutions to the equation.     Use the discriminant to determine the number and type of solutions for each equation.         Students - Check your understanding    Solve the following equations.    .       Find the discriminant and give the number and type of solution(s) of the quadratic equation .      "
+},
+{
+  "id": "def-imaginary-unit",
+  "level": "2",
+  "url": "#def-imaginary-unit",
+  "type": "Definition",
+  "number": "1.1.1",
+  "title": "Imaginary Unit.",
+  "body": " Imaginary Unit   The imaginary unit , , is defined to be a solution to the equation . The solution set for the equation is , where is the principal square root of . Thus, by definition, and we use the notation .   "
+},
+{
+  "id": "ex-simplify-imaginary",
+  "level": "2",
+  "url": "#ex-simplify-imaginary",
+  "type": "Example",
+  "number": "1.1.2",
+  "title": "",
+  "body": "  Simplify the following.       "
+},
+{
+  "id": "ex-powers-of-i",
+  "level": "2",
+  "url": "#ex-powers-of-i",
+  "type": "Example",
+  "number": "1.1.3",
+  "title": "",
+  "body": "  Simplify the given powers of .           "
+},
+{
+  "id": "def-complex-number",
+  "level": "2",
+  "url": "#def-complex-number",
+  "type": "Definition",
+  "number": "1.1.4",
+  "title": "Complex Number.",
+  "body": " Complex Number   The standard form of a complex number is , where and are real numbers. The value is called the real part and the value is called the imaginary part .   "
+},
+{
+  "id": "ex-standard-form-complex",
+  "level": "2",
+  "url": "#ex-standard-form-complex",
+  "type": "Example",
+  "number": "1.1.5",
+  "title": "",
+  "body": "  Write the following numbers in standard form.         "
+},
+{
+  "id": "def-complex-conjugate",
+  "level": "2",
+  "url": "#def-complex-conjugate",
+  "type": "Definition",
+  "number": "1.1.6",
+  "title": "Complex Conjugate.",
+  "body": " Complex Conjugate   The complex conjugate of is . Notice that the product of conjugates is a real number. In particular,    .   "
+},
+{
+  "id": "ex-divide-complex",
+  "level": "2",
+  "url": "#ex-divide-complex",
+  "type": "Example",
+  "number": "1.1.7",
+  "title": "",
+  "body": "  Divide the following complex numbers and write answer in form.        "
+},
+{
+  "id": "cyu-standard-form",
+  "level": "2",
+  "url": "#cyu-standard-form",
+  "type": "Checkpoint",
+  "number": "1.1.8",
+  "title": "",
+  "body": "  Write down the following as a complex number in its standard form. Leave no negative numbers under radicals and no radicals in denominator.        "
+},
+{
+  "id": "cyu-powers-i",
+  "level": "2",
+  "url": "#cyu-powers-i",
+  "type": "Checkpoint",
+  "number": "1.1.9",
+  "title": "",
+  "body": "  Simplify the following powers of .        "
+},
+{
+  "id": "cyu-operations-complex",
+  "level": "2",
+  "url": "#cyu-operations-complex",
+  "type": "Checkpoint",
+  "number": "1.1.10",
+  "title": "",
+  "body": "  Perform the indicated operations. Write answer in form.         "
+},
+{
+  "id": "ex-complex-zeros",
+  "level": "2",
+  "url": "#ex-complex-zeros",
+  "type": "Example",
+  "number": "1.1.11",
+  "title": "",
+  "body": "  Find all complex zeros of .   "
+},
+{
+  "id": "ex-solve-quadratic-form",
+  "level": "2",
+  "url": "#ex-solve-quadratic-form",
+  "type": "Example",
+  "number": "1.1.12",
+  "title": "",
+  "body": "  Solve   "
+},
+{
+  "id": "def-discriminant",
+  "level": "2",
+  "url": "#def-discriminant",
+  "type": "Definition",
+  "number": "1.1.13",
+  "title": "Discriminant.",
+  "body": " Discriminant   The discriminant of the quadratic equation is .  If the discriminant of a quadratic equation is:   zero, there is .  positive, there are .  negative, there are .    "
+},
+{
+  "id": "ex-use-discriminant",
+  "level": "2",
+  "url": "#ex-use-discriminant",
+  "type": "Example",
+  "number": "1.1.14",
+  "title": "",
+  "body": "  Use the discriminant to determine the number and type of solutions for each equation.        "
+},
+{
+  "id": "cyu-solve-equations",
+  "level": "2",
+  "url": "#cyu-solve-equations",
+  "type": "Checkpoint",
+  "number": "1.1.15",
+  "title": "",
+  "body": "  Solve the following equations.    .    "
+},
+{
+  "id": "cyu-find-discriminant",
+  "level": "2",
+  "url": "#cyu-find-discriminant",
+  "type": "Checkpoint",
+  "number": "1.1.16",
+  "title": "",
+  "body": "  Find the discriminant and give the number and type of solution(s) of the quadratic equation .   "
+}
+]
+
+var ptx_lunr_idx = lunr(function () {
+  this.ref('id')
+  this.field('title')
+  this.field('body')
+  this.metadataWhitelist = ['position']
+
+  ptx_lunr_docs.forEach(function (doc) {
+    this.add(doc)
+  }, this)
+})
+</script>
+</body>
+</html>

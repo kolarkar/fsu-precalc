@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-poly-rat-funcs" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Polynomial and Rational Functions</title>
+
+  <introduction>
+    <p> This chapter goes over polynomial and rational functions. </p>
+  </introduction>
+
+  <!-- include sections -->
+  <xi:include href="sec-quad-functions-parabolas.ptx" />
+
+  <xi:include href="sec-polynomial-functions.ptx" />
+
+  
+
+</chapter>

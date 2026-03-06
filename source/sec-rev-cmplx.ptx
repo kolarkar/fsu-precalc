@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+      <section xml:id="sec-complex-numbers">
+        <title>Complex Numbers (ALEKS R.6)</title>
+
+        <p>
+          One property of any given real number is that its square is always nonnegative. That is, there is no real number <m>x</m> such that <m>x^2 = -1</m>.
+          To remedy this situation, we introduce a new number called an imaginary unit.
+        </p>
+
+        <definition xml:id="def-imaginary-unit">
+          <title>Imaginary Unit</title>
+          <statement>
+            <p>
+              The <term>imaginary unit</term>, <m>i</m>, is defined to be a solution to the equation <m>x^2 = -1</m>.
+              The solution set for the equation <m>x^2=-1</m> is <m>\{i,-i\}</m>, where <m>i</m> is the <term>principal square root</term> of <m>-1</m>.
+              Thus, <m>i^2=-1</m> by definition, and we use the notation <m>i = \sqrt{-1}</m>.
+            </p>
+          </statement>
+        </definition>
+
+        <example xml:id="ex-simplify-imaginary">
+          <statement>
+            <p>Simplify the following.</p>
+            <ol cols="2">
+              <li><m>\sqrt{-12}</m></li>
+              <li><m>-\sqrt{-25}</m></li>
+            </ol>
+          </statement>
+        </example>
+
+        <assemblage xml:id="obj-simplifying-imaginary">
+          <title>Simplifying imaginary numbers</title>
+          <p>
+            The powers of <m>i</m> repeat with every fourth power.
+            Even powers of <m>i</m> result in <m>1</m> or <m>-1</m>, whereas odd powers of <m>i</m> result in <m>i</m> or <m>-i</m>.
+          </p>
+        </assemblage>
+
+        <example xml:id="ex-powers-of-i">
+          <statement>
+            <p>Simplify the given powers of <m>i</m>.</p>
+            <ol cols="2">
+              <li><m>i^{3}</m></li>
+              <li><m>i^{4}</m></li>
+              <li><m>i^{5}</m></li>
+              <li><m>i^{6}</m></li>
+              <li><m>i^{103}</m></li>
+              <li><m>i^{-30}</m></li>
+            </ol>
+          </statement>
+        </example>
+
+        <definition xml:id="def-complex-number">
+          <title>Complex Number</title>
+          <statement>
+            <p>
+              The <term>standard form</term> of a <term>complex number</term> is <m>a+bi</m>, where <m>a</m> and <m>b</m> are real numbers.
+              The value <m>a</m> is called the <term>real part</term> and the value <m>b</m> is called the <term>imaginary part</term>.
+            </p>
+          </statement>
+        </definition>
+
+        <assemblage xml:id="obj-operations-complex">
+          <title>Operations with complex numbers</title>
+          <p>
+            Addition, subtraction, multiplication, and division of complex numbers follows a natural set of rules, as discussed below.
+          </p>
+        </assemblage>
+
+        <example xml:id="ex-standard-form-complex">
+          <statement>
+            <p>Write the following numbers in standard <m>a + bi</m> form.</p>
+            <ol cols="2">
+              <li><m>4i-(3+2i)+(1-3i)</m></li>
+              <li><m>(4+2i)(3-i)</m></li>
+              <li><m>(3 + 4i)^{2}</m></li>
+              <li><m>\sqrt{-3}\cdot\sqrt{-12}</m></li>
+            </ol>
+          </statement>
+        </example>
+
+        <definition xml:id="def-complex-conjugate">
+          <title>Complex Conjugate</title>
+          <statement>
+            <p>
+              The <term>complex conjugate</term> of <m>z=a+bi</m> is <m>\overline{z} =a-bi</m>.
+              Notice that the product of conjugates is a real number. In particular,
+            </p>
+            <p>
+              <m>z\overline{z}=(a+bi)(a-bi) = </m> <fillin characters="15" />.
+            </p>
+          </statement>
+        </definition>
+
+        <example xml:id="ex-divide-complex">
+          <statement>
+            <p>Divide the following complex numbers and write answer in <m>a+bi</m> form.</p>
+            <ol cols="2">
+              <li><m>\displaystyle\frac{4+2i}{3-i}</m></li>
+              <li><m>\displaystyle\frac{4}{3+5i}</m></li>
+              <li><m>\displaystyle\frac{\sqrt{-24}}{\sqrt{-8}}</m></li>
+            </ol>
+          </statement>
+        </example>
+
+        <p><b>Students - Check your understanding</b></p>
+
+        <exercise xml:id="cyu-standard-form" workspace="2in">
+          <statement>
+            <p>
+              Write down the following as a complex number in its standard form.
+              Leave no negative numbers under radicals and no radicals in denominator.
+            </p>
+            <ol cols="3">
+              <li><m>-\sqrt{-17}</m></li>
+              <li><m>\sqrt{-5}\cdot\sqrt{-20}</m></li>
+              <li><m>\displaystyle\frac{\sqrt{-81}}{\sqrt{3}}</m></li>
+            </ol>
+          </statement>
+        </exercise>
+
+        <exercise xml:id="cyu-powers-i" workspace="2in">
+          <statement>
+            <p>Simplify the following powers of <m>i</m>.</p>
+            <ol cols="3">
+              <li><m>i^{48}</m></li>
+              <li><m>i^{23}</m></li>
+              <li><m>i^{-19}</m></li>
+            </ol>
+          </statement>
+        </exercise>
+
+        <exercise xml:id="cyu-operations-complex" workspace="2in">
+          <statement>
+            <p>Perform the indicated operations. Write answer in <m>a+bi</m> form.</p>
+            <ol cols="1">
+              <li><m>\left( 8-3i\right) -\left( 2+4i\right) +\left( 5+7i\right)</m></li>
+              <li><m>\left( -5+4i\right) \left( 3-i\right)</m></li>
+              <li><m>\left( 10-3i\right) \left( 10+3i\right)</m></li>
+              <li><m>\displaystyle\frac{5+6i}{2-7i}</m></li>
+            </ol>
+          </statement>
+        </exercise>
+
+        <assemblage xml:id="obj-solve-poly-complex">
+          <title>Solving polynomials over the set of complex numbers</title>
+          <p>
+            The quadratic equation <m>ax^2+bx+c=0</m> has either one or two unique solution(s), given by
+            <me>\displaystyle x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}.</me>
+            Solving higher order polynomials involves other techniques (see Chapter 2).
+            For instance, the expressions representing the sum and difference of two cubes can be factored as follows:
+            <md>
+              <mrow>a^3 + b^3 \amp = (a + b)(a^2 - ab + b^2)</mrow>
+              <mrow>a^3 - b^3 \amp = (a - b)(a^2 + ab + b^2)</mrow>
+            </md>
+          </p>
+        </assemblage>
+
+        <example xml:id="ex-complex-zeros">
+          <statement>
+            <p>Find all complex zeros of <m>f(x) = x^4+27x</m>.</p>
+          </statement>
+        </example>
+
+        <example xml:id="ex-solve-quadratic-form">
+          <statement>
+            <p>Solve <m>(2x+5)^{2} - 7(2x+5) - 30 = 0</m></p>
+          </statement>
+        </example>
+
+        <definition xml:id="def-discriminant">
+          <title>Discriminant</title>
+          <statement>
+            <p>
+              The discriminant of the quadratic equation <m>ax^2+bx+c=0</m> is <fillin characters="15" />.
+            </p>
+            <p>
+              If the <b>discriminant</b> of a quadratic equation is:
+            </p>
+            <ol cols="1">
+              <li>zero, there is <fillin characters="15" />.</li>
+              <li>positive, there are <fillin characters="15" />.</li>
+              <li>negative, there are <fillin characters="15" />.</li>
+            </ol>
+          </statement>
+        </definition>
+
+        <assemblage xml:id="obj-discriminant-nature">
+          <title>Using the discriminant to determine nature of solutions</title>
+          <p>
+            The discriminant is a number associated with quadratic equations, which tells us the number and type of solutions to the equation.
+          </p>
+        </assemblage>
+
+        <example xml:id="ex-use-discriminant">
+          <statement>
+            <p>Use the discriminant to determine the number and type of solutions for each equation.</p>
+            <ol cols="1">
+              <li><m>5x^{2}-3x+1=0</m></li>
+              <li><m>2x^{2}=3-6x</m></li>
+              <li><m>4x^{2}+12x=-9</m></li>
+            </ol>
+          </statement>
+        </example>
+
+        <p><b>Students - Check your understanding</b></p>
+
+        <exercise xml:id="cyu-solve-equations">
+          <statement>
+            <p>Solve the following equations.</p>
+            <ol cols="1">
+              <li><m>\frac{3}{10}x^{2}-\frac{2}{5}x+\frac{7}{10}=0</m></li>
+              <li><m>x^4 - 5x^2 + 6 = 0</m>.</li>
+            </ol>
+          </statement>
+        </exercise>
+
+        <exercise xml:id="cyu-find-discriminant">
+          <statement>
+            <p>
+              Find the discriminant and give the number and type of solution(s) of the quadratic equation <m>2x^2-3x+7=0</m>.
+            </p>
+          </statement>
+        </exercise>
+
+      </section>

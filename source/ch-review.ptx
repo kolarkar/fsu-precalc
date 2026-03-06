@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-review" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Review</title>
+
+  <introduction>
+    <p> This chapter contains reviews of some previous topics that will be important for our course going forward. </p>
+  </introduction>
+
+  <!-- include sections -->
+  <xi:include href="sec-rev-cmplx.ptx" />
+
+  <xi:include href="sec-piecewise.ptx" />
+
+  
+
+</chapter>

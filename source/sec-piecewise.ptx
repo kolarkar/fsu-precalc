@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+ <section xml:id="sec-piecewise-functions">
+        <title>Piecewise Functions (ALEKS 1.7)</title>
+
+        <assemblage xml:id="obj-piecewise-functions-intro">
+          <title>Graph piecewise-defined functions</title>
+          <p>
+            A piecewise function is a function built from pieces of different functions over different intervals.
+          </p>
+        </assemblage>
+
+        <p>
+          The absolute value function <m>f\left( x\right) = \vert x \vert</m> can be written as a piecewise function.
+          <me xml:id="eq-abs-piecewise-def">
+            f\left( x\right) =\left\{
+            \begin{array}{cc}
+              x \amp \text{for }x\geq 0 \\
+              -x \amp \text{for }x\lt 0
+            \end{array}
+            \right.
+          </me>
+        </p>
+
+        <figure xml:id="fig-abs-value-graph">
+          <caption>Graph of Absolute Value Function</caption>
+          <image width="50%">
+            <prefigure xmlns="https://prefigure.org" label="prefig-abs-value-graph">
+              <diagram dimensions="(300,300)" margins="15">
+                <definition>f_pos(x) = x</definition>
+                <definition>f_neg(x) = -x</definition>
+                <coordinates bbox="(-6,-6,6,6)">
+                  <grid-axes xlabel="x" ylabel="y" />
+                  <graph function="f_neg" domain="[-6,0]" color="gray" thickness="1.5" />
+                  <graph function="f_pos" domain="[0,6]" color="gray" thickness="1.5" />
+                </coordinates>
+              </diagram>
+            </prefigure>
+          </image>
+        </figure>
+
+        <example xml:id="ex-graph-piecewise-basic">
+          <statement>
+            <p>Graph the function.</p>
+            <me>
+              g\left( x\right) =\left\{
+              \begin{array}{cc}
+                -4 \amp \text{for }-4\leq x\lt -1 \\
+                -x \amp \text{for }-1\leq x\lt 1 \\
+                \sqrt{x-1} \amp \text{for }x\geq 1
+              \end{array}
+              \right.
+            </me>
+          </statement>
+          <solution>
+            <figure xml:id="fig-piecewise-example-basic">
+              <caption>Graph of piecewise function <m>g(x)</m></caption>
+              <image width="50%">
+                <prefigure xmlns="https://prefigure.org" label="prefig-piecewise-basic">
+                  <diagram dimensions="(300,300)" margins="15">
+                    <definition>f1(x) = -4</definition>
+                    <definition>f2(x) = -x</definition>
+                    <definition>f3(x) = sqrt(x-1)</definition>
+                    <coordinates bbox="(-6,-6,6,6)">
+                      <grid-axes xlabel="x" ylabel="y" />
+                      <graph function="f1" domain="[-6,-1]" color="gray" thickness="1.5" />
+                      <point p="(-1,-4)" color="gray" size="3" fill="white" thickness="1.5" />
+                      <graph function="f2" domain="[-1,1]" color="gray" thickness="1.5" />
+                      <point p="(-1,1)" color="gray" size="3" />
+                      <point p="(1,-1)" color="gray" size="3" fill="white" thickness="1.5" />
+                      <graph function="f3" domain="[1,6]" color="gray" thickness="1.5" />
+                      <point p="(1,0)" color="gray" size="3" />
+                    </coordinates>
+                  </diagram>
+                </prefigure>
+              </image>
+            </figure>
+          </solution>
+        </example>
+        
+        <p>
+          <term>REMARK:</term> When a function has no "gaps" it is said to be <term>continuous</term>. 
+          Informally, this means we can draw the function without lifting our pencil from the page. 
+          The formal definition of a continuous function will be studied in calculus.
+        </p>
+
+        <example xml:id="ex-continuous-piecewise-check">
+          <statement>
+            <p>
+              Suppose that the function <m>f</m> is defined for all real numbers as follows.
+            </p>
+            <me>
+              f\left( x\right) =\left\{
+              \begin{array}{cc}
+                6 \amp \text{if }x\lt -4 \\
+                -10+x^{2} \amp \text{for }-4\leq x\lt 4 \\
+                2x-2 \amp \text{for }x\geq 4
+              \end{array}
+              \right.
+            </me>
+            <p>
+              Graph the function <m>f</m>. Then determine whether or not the function is continuous.
+            </p>
+          </statement>
+          <solution>
+            <figure xml:id="fig-continuous-piecewise-check">
+              <caption>Graph of piecewise function <m>f(x)</m></caption>
+              <image width="50%">
+                <prefigure xmlns="https://prefigure.org" label="prefig-continuous-piecewise-check">
+                  <diagram dimensions="(300,300)" margins="15">
+                    <definition>f1(x) = 6</definition>
+                    <definition>f2(x) = x^2 - 10</definition>
+                    <definition>f3(x) = 2*x - 2</definition>
+                    <coordinates bbox="(-10,-10,10,10)">
+                      <grid-axes xlabel="x" ylabel="y" />
+                      <graph function="f1" domain="[-10,-4]" color="gray" thickness="1.5" />
+                      <point p="(-4,6)" color="gray" size="3" fill="white" thickness="1.5" />
+                      <graph function="f2" domain="[-4,4]" color="gray" thickness="1.5" />
+                      <point p="(-4,6)" color="gray" size="3" />
+                      <point p="(4,6)" color="gray" size="3" fill="white" thickness="1.5" />
+                      <graph function="f3" domain="[4,10]" color="gray" thickness="1.5" />
+                      <point p="(4,6)" color="gray" size="3" />
+                    </coordinates>
+                  </diagram>
+                </prefigure>
+              </image>
+            </figure>
+          </solution>
+        </example>
+
+        <assemblage xml:id="obj-narrative-graphs-matching">
+          <title>Choosing a graph to fit a narrative</title>
+          <p>Piecewise functions aptly model distance-time graphs.</p>
+        </assemblage>
+
+        <example xml:id="ex-scenario-graphs-matching">
+          <statement>
+            <p>Choose the graph that best represents each scenario below.</p>
+          </statement>
+          
+          <task xml:id="task-kaitlin-store">
+            <statement>
+              <p><strong>(A)</strong> Kaitlin goes from her house to the store.</p>
+            <sidebyside widths="22% 22% 22% 22%" margins="auto">
+              <figure xml:id="fig-kaitlin-a">
+                <caption>Graph A</caption>
+                <image>
+                  <prefigure xmlns="https://prefigure.org" label="prefig-kaitlin-a">
+                    <diagram dimensions="(150,150)" margins="15">
+                      <definition>f(x) = x</definition>
+                      <coordinates bbox="(-0.1,-0.1,4,4)">
+                        <grid-axes xlabel="Time" ylabel="Dist" />
+                        <graph function="f" domain="[0,3.8]" color="blue" thickness="1.5" />
+                      </coordinates>
+                    </diagram>
+                  </prefigure>
+                </image>
+              </figure>
+              <figure xml:id="fig-kaitlin-b">
+                <caption>Graph B</caption>
+                <image>
+                  <prefigure xmlns="https://prefigure.org" label="prefig-kaitlin-b">
+                    <diagram dimensions="(150,150)" margins="15">
+                      <definition>f(x) = -0.4*x + 3</definition>
+                      <coordinates bbox="(-0.1,-0.1,4,4)">
+                        <grid-axes xlabel="Time" ylabel="Dist" />
+                        <graph function="f" domain="[0,3.8]" color="blue" thickness="1.5" />
+                      </coordinates>
+                    </diagram>
+                  </prefigure>
+                </image>
+              </figure>
+              <figure xml:id="fig-kaitlin-c">
+                <caption>Graph C</caption>
+                <image>
+                  <prefigure xmlns="https://prefigure.org" label="prefig-kaitlin-c">
+                    <diagram dimensions="(150,150)" margins="15">
+                      <definition>f(x) = 3</definition>
+                      <coordinates bbox="(-0.1,-0.1,4,4)">
+                        <grid-axes xlabel="Time" ylabel="Dist" />
+                        <graph function="f" domain="[0,3.8]" color="blue" thickness="1.5" />
+                      </coordinates>
+                    </diagram>
+                  </prefigure>
+                </image>
+              </figure>
+              <figure xml:id="fig-kaitlin-d">
+                <caption>Graph D</caption>
+                <image>
+                  <prefigure xmlns="https://prefigure.org" label="prefig-kaitlin-d">
+                    <diagram dimensions="(150,150)" margins="15">
+                      <coordinates bbox="(-0.1,-0.1,4,4)">
+                        <grid-axes xlabel="Time" ylabel="Dist" />
+                        <path points="(3,0) (3,4)" color="blue" thickness="1.5" />
+                      </coordinates>
+                    </diagram>
+                  </prefigure>
+                </image>
+              </figure>
+            </sidebyside>
+           </statement>
+          </task>
+
+          <task xml:id="task-jim-bike">
+            <statement>
+              <p>
+                <strong>(B)</strong> Jim leaves his house on his bike. He rides at a constant speed until he reaches a lemonade stand, where he parks his bike and takes a rest. Then he turns around and bikes home as fast as he can.
+              </p>
+            <sidebyside widths="22% 22% 22% 22%" margins="auto">
+              <figure xml:id="fig-jim-a">
+                <caption>Graph A</caption>
+                <image>
+                  <prefigure xmlns="https://prefigure.org" label="prefig-jim-a">
+                    <diagram dimensions="(150,150)" margins="15">
+                      <definition>f1(x) = x</definition>
+                      <definition>f2(x) = 2</definition>
+                      <definition>f3(x) = x-1.3</definition>
+                      <coordinates bbox="(-0.1,-0.1,4,4)">
+                        <grid-axes xlabel="Time" ylabel="Dist" />
+                        <graph function="f1" domain="[0,2]" color="blue" thickness="1.5" />
+                        <graph function="f2" domain="[2,3.3]" color="blue" thickness="1.5" />
+                        <graph function="f3" domain="[3.3,4]" color="blue" thickness="1.5" />
+                      </coordinates>
+                    </diagram>
+                  </prefigure>
+                </image>
+              </figure>
+              <figure xml:id="fig-jim-b">
+                <caption>Graph B</caption>
+                <image>
+                  <prefigure xmlns="https://prefigure.org" label="prefig-jim-b">
+                    <diagram dimensions="(150,150)" margins="15">
+                      <definition>f1(x) = x</definition>
+                      <definition>f2(x) = 2</definition>
+                      <definition>f3(x) = -x+5.3</definition>
+                      <coordinates bbox="(-0.1,-0.1,4,4)">
+                        <grid-axes xlabel="Time" ylabel="Dist" />
+                        <graph function="f1" domain="[0,2]" color="blue" thickness="1.5" />
+                        <graph function="f2" domain="[2,3.3]" color="blue" thickness="1.5" />
+                        <graph function="f3" domain="[3.3,4]" color="blue" thickness="1.5" />
+                      </coordinates>
+                    </diagram>
+                  </prefigure>
+                </image>
+              </figure>
+              <figure xml:id="fig-jim-c">
+                <caption>Graph C</caption>
+                <image>
+                  <prefigure xmlns="https://prefigure.org" label="prefig-jim-c">
+                    <diagram dimensions="(150,150)" margins="15">
+                      <definition>f1(x) = 2*x</definition>
+                      <definition>f2(x) = 2</definition>
+                      <definition>f3(x) = (x-1.8)^3 + 2</definition>
+                      <coordinates bbox="(-0.1,-0.1,3.5,4)">
+                        <grid-axes xlabel="Time" ylabel="Dist" />
+                        <graph function="f1" domain="[0,1]" color="blue" thickness="1.5" />
+                        <graph function="f2" domain="[1,2]" color="blue" thickness="1.5" />
+                        <graph function="f3" domain="[2,3]" color="blue" thickness="1.5" />
+                      </coordinates>
+                    </diagram>
+                  </prefigure>
+                </image>
+              </figure>
+              <figure xml:id="fig-jim-d">
+                <caption>Graph D</caption>
+                <image>
+                  <prefigure xmlns="https://prefigure.org" label="prefig-jim-d">
+                    <diagram dimensions="(150,150)" margins="15">
+                      <definition>f1(x) = 2</definition>
+                      <definition>f2(x) = 5*x-2</definition>
+                      <definition>f3(x) = -0.5*x+4</definition>
+                      <coordinates bbox="(-0.1,-0.1,4,4)">
+                        <grid-axes xlabel="Time" ylabel="Dist" />
+                        <graph function="f1" domain="[0,0.8]" color="blue" thickness="1.5" />
+                        <graph function="f2" domain="[0.8,1.091]" color="blue" thickness="1.5" />
+                        <graph function="f3" domain="[1.091,4]" color="blue" thickness="1.5" />
+                      </coordinates>
+                    </diagram>
+                  </prefigure>
+                </image>
+              </figure>
+            </sidebyside>
+           </statement>
+          </task>
+        </example>
+
+        <p><b>Students - Check your understanding</b></p>
+
+        <exercise xml:id="cyu-graph-piecewise-practice" workspace="2in">
+          <statement>
+            <p>Graph the function.</p>
+            <me>
+              f\left( x\right) =\left\{
+              \begin{array}{cc}
+                -2 \amp \text{for }-4\leq x\lt -1 \\
+                -1 \amp \text{for }-1\leq x\lt 0 \\
+                3 \amp \text{for }0\leq x\lt 2
+              \end{array}
+              \right.
+            </me>
+            <figure xml:id="fig-blank-grid-cyu">
+              <caption>Blank Grid</caption>
+              <image width="50%">
+                <prefigure xmlns="https://prefigure.org" label="prefig-blank-grid-cyu">
+                  <diagram dimensions="(300,300)" margins="15">
+                    <coordinates bbox="(-6,-6,6,6)">
+                      <grid-axes xlabel="x" ylabel="y" />
+                    </coordinates>
+                  </diagram>
+                </prefigure>
+              </image>
+            </figure>
+          </statement>
+        </exercise>
+
+        <exercise xml:id="cyu-car-stopping-scenario">
+          <statement>
+            <p>
+              Choose the graph that best represents the following statement. A car slows down as it approaches a stop sign.
+            </p>
+            <sidebyside widths="22% 22% 22% 22%" margins="auto">
+              <figure xml:id="fig-car-a">
+                <caption>Graph A</caption>
+                <image>
+                  <prefigure xmlns="https://prefigure.org" label="prefig-car-a">
+                    <diagram dimensions="(150,150)" margins="15">
+                      <definition>f(x) = x</definition>
+                      <coordinates bbox="(-0.1,-0.1,4,4)">
+                        <grid-axes xlabel="Time" ylabel="Speed" />
+                        <graph function="f" domain="[0,3.8]" color="blue" thickness="1.5" />
+                      </coordinates>
+                    </diagram>
+                  </prefigure>
+                </image>
+              </figure>
+              <figure xml:id="fig-car-b">
+                <caption>Graph B</caption>
+                <image>
+                  <prefigure xmlns="https://prefigure.org" label="prefig-car-b">
+                    <diagram dimensions="(150,150)" margins="15">
+                      <definition>f(x) = -0.4*x + 3</definition>
+                      <coordinates bbox="(-0.1,-0.1,4,4)">
+                        <grid-axes xlabel="Time" ylabel="Speed" />
+                        <graph function="f" domain="[0,3.8]" color="blue" thickness="1.5" />
+                      </coordinates>
+                    </diagram>
+                  </prefigure>
+                </image>
+              </figure>
+              <figure xml:id="fig-car-c">
+                <caption>Graph C</caption>
+                <image>
+                  <prefigure xmlns="https://prefigure.org" label="prefig-car-c">
+                    <diagram dimensions="(150,150)" margins="15">
+                      <definition>f(x) = 3</definition>
+                      <coordinates bbox="(-0.1,-0.1,4,4)">
+                        <grid-axes xlabel="Time" ylabel="Speed" />
+                        <graph function="f" domain="[0,3.8]" color="blue" thickness="1.5" />
+                      </coordinates>
+                    </diagram>
+                  </prefigure>
+                </image>
+              </figure>
+              <figure xml:id="fig-car-d">
+                <caption>Graph D</caption>
+                <image>
+                  <prefigure xmlns="https://prefigure.org" label="prefig-car-d">
+                    <diagram dimensions="(150,150)" margins="15">
+                      <coordinates bbox="(-0.1,-0.1,4,4)">
+                        <grid-axes xlabel="Time" ylabel="Speed" />
+                        <path points="(3,0) (3,4)" color="blue" thickness="1.5" />
+                      </coordinates>
+                    </diagram>
+                  </prefigure>
+                </image>
+              </figure>
+            </sidebyside>
+          </statement>
+        </exercise>
+      </section>

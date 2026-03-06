@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-quad-functions-parabolas">
+        <title>Quadratic Functions (ALEKS 2.1)</title>
+
+        <assemblage xml:id="obj-graph-quad-vertex">
+          <title>Graph a quadratic function written in vertex form</title>
+          <p>
+            The graph of the quadratic function <m>f\left( x\right) =ax^{2}+bx+c</m>, for <m>a \neq 0</m>, is a <fillin characters="15" />.
+            The parabola opens upward for <fillin characters="15" /> and opens downward for <fillin characters="15" />.
+          </p>
+          <p>
+            For a function <m>f\left(x\right) =a\left( x-h\right) ^{2}+k</m> with <m>a \neq 0</m>, the <b>vertex</b> is <fillin characters="15" />. 
+            Consider the functions, with given values of <m>a</m>.
+          </p>
+
+          <sidebyside widths="45% 45%" margins="auto">
+            <stack>
+              <p halign="center"><m>a \lt 0</m></p>
+              <figure xml:id="fig-quad-opens-down">
+                <caption>Parabola opening downward</caption>
+                <image>
+                  <prefigure xmlns="https://prefigure.org" label="prefig-quad-opens-down">
+                    <diagram dimensions="(200,200)" margins="20">
+                      <definition>f(x) = -(x^2) - 2*x + 1</definition>
+                      <coordinates bbox="(-3.5,-3,2.5,3)">
+                        <grid-axes xlabel="x" ylabel="y" />
+                        <graph function="f" domain="[-3.5,2.5]" color="blue" thickness="1.5" />
+                        <point p="(-1,2)" color="red" size="3" />
+                      </coordinates>
+                    </diagram>
+                  </prefigure>
+                </image>
+              </figure>
+            </stack>
+            <stack>
+              <p halign="center"><m>a \gt 0</m></p>
+              <figure xml:id="fig-quad-opens-up">
+                <caption>Parabola opening upward</caption>
+                <image>
+                  <prefigure xmlns="https://prefigure.org" label="prefig-quad-opens-up">
+                    <diagram dimensions="(200,200)" margins="20">
+                      <definition>f(x) = x^2 - 2*x - 1</definition>
+                      <coordinates bbox="(-2.5,-3,3.5,3)">
+                        <grid-axes xlabel="x" ylabel="y" />
+                        <graph function="f" domain="[-2.5,3.5]" color="blue" thickness="1.5" />
+                        <point p="(1,-2)" color="red" size="3" />
+                      </coordinates>
+                    </diagram>
+                  </prefigure>
+                </image>
+              </figure>
+            </stack>
+          </sidebyside>
+
+          <p>The axis of symmetry is <fillin characters="15" />.</p>
+          <p>The domain of the function is <fillin characters="15" />.</p>
+          <p>
+            If <m>a \lt 0</m>, the maximum value of the function is <m>k</m> and the range is <fillin characters="15" />.
+            If <m>a \gt 0</m>, the minimum value of the function is <m>k</m> and the range is <fillin characters="15" />.
+          </p>
+        </assemblage>
+
+        <example xml:id="ex-graph-quad-vertex">
+          <statement>
+            <p>
+              Graph <m>f\left( x\right) =\left( x-3\right) ^{2}-9</m>. 
+              Determine whether the graph opens upward or downward. Identify the vertex, <m>x</m>-intercept(s), and <m>y</m>-intercept.
+            </p>
+            <figure xml:id="fig-blank-grid-quad-1">
+              <caption>Blank Grid</caption>
+              <image width="50%">
+                <prefigure xmlns="https://prefigure.org" label="prefig-blank-grid-quad-1">
+                  <diagram dimensions="(300,300)" margins="15">
+                    <coordinates bbox="(-4,-11,9,5)">
+                      <grid-axes xlabel="x" ylabel="y" />
+                    </coordinates>
+                  </diagram>
+                </prefigure>
+              </image>
+            </figure>
+          </statement>
+        </example>
+
+        <assemblage xml:id="box-quad-real-zeros">
+          <title>Quadratic functions, real zeros and <m>x</m>-intercepts</title>
+          <p>
+            Connection: In R.6 we learned, if the <b>discriminant</b>, <fillin characters="15" /> of a quadratic equation is:
+          </p>
+          <ul>
+            <li>zero: there is one real root.</li>
+            <li>positive: there are two real roots.</li>
+            <li>negative: there are two non-real complex conjugate roots.</li>
+          </ul>
+          <p>
+            This has direct implications for the number of zeros for quadratic functions.
+            For <me>f\left( x\right) =ax^{2}+bx+c \text{ (where } a \neq 0)</me>,
+          </p>
+          <ol>
+            <li>If <m>b^{2}-4ac=0</m>, the graph of <m>y=f\left( x\right)</m> has <fillin characters="15" />.</li>
+            <li>If <m>b^{2}-4ac \gt 0</m>, the graph of <m>y=f\left( x\right)</m> has <fillin characters="15" />.</li>
+            <li>If <m>b^{2}-4ac \lt 0</m>, the graph of <m>y=f\left( x\right)</m> has <fillin characters="15" />.</li>
+          </ol>
+        </assemblage>
+
+        <assemblage xml:id="obj-rewrite-vertex-form">
+          <title>Rewrite quadratic functions in vertex form</title>
+          <p>
+            We can rewrite <m>ax^2+bx+c</m> into vertex form, <m>a\left(x-h\right)^2+k</m>, in terms of the coefficients <m>a</m>, <m>b</m>, and <m>c</m>.
+          </p>
+          <md>
+            <mrow>ax^2+bx+c \amp =a(x-h)^2+k</mrow>
+            <mrow>ax^2+bx+c \amp =ax^2-2ahx+ah^2+k</mrow>
+          </md>
+          <p>
+            Comparing the coefficients for each term we can see <m>b=-2ah</m> and <m>c=ah^2+k</m>.
+            Solving for <m>h</m> and <m>k</m> we get <m>h=\frac{-b}{2a}</m> and <m>k=c-a\left(\frac{-b}{2a}\right)^2=c-\frac{b^2}{4a}</m>. Therefore,
+          </p>
+          <me>ax^2+bx+c = \underline{\hspace{3in}}</me>
+        </assemblage>
+
+        <example xml:id="ex-solve-quad-completing-square">
+          <statement>
+            <p>
+              Solve <m>4x^{2}-16x + 15 =0</m> by rewriting the quadratic in vertex form and applying the square root property.
+              Express the solution set in exact simplest form.
+            </p>
+          </statement>
+        </example>
+
+        <example xml:id="ex-write-in-vertex-graph">
+          <statement>
+            <p>
+              Write <m>f\left( x\right) =-x^{2}-2x+3</m> in vertex form. Then graph the function.
+              Identify the vertex and axis of symmetry. Write the domain and range in interval notation.
+              Write the intervals where <m>f(x)</m> is increasing and decreasing.
+            </p>
+            <figure xml:id="fig-blank-grid-quad-2">
+              <caption>Blank Grid</caption>
+              <image width="50%">
+                <prefigure xmlns="https://prefigure.org" label="prefig-blank-grid-quad-2">
+                  <diagram dimensions="(300,300)" margins="15">
+                    <coordinates bbox="(-6,-6,6,6)">
+                      <grid-axes xlabel="x" ylabel="y" />
+                    </coordinates>
+                  </diagram>
+                </prefigure>
+              </image>
+            </figure>
+          </statement>
+        </example>
+
+        <p>
+          <term>REMARK:</term> The vertex form of a quadratic function, <m>f(x) = a\left(x-\left(-\frac{b}{2a}\right)\right)^2 + c-\frac{b^2}{4a}</m>, provides us with one method of finding the vertex.
+          However, notice if we plug <m>h = -\frac{b}{2a}</m> into this form, the squared term becomes zero, which just leaves <m>f\left(-\frac{b}{2a}\right) = k</m>.
+          This gives us an alternate computational way to find the vertex directly from the standard form, <m>f(x) = ax^2 + bx + c</m>.
+        </p>
+
+        <assemblage xml:id="obj-vertex-formula">
+          <title>Find the vertex of a parabola using the vertex formula</title>
+          <p>
+            For a quadratic function <m>f\left( x\right) =ax^{2}+bx+c</m> (where <m>a \neq 0</m>), the vertex is <m>\left( h,k \right)</m>, where <m>h = </m> <fillin characters="10"/> and <m>k = </m> <fillin characters="10"/>.
+          </p>
+        </assemblage>
+
+        <example xml:id="ex-graph-quad-standard">
+          <statement>
+            <p>
+              Graph <m>f\left( x\right) =3x^{2}+12x+5</m>.
+              Determine the minimum or maximum value of <m>f(x)</m>.
+            </p>
+            <figure xml:id="fig-blank-grid-quad-3">
+              <caption>Blank Grid</caption>
+              <image width="50%">
+                <prefigure xmlns="https://prefigure.org" label="prefig-blank-grid-quad-3">
+                  <diagram dimensions="(300,300)" margins="15">
+                    <coordinates bbox="(-7,-10,3,10)">
+                      <grid-axes xlabel="x" ylabel="y" />
+                    </coordinates>
+                  </diagram>
+                </prefigure>
+              </image>
+            </figure>
+          </statement>
+        </example>
+
+        <example xml:id="ex-find-quad-equation">
+          <statement>
+            <p>
+              Determine the equation of a quadratic function <m>f\left( x\right)</m> with a vertical axis of symmetry, 
+              vertex at <m>(5, -2)</m>, and <m>y</m>-intercept at <m>3</m>.
+            </p>
+          </statement>
+        </example>
+
+        <p><b>Check your understanding</b></p>
+
+        <exercise xml:id="cyu-discriminant-conclusions">
+          <introduction>
+            <p>
+              If <m>b^{2}-4ac \lt 0</m>, which of the following conclusions can be made about the
+              graph of <m>f\left( x\right) =ax^{2}+bx+c</m>, where <m>a \neq 0</m>?
+            </p>
+          </introduction>
+          <task xml:id="task-cyu-disc-1">
+            <statement><p>The graph has two distinct <m>x</m>-intercepts.</p></statement>
+          </task>
+          <task xml:id="task-cyu-disc-2">
+            <statement><p>The graph has no <m>x</m>-intercepts.</p></statement>
+          </task>
+          <task xml:id="task-cyu-disc-3">
+            <statement><p>The graph has one <m>x</m>-intercept.</p></statement>
+          </task>
+          <task xml:id="task-cyu-disc-4">
+            <statement><p>The graph has three distinct <m>x</m>-intercepts.</p></statement>
+          </task>
+        </exercise>
+
+        <exercise xml:id="cyu-increasing-decreasing">
+          <introduction>
+            <p>
+              Determine where the function <m>f\left( x\right) =x^{2}-6x+8</m> is increasing
+              and where its is decreasing.
+            </p>
+          </introduction>
+          <task xml:id="task-cyu-inc-dec-1">
+            <statement><p>Increasing on <m>\left( -\infty ,-1\right)</m>, decreasing on <m>\left( -1,\infty \right)</m></p></statement>
+          </task>
+          <task xml:id="task-cyu-inc-dec-2">
+            <statement><p>Increasing on <m>\left( -\infty ,3\right)</m>, decreasing on <m>\left( 3,\infty \right)</m></p></statement>
+          </task>
+          <task xml:id="task-cyu-inc-dec-3">
+            <statement><p>Increasing on <m>\left( 3,\infty \right)</m>, decreasing on <m>\left( -\infty ,3\right)</m></p></statement>
+          </task>
+          <task xml:id="task-cyu-inc-dec-4">
+            <statement><p>Increasing on <m>\left( -1,\infty \right)</m>, decreasing on <m>\left( -\infty ,-1\right)</m></p></statement>
+          </task>
+        </exercise>
+
+        <exercise xml:id="cyu-min-max-quad">
+          <introduction>
+            <p>
+              Determine, without graphing, whether the quadratic function has a maximum value or a minimum value.
+              Then find the extreme value.
+              <me>f\left( x\right) =-3x^{2}+12x</me>
+            </p>
+          </introduction>
+          <task xml:id="task-cyu-min-max-1">
+            <statement><p>Maximum value is <m>2</m>.</p></statement>
+          </task>
+          <task xml:id="task-cyu-min-max-2">
+            <statement><p>Maximum value is <m>12</m>.</p></statement>
+          </task>
+          <task xml:id="task-cyu-min-max-3">
+            <statement><p>Maximum value is <m>36</m>.</p></statement>
+          </task>
+          <task xml:id="task-cyu-min-max-4">
+            <statement><p>Minimum value is <m>2</m>.</p></statement>
+          </task>
+          <task xml:id="task-cyu-min-max-5">
+            <statement><p>Minimum value is <m>12</m>.</p></statement>
+          </task>
+          <task xml:id="task-cyu-min-max-6">
+            <statement><p>Minimum value is <m>36</m>.</p></statement>
+          </task>
+        </exercise>
+
+        <exercise xml:id="cyu-write-vertex-graph">
+          <statement>
+            <p>
+              Write <m>f\left( x\right) =-3x^{2}+48x-165</m> in vertex form and graph the function. 
+              Determine the maximum or minimum value of <m>f</m>.
+              Identify the intervals where the function is increasing and where it is decreasing.
+              Write the domain and range in interval notation.
+            </p>
+            <figure xml:id="fig-blank-grid-quad-4">
+              <caption>Blank Grid</caption>
+              <image width="50%">
+                <prefigure xmlns="https://prefigure.org" label="prefig-blank-grid-quad-4">
+                  <diagram dimensions="(300,300)" margins="15">
+                    <coordinates bbox="(-2,-200,18,100)">
+                      <grid-axes xlabel="x" ylabel="y" />
+                    </coordinates>
+                  </diagram>
+                </prefigure>
+              </image>
+            </figure>
+          </statement>
+        </exercise>
+
+        <exercise xml:id="cyu-compare-quads">
+          <introduction>
+            <p>Answer the following questions based on these two quadratic functions.</p>
+            <ul>
+              <li>Function 1: <m>f\left( x\right) = \displaystyle\frac{1}{3}\left( x+2\right)^{2} + 4</m></li>
+              <li>Function 2: <m>g\left( x\right) = 3x^{2} -12x +17</m></li>
+            </ul>
+          </introduction>
+          <task xml:id="task-cyu-compare-1">
+            <statement><p>What is the vertex of Function 1?</p></statement>
+          </task>
+          <task xml:id="task-cyu-compare-2">
+            <statement><p>What is the vertex of Function 2?</p></statement>
+          </task>
+          <task xml:id="task-cyu-compare-3">
+            <statement><p>Which function has the smaller minimum value? What is the smaller minimum value?</p></statement>
+          </task>
+        </exercise>
+
+        <exercise xml:id="cyu-find-quad-pts">
+          <statement>
+            <p>
+              Determine the equation of a quadratic function <m>f\left( x\right)</m> with a vertical axis of symmetry, 
+              vertex at <m>(-5, 2)</m>, and passing through the point <m>P(-7, 6)</m>.
+            </p>
+          </statement>
+        </exercise>
+
+        <assemblage xml:id="obj-applications-quad">
+          <title>Solve applications involving quadratic functions</title>
+          <p>Quadratic functions are used to model the path of a projectile.</p>
+        </assemblage>
+
+        <example xml:id="ex-football-projectile">
+          <introduction>
+            <p>
+              A quarterback throws a football with an initial velocity of 72 ft/s at an angle of 25<degree/>.
+              The height of the ball can be modeled by <m>h\left( t \right) = -16t^2 +30.4t+5</m> where <m>h\left( t \right)</m> is the height (in feet) and <m>t</m> is the time in seconds after release.
+            </p>
+          </introduction>
+          <task xml:id="task-qb-time-max">
+            <statement><p>Determine the time at which the ball will be at its maximum height.</p></statement>
+          </task>
+          <task xml:id="task-qb-max-height">
+            <statement><p>Determine the maximum height of the ball.</p></statement>
+          </task>
+          <task xml:id="task-qb-time-catch">
+            <statement><p>Determine the amount of time required for the ball to reach the receiver's hands, if the receiver catches the ball at a point 3 feet off the ground. Round your answer to two decimal points.</p></statement>
+          </task>
+        </example>
+
+        <p><b>Students - Check your understanding</b></p>
+
+        <exercise xml:id="cyu-sherlock-bee">
+          <introduction>
+            <p>
+              At the end of his career, Sherlock Holmes retired to a small farm in the country and took up a hobby of beekeeping.
+              Being of an analytical mind, he could not just watch a bee fly from flower to flower, and so, formulated a mathematical model for the parabolic path the bee follows from flower A to flower B. 
+              The path is given by <m>f\left( x \right) = -0.03x^2 +1.8x - 24</m> where <m>x</m> is the distance in inches along the ground from Sherlock.
+            </p>
+          </introduction>
+          <task xml:id="task-sherlock-max-height">
+            <statement>
+              <p><em>What is the maximum height the bee reaches as it flies from A to B?</em></p>
+              <figure xml:id="fig-sherlock-bee">
+                <caption>Path of the Bee</caption>
+                <image width="50%">
+                  <prefigure xmlns="https://prefigure.org" label="prefig-sherlock-bee">
+                    <diagram dimensions="(250,200)" margins="15">
+                      <definition>f(x) = -0.5*(x^2) + 3*x - 1</definition>
+                      <coordinates bbox="(-2,-1,9,4)">
+                        <grid-axes xlabel="x" ylabel="y" />
+                        <graph function="f" domain="[0.35,5.64]" color="black" thickness="1.5" />
+                        <point p="(0.35,0)" color="red" size="4" />
+                        <point p="(5.64,0)" color="red" size="4" />
+                        <point p="(7,2)" color="black" size="4" />
+                      </coordinates>
+                    </diagram>
+                  </prefigure>
+                </image>
+              </figure>
+            </statement>
+          </task>
+          <task xml:id="task-sherlock-distance">
+            <statement>
+              <p><em>If Sherlock is standing at the origin, how far away from Sherlock is flower B?</em></p>
+            </statement>
+          </task>
+        </exercise>
+
+      </section>
+      

@@ -1,0 +1,16 @@
+{
+	"HOSTNAME": "codespaces-6dee42",
+	"RepositoryName": "fsu-precalc",
+	"CODESPACES": "true",
+	"ContainerVersion": "13",
+	"HOME": "/root",
+	"VIRTUAL_ENV": "/opt/venv",
+	"TMPDIR": "/",
+	"SHELL_LOGGED_IN": "true",
+	"SHLVL": "1",
+	"BASH_ENV": "/root/.bash_env",
+	"PS1": "\\[\\e[1;32m\\]\\u@\\h:\\[\\e[1;34m\\]\\w \\[\\e[0m\\]$ ",
+	"PATH": "/root/bin:/opt/venv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+	"OLDPWD": "/",
+	"_": "/usr/bin/cat"
+}
