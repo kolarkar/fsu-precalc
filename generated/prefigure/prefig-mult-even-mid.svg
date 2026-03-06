@@ -1,0 +1,148 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="prefig-mult-even-mid-figure" width="210" height="210" viewBox="0 0 210 210">
+  <defs>
+    <clipPath id="prefig-mult-even-mid-clipPath-0">
+      <rect x="15.0" y="15.0" width="180.0" height="180.0"/>
+    </clipPath>
+    <clipPath id="prefig-mult-even-mid-clipPath-1">
+      <rect x="15.0" y="15.0" width="180.0" height="180.0"/>
+    </clipPath>
+  </defs>
+  <g id="prefig-mult-even-mid-grid-axes">
+    <g id="prefig-mult-even-mid-grid" stroke="#ccc" stroke-width="1">
+      <line x1="30.0" y1="195.0" x2="30.0" y2="15.0"/>
+      <line x1="60.0" y1="195.0" x2="60.0" y2="15.0"/>
+      <line x1="90.0" y1="195.0" x2="90.0" y2="15.0"/>
+      <line x1="120.0" y1="195.0" x2="120.0" y2="15.0"/>
+      <line x1="150.0" y1="195.0" x2="150.0" y2="15.0"/>
+      <line x1="180.0" y1="195.0" x2="180.0" y2="15.0"/>
+      <line x1="15.0" y1="188.6" x2="195.0" y2="188.6"/>
+      <line x1="15.0" y1="156.4" x2="195.0" y2="156.4"/>
+      <line x1="15.0" y1="124.3" x2="195.0" y2="124.3"/>
+      <line x1="15.0" y1="92.1" x2="195.0" y2="92.1"/>
+      <line x1="15.0" y1="60.0" x2="195.0" y2="60.0"/>
+      <line x1="15.0" y1="27.9" x2="195.0" y2="27.9"/>
+    </g>
+    <g id="prefig-mult-even-mid-axes" stroke="black" stroke-width="2">
+      <line id="prefig-mult-even-mid-line-12" x1="15.0" y1="60.0" x2="195.0" y2="60.0" stroke="black" stroke-width="2"/>
+      <g>
+        <line id="prefig-mult-even-mid-line-13" x1="60.0" y1="63.0" x2="60.0" y2="57.0"/>
+        <line id="prefig-mult-even-mid-line-14" x1="180.0" y1="63.0" x2="180.0" y2="57.0"/>
+      </g>
+      <line id="prefig-mult-even-mid-line-15" x1="120.0" y1="195.0" x2="120.0" y2="15.0" stroke="black" stroke-width="2"/>
+      <g>
+        <line id="prefig-mult-even-mid-line-16" x1="117.0" y1="188.6" x2="123.0" y2="188.6"/>
+        <line id="prefig-mult-even-mid-line-17" x1="117.0" y1="124.3" x2="123.0" y2="124.3"/>
+      </g>
+    </g>
+    <g id="prefig-mult-even-mid-label-0" transform="translate(191.0,56.0) translate(-10.4,-8.2)">
+      <g id="prefig-mult-even-mid-g-0">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.200px" width="10.352px" height="8.200px" role="img" focusable="false" viewBox="0 -442 572 453" x="0.0" y="0.0">
+          <defs>
+            <path id="prefig-mult-even-mid-MJX-2-TEX-I-1D465" d="M52 289Q59 331 106 386T222 442Q257 442 286 424T329 379Q371 442 430 442Q467 442 494 420T522 361Q522 332 508 314T481 292T458 288Q439 288 427 299T415 328Q415 374 465 391Q454 404 425 404Q412 404 406 402Q368 386 350 336Q290 115 290 78Q290 50 306 38T341 26Q378 26 414 59T463 140Q466 150 469 151T485 153H489Q504 153 504 145Q504 144 502 134Q486 77 440 33T333 -11Q263 -11 227 52Q186 -10 133 -10H127Q78 -10 57 16T35 71Q35 103 54 123T99 143Q142 143 142 101Q142 81 130 66T107 46T94 41L91 40Q91 39 97 36T113 29T132 26Q168 26 194 71Q203 87 217 139T245 247T261 313Q266 340 266 352Q266 380 251 392T217 404Q177 404 142 372T93 290Q91 281 88 280T72 278H58Q52 284 52 289Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple" data-semantic-id="0" data-semantic-speech="x">
+                <use data-c="1D465" xlink:href="#prefig-mult-even-mid-MJX-2-TEX-I-1D465"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="prefig-mult-even-mid-label-1" transform="translate(124.0,19.0) translate(0.0,-0.0)">
+      <g id="prefig-mult-even-mid-g-1">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -3.712px" width="8.872px" height="11.712px" role="img" focusable="false" viewBox="0 -442 490 647" x="0.0" y="0.0">
+          <defs>
+            <path id="prefig-mult-even-mid-MJX-3-TEX-I-1D466" d="M21 287Q21 301 36 335T84 406T158 442Q199 442 224 419T250 355Q248 336 247 334Q247 331 231 288T198 191T182 105Q182 62 196 45T238 27Q261 27 281 38T312 61T339 94Q339 95 344 114T358 173T377 247Q415 397 419 404Q432 431 462 431Q475 431 483 424T494 412T496 403Q496 390 447 193T391 -23Q363 -106 294 -155T156 -205Q111 -205 77 -183T43 -117Q43 -95 50 -80T69 -58T89 -48T106 -45Q150 -45 150 -87Q150 -107 138 -122T115 -142T102 -147L99 -148Q101 -153 118 -160T152 -167H160Q177 -167 186 -165Q219 -156 247 -127T290 -65T313 -9T321 21L315 17Q309 13 296 6T270 -6Q250 -11 231 -11Q185 -11 150 11T104 82Q103 89 103 113Q103 170 138 262T173 379Q173 380 173 381Q173 390 173 393T169 400T158 404H154Q131 404 112 385T82 344T65 302T57 280Q55 278 41 278H27Q21 284 21 287Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple" data-semantic-id="0" data-semantic-speech="y">
+                <use data-c="1D466" xlink:href="#prefig-mult-even-mid-MJX-3-TEX-I-1D466"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="prefig-mult-even-mid-label-2" transform="translate(60.0,71.0) translate(-7.5,-0.0)">
+      <g id="prefig-mult-even-mid-g-2">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="15.080px" height="12.056px" role="img" focusable="false" viewBox="0 -666 833 666" x="0.0" y="0.0">
+          <defs>
+            <path id="prefig-mult-even-mid-MJX-4-TEX-N-2D" d="M11 179V252H277V179H11Z"/>
+            <path id="prefig-mult-even-mid-MJX-4-TEX-N-32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="hyphen 2">
+                <use data-c="2D" xlink:href="#prefig-mult-even-mid-MJX-4-TEX-N-2D"/>
+                <use data-c="32" xlink:href="#prefig-mult-even-mid-MJX-4-TEX-N-32" transform="translate(333,0)"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="prefig-mult-even-mid-label-3" transform="translate(180.0,71.0) translate(-4.5,-0.0)">
+      <g id="prefig-mult-even-mid-g-3">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="9.048px" height="12.056px" role="img" focusable="false" viewBox="0 -666 500 666" x="0.0" y="0.0">
+          <defs>
+            <path id="prefig-mult-even-mid-MJX-5-TEX-N-32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="2">
+                <use data-c="32" xlink:href="#prefig-mult-even-mid-MJX-5-TEX-N-32"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="prefig-mult-even-mid-label-4" transform="translate(109.0,188.6) translate(-24.1,-6.2)">
+      <g id="prefig-mult-even-mid-g-4">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="24.128px" height="12.456px" role="img" focusable="false" viewBox="0 -666 1333 688" x="0.0" y="0.0">
+          <defs>
+            <path id="prefig-mult-even-mid-MJX-6-TEX-N-2D" d="M11 179V252H277V179H11Z"/>
+            <path id="prefig-mult-even-mid-MJX-6-TEX-N-32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"/>
+            <path id="prefig-mult-even-mid-MJX-6-TEX-N-30" d="M96 585Q152 666 249 666Q297 666 345 640T423 548Q460 465 460 320Q460 165 417 83Q397 41 362 16T301 -15T250 -22Q224 -22 198 -16T137 16T82 83Q39 165 39 320Q39 494 96 585ZM321 597Q291 629 250 629Q208 629 178 597Q153 571 145 525T137 333Q137 175 145 125T181 46Q209 16 250 16Q290 16 318 46Q347 76 354 130T362 333Q362 478 354 524T321 597Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="hyphen 20">
+                <use data-c="2D" xlink:href="#prefig-mult-even-mid-MJX-6-TEX-N-2D"/>
+                <use data-c="32" xlink:href="#prefig-mult-even-mid-MJX-6-TEX-N-32" transform="translate(333,0)"/>
+                <use data-c="30" xlink:href="#prefig-mult-even-mid-MJX-6-TEX-N-30" transform="translate(833,0)"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="prefig-mult-even-mid-label-5" transform="translate(109.0,124.3) translate(-24.1,-6.2)">
+      <g id="prefig-mult-even-mid-g-5">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="24.128px" height="12.456px" role="img" focusable="false" viewBox="0 -666 1333 688" x="0.0" y="0.0">
+          <defs>
+            <path id="prefig-mult-even-mid-MJX-7-TEX-N-2D" d="M11 179V252H277V179H11Z"/>
+            <path id="prefig-mult-even-mid-MJX-7-TEX-N-31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"/>
+            <path id="prefig-mult-even-mid-MJX-7-TEX-N-30" d="M96 585Q152 666 249 666Q297 666 345 640T423 548Q460 465 460 320Q460 165 417 83Q397 41 362 16T301 -15T250 -22Q224 -22 198 -16T137 16T82 83Q39 165 39 320Q39 494 96 585ZM321 597Q291 629 250 629Q208 629 178 597Q153 571 145 525T137 333Q137 175 145 125T181 46Q209 16 250 16Q290 16 318 46Q347 76 354 130T362 333Q362 478 354 524T321 597Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="hyphen 10">
+                <use data-c="2D" xlink:href="#prefig-mult-even-mid-MJX-7-TEX-N-2D"/>
+                <use data-c="31" xlink:href="#prefig-mult-even-mid-MJX-7-TEX-N-31" transform="translate(333,0)"/>
+                <use data-c="30" xlink:href="#prefig-mult-even-mid-MJX-7-TEX-N-30" transform="translate(833,0)"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+  </g>
+  <path id="prefig-mult-even-mid-graph-0" stroke="blue" stroke-width="1.5" fill="none" d="M 27.0 26.5 L 28.4 43.2 L 29.9 58.8 L 31.3 73.1 L 32.8 86.3 L 34.2 98.4 L 35.6 109.4 L 37.1 119.4 L 38.5 128.5 L 40.0 136.6 L 41.4 143.9 L 42.8 150.3 L 44.3 155.9 L 45.7 160.8 L 47.2 164.9 L 48.6 168.4 L 50.0 171.2 L 51.5 173.4 L 52.9 175.0 L 54.4 176.1 L 55.8 176.7 L 57.2 176.7 L 58.7 176.4 L 60.1 175.6 L 61.6 174.5 L 63.0 173.0 L 64.4 171.2 L 65.9 169.1 L 67.3 166.7 L 68.8 164.0 L 70.2 161.2 L 71.6 158.1 L 73.1 154.9 L 74.5 151.6 L 76.0 148.1 L 77.4 144.5 L 78.8 140.8 L 80.3 137.0 L 81.7 133.3 L 83.2 129.4 L 84.6 125.6 L 86.0 121.8 L 87.5 118.0 L 88.9 114.2 L 90.4 110.5 L 91.8 106.9 L 93.2 103.3 L 94.7 99.8 L 96.1 96.4 L 97.6 93.1 L 99.0 89.9 L 100.4 86.9 L 101.9 83.9 L 103.3 81.1 L 104.8 78.5 L 106.2 76.0 L 107.6 73.7 L 109.1 71.5 L 110.5 69.4 L 112.0 67.6 L 113.4 65.9 L 114.8 64.3 L 116.3 62.9 L 117.7 61.7 L 119.2 60.6 L 120.6 59.6 L 122.0 58.8 L 123.5 58.2 L 124.9 57.7 L 126.4 57.3 L 127.8 57.0 L 129.2 56.9 L 130.7 56.8 L 132.1 56.9 L 133.6 57.0 L 135.0 57.2 L 136.4 57.4 L 137.9 57.8 L 139.3 58.1 L 140.8 58.4 L 142.2 58.8 L 143.6 59.1 L 145.1 59.4 L 146.5 59.7 L 148.0 59.9 L 149.4 60.0 L 150.8 60.0 L 152.3 59.8 L 153.7 59.5 L 155.2 59.1 L 156.6 58.4 L 158.0 57.5 L 159.5 56.4 L 160.9 54.9 L 162.4 53.2 L 163.8 51.1 L 165.2 48.7 L 166.7 45.9 L 168.1 42.7 L 169.6 39.0 L 171.0 34.8" clip-path="url(#prefig-mult-even-mid-clipPath-1)"/>
+  <circle id="prefig-mult-even-mid-circle-0" cx="150.0" cy="60.0" r="3" stroke="black" stroke-width="2" fill="red"/>
+  <circle id="prefig-mult-even-mid-circle-1" cx="120.0" cy="60.0" r="3" stroke="black" stroke-width="2" fill="red"/>
+  <circle id="prefig-mult-even-mid-circle-2" cx="30.0" cy="60.0" r="3" stroke="black" stroke-width="2" fill="red"/>
+</svg>

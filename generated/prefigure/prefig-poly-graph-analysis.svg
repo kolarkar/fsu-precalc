@@ -1,0 +1,145 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="prefig-poly-graph-analysis-figure" width="330" height="330" viewBox="0 0 330 330">
+  <defs>
+    <clipPath id="prefig-poly-graph-analysis-clipPath-0">
+      <rect x="15.0" y="15.0" width="300.0" height="300.0"/>
+    </clipPath>
+    <clipPath id="prefig-poly-graph-analysis-clipPath-1">
+      <rect x="15.0" y="15.0" width="300.0" height="300.0"/>
+    </clipPath>
+  </defs>
+  <g id="prefig-poly-graph-analysis-grid-axes">
+    <g id="prefig-poly-graph-analysis-grid" stroke="#ccc" stroke-width="1">
+      <line x1="15.0" y1="315.0" x2="15.0" y2="15.0"/>
+      <line x1="52.5" y1="315.0" x2="52.5" y2="15.0"/>
+      <line x1="90.0" y1="315.0" x2="90.0" y2="15.0"/>
+      <line x1="127.5" y1="315.0" x2="127.5" y2="15.0"/>
+      <line x1="165.0" y1="315.0" x2="165.0" y2="15.0"/>
+      <line x1="202.5" y1="315.0" x2="202.5" y2="15.0"/>
+      <line x1="240.0" y1="315.0" x2="240.0" y2="15.0"/>
+      <line x1="277.5" y1="315.0" x2="277.5" y2="15.0"/>
+      <line x1="315.0" y1="315.0" x2="315.0" y2="15.0"/>
+      <line x1="15.0" y1="315.0" x2="315.0" y2="315.0"/>
+      <line x1="15.0" y1="277.5" x2="315.0" y2="277.5"/>
+      <line x1="15.0" y1="240.0" x2="315.0" y2="240.0"/>
+      <line x1="15.0" y1="202.5" x2="315.0" y2="202.5"/>
+      <line x1="15.0" y1="165.0" x2="315.0" y2="165.0"/>
+      <line x1="15.0" y1="127.5" x2="315.0" y2="127.5"/>
+      <line x1="15.0" y1="90.0" x2="315.0" y2="90.0"/>
+      <line x1="15.0" y1="52.5" x2="315.0" y2="52.5"/>
+      <line x1="15.0" y1="15.0" x2="315.0" y2="15.0"/>
+    </g>
+    <g id="prefig-poly-graph-analysis-axes" stroke="black" stroke-width="2">
+      <line id="prefig-poly-graph-analysis-line-18" x1="15.0" y1="165.0" x2="315.0" y2="165.0" stroke="black" stroke-width="2"/>
+      <g>
+        <line id="prefig-poly-graph-analysis-line-19" x1="90.0" y1="168.0" x2="90.0" y2="162.0"/>
+        <line id="prefig-poly-graph-analysis-line-20" x1="240.0" y1="168.0" x2="240.0" y2="162.0"/>
+      </g>
+      <line id="prefig-poly-graph-analysis-line-21" x1="165.0" y1="315.0" x2="165.0" y2="15.0" stroke="black" stroke-width="2"/>
+      <g>
+        <line id="prefig-poly-graph-analysis-line-22" x1="162.0" y1="240.0" x2="168.0" y2="240.0"/>
+        <line id="prefig-poly-graph-analysis-line-23" x1="162.0" y1="90.0" x2="168.0" y2="90.0"/>
+      </g>
+    </g>
+    <g id="prefig-poly-graph-analysis-label-0" transform="translate(311.0,161.0) translate(-10.4,-8.2)">
+      <g id="prefig-poly-graph-analysis-g-0">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.200px" width="10.352px" height="8.200px" role="img" focusable="false" viewBox="0 -442 572 453" x="0.0" y="0.0">
+          <defs>
+            <path id="prefig-poly-graph-analysis-MJX-2-TEX-I-1D465" d="M52 289Q59 331 106 386T222 442Q257 442 286 424T329 379Q371 442 430 442Q467 442 494 420T522 361Q522 332 508 314T481 292T458 288Q439 288 427 299T415 328Q415 374 465 391Q454 404 425 404Q412 404 406 402Q368 386 350 336Q290 115 290 78Q290 50 306 38T341 26Q378 26 414 59T463 140Q466 150 469 151T485 153H489Q504 153 504 145Q504 144 502 134Q486 77 440 33T333 -11Q263 -11 227 52Q186 -10 133 -10H127Q78 -10 57 16T35 71Q35 103 54 123T99 143Q142 143 142 101Q142 81 130 66T107 46T94 41L91 40Q91 39 97 36T113 29T132 26Q168 26 194 71Q203 87 217 139T245 247T261 313Q266 340 266 352Q266 380 251 392T217 404Q177 404 142 372T93 290Q91 281 88 280T72 278H58Q52 284 52 289Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple" data-semantic-id="0" data-semantic-speech="x">
+                <use data-c="1D465" xlink:href="#prefig-poly-graph-analysis-MJX-2-TEX-I-1D465"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="prefig-poly-graph-analysis-label-1" transform="translate(169.0,19.0) translate(0.0,-0.0)">
+      <g id="prefig-poly-graph-analysis-g-1">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -3.712px" width="8.872px" height="11.712px" role="img" focusable="false" viewBox="0 -442 490 647" x="0.0" y="0.0">
+          <defs>
+            <path id="prefig-poly-graph-analysis-MJX-3-TEX-I-1D466" d="M21 287Q21 301 36 335T84 406T158 442Q199 442 224 419T250 355Q248 336 247 334Q247 331 231 288T198 191T182 105Q182 62 196 45T238 27Q261 27 281 38T312 61T339 94Q339 95 344 114T358 173T377 247Q415 397 419 404Q432 431 462 431Q475 431 483 424T494 412T496 403Q496 390 447 193T391 -23Q363 -106 294 -155T156 -205Q111 -205 77 -183T43 -117Q43 -95 50 -80T69 -58T89 -48T106 -45Q150 -45 150 -87Q150 -107 138 -122T115 -142T102 -147L99 -148Q101 -153 118 -160T152 -167H160Q177 -167 186 -165Q219 -156 247 -127T290 -65T313 -9T321 21L315 17Q309 13 296 6T270 -6Q250 -11 231 -11Q185 -11 150 11T104 82Q103 89 103 113Q103 170 138 262T173 379Q173 380 173 381Q173 390 173 393T169 400T158 404H154Q131 404 112 385T82 344T65 302T57 280Q55 278 41 278H27Q21 284 21 287Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple" data-semantic-id="0" data-semantic-speech="y">
+                <use data-c="1D466" xlink:href="#prefig-poly-graph-analysis-MJX-3-TEX-I-1D466"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="prefig-poly-graph-analysis-label-2" transform="translate(90.0,176.0) translate(-7.5,-0.0)">
+      <g id="prefig-poly-graph-analysis-g-2">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="15.080px" height="12.456px" role="img" focusable="false" viewBox="0 -666 833 688" x="0.0" y="0.0">
+          <defs>
+            <path id="prefig-poly-graph-analysis-MJX-4-TEX-N-2D" d="M11 179V252H277V179H11Z"/>
+            <path id="prefig-poly-graph-analysis-MJX-4-TEX-N-35" d="M164 157Q164 133 148 117T109 101H102Q148 22 224 22Q294 22 326 82Q345 115 345 210Q345 313 318 349Q292 382 260 382H254Q176 382 136 314Q132 307 129 306T114 304Q97 304 95 310Q93 314 93 485V614Q93 664 98 664Q100 666 102 666Q103 666 123 658T178 642T253 634Q324 634 389 662Q397 666 402 666Q410 666 410 648V635Q328 538 205 538Q174 538 149 544L139 546V374Q158 388 169 396T205 412T256 420Q337 420 393 355T449 201Q449 109 385 44T229 -22Q148 -22 99 32T50 154Q50 178 61 192T84 210T107 214Q132 214 148 197T164 157Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="hyphen 5">
+                <use data-c="2D" xlink:href="#prefig-poly-graph-analysis-MJX-4-TEX-N-2D"/>
+                <use data-c="35" xlink:href="#prefig-poly-graph-analysis-MJX-4-TEX-N-35" transform="translate(333,0)"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="prefig-poly-graph-analysis-label-3" transform="translate(240.0,176.0) translate(-4.5,-0.0)">
+      <g id="prefig-poly-graph-analysis-g-3">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="9.048px" height="12.456px" role="img" focusable="false" viewBox="0 -666 500 688" x="0.0" y="0.0">
+          <defs>
+            <path id="prefig-poly-graph-analysis-MJX-5-TEX-N-35" d="M164 157Q164 133 148 117T109 101H102Q148 22 224 22Q294 22 326 82Q345 115 345 210Q345 313 318 349Q292 382 260 382H254Q176 382 136 314Q132 307 129 306T114 304Q97 304 95 310Q93 314 93 485V614Q93 664 98 664Q100 666 102 666Q103 666 123 658T178 642T253 634Q324 634 389 662Q397 666 402 666Q410 666 410 648V635Q328 538 205 538Q174 538 149 544L139 546V374Q158 388 169 396T205 412T256 420Q337 420 393 355T449 201Q449 109 385 44T229 -22Q148 -22 99 32T50 154Q50 178 61 192T84 210T107 214Q132 214 148 197T164 157Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="5">
+                <use data-c="35" xlink:href="#prefig-poly-graph-analysis-MJX-5-TEX-N-35"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="prefig-poly-graph-analysis-label-4" transform="translate(154.0,240.0) translate(-15.1,-6.2)">
+      <g id="prefig-poly-graph-analysis-g-4">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="15.080px" height="12.456px" role="img" focusable="false" viewBox="0 -666 833 688" x="0.0" y="0.0">
+          <defs>
+            <path id="prefig-poly-graph-analysis-MJX-6-TEX-N-2D" d="M11 179V252H277V179H11Z"/>
+            <path id="prefig-poly-graph-analysis-MJX-6-TEX-N-35" d="M164 157Q164 133 148 117T109 101H102Q148 22 224 22Q294 22 326 82Q345 115 345 210Q345 313 318 349Q292 382 260 382H254Q176 382 136 314Q132 307 129 306T114 304Q97 304 95 310Q93 314 93 485V614Q93 664 98 664Q100 666 102 666Q103 666 123 658T178 642T253 634Q324 634 389 662Q397 666 402 666Q410 666 410 648V635Q328 538 205 538Q174 538 149 544L139 546V374Q158 388 169 396T205 412T256 420Q337 420 393 355T449 201Q449 109 385 44T229 -22Q148 -22 99 32T50 154Q50 178 61 192T84 210T107 214Q132 214 148 197T164 157Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="hyphen 5">
+                <use data-c="2D" xlink:href="#prefig-poly-graph-analysis-MJX-6-TEX-N-2D"/>
+                <use data-c="35" xlink:href="#prefig-poly-graph-analysis-MJX-6-TEX-N-35" transform="translate(333,0)"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="prefig-poly-graph-analysis-label-5" transform="translate(154.0,90.0) translate(-9.0,-6.2)">
+      <g id="prefig-poly-graph-analysis-g-5">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="9.048px" height="12.456px" role="img" focusable="false" viewBox="0 -666 500 688" x="0.0" y="0.0">
+          <defs>
+            <path id="prefig-poly-graph-analysis-MJX-7-TEX-N-35" d="M164 157Q164 133 148 117T109 101H102Q148 22 224 22Q294 22 326 82Q345 115 345 210Q345 313 318 349Q292 382 260 382H254Q176 382 136 314Q132 307 129 306T114 304Q97 304 95 310Q93 314 93 485V614Q93 664 98 664Q100 666 102 666Q103 666 123 658T178 642T253 634Q324 634 389 662Q397 666 402 666Q410 666 410 648V635Q328 538 205 538Q174 538 149 544L139 546V374Q158 388 169 396T205 412T256 420Q337 420 393 355T449 201Q449 109 385 44T229 -22Q148 -22 99 32T50 154Q50 178 61 192T84 210T107 214Q132 214 148 197T164 157Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="5">
+                <use data-c="35" xlink:href="#prefig-poly-graph-analysis-MJX-7-TEX-N-35"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+  </g>
+  <path id="prefig-poly-graph-analysis-graph-0" stroke="blue" stroke-width="1.5" fill="none" d="M 58.5 325.0 L 60.9 300.9 L 63.4 278.9 L 65.8 258.7 L 68.2 240.4 L 70.7 223.8 L 73.1 208.9 L 75.5 195.5 L 77.9 183.5 L 80.4 173.0 L 82.8 163.7 L 85.2 155.7 L 87.7 148.9 L 90.1 143.1 L 92.5 138.4 L 95.0 134.6 L 97.4 131.7 L 99.8 129.6 L 102.2 128.2 L 104.7 127.5 L 107.1 127.4 L 109.5 127.9 L 112.0 129.0 L 114.4 130.4 L 116.8 132.3 L 119.2 134.5 L 121.7 137.0 L 124.1 139.8 L 126.5 142.8 L 129.0 146.0 L 131.4 149.2 L 133.8 152.6 L 136.3 156.0 L 138.7 159.5 L 141.1 162.9 L 143.6 166.3 L 146.0 169.6 L 148.4 172.7 L 150.8 175.8 L 153.3 178.7 L 155.7 181.4 L 158.1 183.9 L 160.6 186.2 L 163.0 188.3 L 165.4 190.1 L 167.8 191.7 L 170.3 193.0 L 172.7 194.0 L 175.1 194.7 L 177.6 195.2 L 180.0 195.3 L 182.4 195.2 L 184.9 194.7 L 187.3 194.0 L 189.7 193.0 L 192.2 191.7 L 194.6 190.1 L 197.0 188.3 L 199.4 186.2 L 201.9 183.9 L 204.3 181.4 L 206.7 178.7 L 209.2 175.8 L 211.6 172.7 L 214.0 169.6 L 216.5 166.3 L 218.9 162.9 L 221.3 159.5 L 223.7 156.0 L 226.2 152.6 L 228.6 149.2 L 231.0 146.0 L 233.5 142.8 L 235.9 139.8 L 238.3 137.0 L 240.8 134.5 L 243.2 132.3 L 245.6 130.4 L 248.0 129.0 L 250.5 127.9 L 252.9 127.4 L 255.3 127.5 L 257.8 128.2 L 260.2 129.6 L 262.6 131.7 L 265.1 134.6 L 267.5 138.4 L 269.9 143.1 L 272.3 148.9 L 274.8 155.7 L 277.2 163.7 L 279.6 173.0 L 282.1 183.5 L 284.5 195.5 L 286.9 208.9 L 289.4 223.8 L 291.8 240.4 L 294.2 258.7 L 296.6 278.9 L 299.1 300.9 L 301.5 325.0" clip-path="url(#prefig-poly-graph-analysis-clipPath-1)"/>
+</svg>

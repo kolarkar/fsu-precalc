@@ -1,0 +1,144 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="prefig-trans-a-neg-even-figure" width="180" height="180" viewBox="0 0 180 180">
+  <defs>
+    <clipPath id="prefig-trans-a-neg-even-clipPath-0">
+      <rect x="15.0" y="15.0" width="150.0" height="150.0"/>
+    </clipPath>
+    <clipPath id="prefig-trans-a-neg-even-clipPath-1">
+      <rect x="15.0" y="15.0" width="150.0" height="150.0"/>
+    </clipPath>
+  </defs>
+  <g id="prefig-trans-a-neg-even-grid-axes">
+    <g id="prefig-trans-a-neg-even-grid" stroke="#ccc" stroke-width="1">
+      <line x1="15.0" y1="165.0" x2="15.0" y2="15.0"/>
+      <line x1="33.8" y1="165.0" x2="33.8" y2="15.0"/>
+      <line x1="52.5" y1="165.0" x2="52.5" y2="15.0"/>
+      <line x1="71.2" y1="165.0" x2="71.2" y2="15.0"/>
+      <line x1="90.0" y1="165.0" x2="90.0" y2="15.0"/>
+      <line x1="108.8" y1="165.0" x2="108.8" y2="15.0"/>
+      <line x1="127.5" y1="165.0" x2="127.5" y2="15.0"/>
+      <line x1="146.2" y1="165.0" x2="146.2" y2="15.0"/>
+      <line x1="165.0" y1="165.0" x2="165.0" y2="15.0"/>
+      <line x1="15.0" y1="165.0" x2="165.0" y2="165.0"/>
+      <line x1="15.0" y1="146.2" x2="165.0" y2="146.2"/>
+      <line x1="15.0" y1="127.5" x2="165.0" y2="127.5"/>
+      <line x1="15.0" y1="108.8" x2="165.0" y2="108.8"/>
+      <line x1="15.0" y1="90.0" x2="165.0" y2="90.0"/>
+      <line x1="15.0" y1="71.2" x2="165.0" y2="71.2"/>
+      <line x1="15.0" y1="52.5" x2="165.0" y2="52.5"/>
+      <line x1="15.0" y1="33.8" x2="165.0" y2="33.8"/>
+      <line x1="15.0" y1="15.0" x2="165.0" y2="15.0"/>
+    </g>
+    <g id="prefig-trans-a-neg-even-axes" stroke="black" stroke-width="2">
+      <line id="prefig-trans-a-neg-even-line-18" x1="15.0" y1="127.5" x2="165.0" y2="127.5" stroke="black" stroke-width="2"/>
+      <g>
+        <line id="prefig-trans-a-neg-even-line-19" x1="52.5" y1="130.5" x2="52.5" y2="124.5"/>
+        <line id="prefig-trans-a-neg-even-line-20" x1="127.5" y1="130.5" x2="127.5" y2="124.5"/>
+      </g>
+      <line id="prefig-trans-a-neg-even-line-21" x1="90.0" y1="165.0" x2="90.0" y2="15.0" stroke="black" stroke-width="2"/>
+      <g>
+        <line id="prefig-trans-a-neg-even-line-22" x1="87.0" y1="90.0" x2="93.0" y2="90.0"/>
+        <line id="prefig-trans-a-neg-even-line-23" x1="87.0" y1="52.5" x2="93.0" y2="52.5"/>
+      </g>
+    </g>
+    <g id="prefig-trans-a-neg-even-label-0" transform="translate(161.0,123.5) translate(-10.4,-8.2)">
+      <g id="prefig-trans-a-neg-even-g-0">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.200px" width="10.352px" height="8.200px" role="img" focusable="false" viewBox="0 -442 572 453" x="0.0" y="0.0">
+          <defs>
+            <path id="prefig-trans-a-neg-even-MJX-2-TEX-I-1D465" d="M52 289Q59 331 106 386T222 442Q257 442 286 424T329 379Q371 442 430 442Q467 442 494 420T522 361Q522 332 508 314T481 292T458 288Q439 288 427 299T415 328Q415 374 465 391Q454 404 425 404Q412 404 406 402Q368 386 350 336Q290 115 290 78Q290 50 306 38T341 26Q378 26 414 59T463 140Q466 150 469 151T485 153H489Q504 153 504 145Q504 144 502 134Q486 77 440 33T333 -11Q263 -11 227 52Q186 -10 133 -10H127Q78 -10 57 16T35 71Q35 103 54 123T99 143Q142 143 142 101Q142 81 130 66T107 46T94 41L91 40Q91 39 97 36T113 29T132 26Q168 26 194 71Q203 87 217 139T245 247T261 313Q266 340 266 352Q266 380 251 392T217 404Q177 404 142 372T93 290Q91 281 88 280T72 278H58Q52 284 52 289Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple" data-semantic-id="0" data-semantic-speech="x">
+                <use data-c="1D465" xlink:href="#prefig-trans-a-neg-even-MJX-2-TEX-I-1D465"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="prefig-trans-a-neg-even-label-1" transform="translate(94.0,19.0) translate(0.0,-0.0)">
+      <g id="prefig-trans-a-neg-even-g-1">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -3.712px" width="8.872px" height="11.712px" role="img" focusable="false" viewBox="0 -442 490 647" x="0.0" y="0.0">
+          <defs>
+            <path id="prefig-trans-a-neg-even-MJX-3-TEX-I-1D466" d="M21 287Q21 301 36 335T84 406T158 442Q199 442 224 419T250 355Q248 336 247 334Q247 331 231 288T198 191T182 105Q182 62 196 45T238 27Q261 27 281 38T312 61T339 94Q339 95 344 114T358 173T377 247Q415 397 419 404Q432 431 462 431Q475 431 483 424T494 412T496 403Q496 390 447 193T391 -23Q363 -106 294 -155T156 -205Q111 -205 77 -183T43 -117Q43 -95 50 -80T69 -58T89 -48T106 -45Q150 -45 150 -87Q150 -107 138 -122T115 -142T102 -147L99 -148Q101 -153 118 -160T152 -167H160Q177 -167 186 -165Q219 -156 247 -127T290 -65T313 -9T321 21L315 17Q309 13 296 6T270 -6Q250 -11 231 -11Q185 -11 150 11T104 82Q103 89 103 113Q103 170 138 262T173 379Q173 380 173 381Q173 390 173 393T169 400T158 404H154Q131 404 112 385T82 344T65 302T57 280Q55 278 41 278H27Q21 284 21 287Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple" data-semantic-id="0" data-semantic-speech="y">
+                <use data-c="1D466" xlink:href="#prefig-trans-a-neg-even-MJX-3-TEX-I-1D466"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="prefig-trans-a-neg-even-label-2" transform="translate(52.5,138.5) translate(-7.5,-0.0)">
+      <g id="prefig-trans-a-neg-even-g-2">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="15.080px" height="12.056px" role="img" focusable="false" viewBox="0 -666 833 666" x="0.0" y="0.0">
+          <defs>
+            <path id="prefig-trans-a-neg-even-MJX-4-TEX-N-2D" d="M11 179V252H277V179H11Z"/>
+            <path id="prefig-trans-a-neg-even-MJX-4-TEX-N-31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="hyphen 1">
+                <use data-c="2D" xlink:href="#prefig-trans-a-neg-even-MJX-4-TEX-N-2D"/>
+                <use data-c="31" xlink:href="#prefig-trans-a-neg-even-MJX-4-TEX-N-31" transform="translate(333,0)"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="prefig-trans-a-neg-even-label-3" transform="translate(127.5,138.5) translate(-4.5,-0.0)">
+      <g id="prefig-trans-a-neg-even-g-3">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="9.048px" height="12.056px" role="img" focusable="false" viewBox="0 -666 500 666" x="0.0" y="0.0">
+          <defs>
+            <path id="prefig-trans-a-neg-even-MJX-5-TEX-N-31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="1">
+                <use data-c="31" xlink:href="#prefig-trans-a-neg-even-MJX-5-TEX-N-31"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="prefig-trans-a-neg-even-label-4" transform="translate(79.0,90.0) translate(-9.0,-6.0)">
+      <g id="prefig-trans-a-neg-even-g-4">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="9.048px" height="12.056px" role="img" focusable="false" viewBox="0 -666 500 666" x="0.0" y="0.0">
+          <defs>
+            <path id="prefig-trans-a-neg-even-MJX-6-TEX-N-31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="1">
+                <use data-c="31" xlink:href="#prefig-trans-a-neg-even-MJX-6-TEX-N-31"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="prefig-trans-a-neg-even-label-5" transform="translate(79.0,52.5) translate(-9.0,-6.0)">
+      <g id="prefig-trans-a-neg-even-g-5">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="9.048px" height="12.056px" role="img" focusable="false" viewBox="0 -666 500 666" x="0.0" y="0.0">
+          <defs>
+            <path id="prefig-trans-a-neg-even-MJX-7-TEX-N-32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="2">
+                <use data-c="32" xlink:href="#prefig-trans-a-neg-even-MJX-7-TEX-N-32"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+  </g>
+  <path id="prefig-trans-a-neg-even-graph-0" stroke="blue" stroke-width="1.5" fill="none" d="M 24.4 167.3 L 25.7 162.8 L 27.0 158.3 L 28.3 154.0 L 29.6 149.7 L 30.9 145.5 L 32.2 141.4 L 33.6 137.4 L 34.9 133.5 L 36.2 129.7 L 37.5 126.0 L 38.8 122.4 L 40.1 118.8 L 41.4 115.4 L 42.8 112.0 L 44.1 108.8 L 45.4 105.6 L 46.7 102.5 L 48.0 99.5 L 49.3 96.6 L 50.6 93.8 L 51.9 91.1 L 53.2 88.5 L 54.6 86.0 L 55.9 83.6 L 57.2 81.2 L 58.5 79.0 L 59.8 76.8 L 61.1 74.7 L 62.4 72.8 L 63.8 70.9 L 65.1 69.1 L 66.4 67.4 L 67.7 65.8 L 69.0 64.3 L 70.3 62.8 L 71.6 61.5 L 72.9 60.3 L 74.2 59.1 L 75.6 58.1 L 76.9 57.1 L 78.2 56.2 L 79.5 55.4 L 80.8 54.8 L 82.1 54.2 L 83.4 53.6 L 84.8 53.2 L 86.1 52.9 L 87.4 52.7 L 88.7 52.5 L 90.0 52.5 L 91.3 52.5 L 92.6 52.7 L 93.9 52.9 L 95.2 53.2 L 96.6 53.6 L 97.9 54.2 L 99.2 54.8 L 100.5 55.4 L 101.8 56.2 L 103.1 57.1 L 104.4 58.1 L 105.8 59.1 L 107.1 60.3 L 108.4 61.5 L 109.7 62.8 L 111.0 64.3 L 112.3 65.8 L 113.6 67.4 L 114.9 69.1 L 116.2 70.9 L 117.6 72.8 L 118.9 74.7 L 120.2 76.8 L 121.5 79.0 L 122.8 81.2 L 124.1 83.6 L 125.4 86.0 L 126.8 88.5 L 128.1 91.1 L 129.4 93.8 L 130.7 96.6 L 132.0 99.5 L 133.3 102.5 L 134.6 105.6 L 135.9 108.8 L 137.2 112.0 L 138.6 115.4 L 139.9 118.8 L 141.2 122.4 L 142.5 126.0 L 143.8 129.7 L 145.1 133.5 L 146.4 137.4 L 147.8 141.4 L 149.1 145.5 L 150.4 149.7 L 151.7 154.0 L 153.0 158.3 L 154.3 162.8 L 155.6 167.3" clip-path="url(#prefig-trans-a-neg-even-clipPath-1)"/>
+  <circle id="prefig-trans-a-neg-even-circle-0" cx="90.0" cy="52.5" r="3" stroke="black" stroke-width="2" fill="red"/>
+</svg>

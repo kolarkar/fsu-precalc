@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<!--******************************************-->
+<!--*  Authored with PreTeXt                 *-->
+<!--*  pretextbook.org                       *-->
+<!--*  Theme: denver                         *-->
+<!--*  Palette:                              *-->
+<!--******************************************-->
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Polynomial Functions (ALEKS 2.2)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+<link href="_static/pretext/css/theme.css" rel="stylesheet" type="text/css">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math"
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "_static/pretext/js"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="Precalculus at FSU">
+<meta property="book:author" content="All Instructors">
+<script src="_static/pretext/js/jquery.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><!--** eBookCongig is necessary to configure interactive       **-->
+<!--** Runestone components to run locally in reader's browser **-->
+<!--** No external communication:                              **-->
+<!--**     log level is 0, Runestone Services are disabled     **-->
+<script type="text/javascript">
+eBookConfig = {};
+eBookConfig.useRunestoneServices = false;
+eBookConfig.host = 'http://127.0.0.1:8000';
+eBookConfig.course = 'PTX_Course_Title_Here';
+eBookConfig.basecourse = 'PTX_Base_Course';
+eBookConfig.isLoggedIn = false;
+eBookConfig.email = '';
+eBookConfig.isInstructor = false;
+eBookConfig.logLevel = 0;
+eBookConfig.username = '';
+eBookConfig.readings = null;
+eBookConfig.activities = null;
+eBookConfig.downloadsEnabled = false;
+eBookConfig.allow_pairs = false;
+eBookConfig.enableScratchAC = false;
+eBookConfig.build_info = "";
+eBookConfig.python3 = null;
+eBookConfig.runestone_version = '7.11.17';
+eBookConfig.jobehost = '';
+eBookConfig.proxyuri_runs = '';
+eBookConfig.proxyuri_files = '';
+eBookConfig.enable_chatcodes =  false;
+</script>
+<!--*** Runestone Services ***-->
+<script src="_static/prefix-runtime.86a1bdf80f338ffc.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.98ef3b0c170cd180.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.74f6fa0c85f09c79.css">
+<script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script>
+</head>
+<body id="fsuprecalc" class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner"><div class="title-container">
+<h1 class="heading"><a href="my-great-book.html"><span class="title">Precalculus at FSU</span> <span class="subtitle">A workbook</span></a></h1>
+<p class="byline">All Instructors</p>
+</div></div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><div class="ptx-navbar-contents">
+<button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="searchbox">
+<div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<div class="search-results-controls">
+<input aria-label="Search term" id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search term"><button title="Close search" id="closesearchresults" class="closesearchresults"><span class="material-symbols-outlined">close</span></button>
+</div>
+<h2 class="search-results-heading">Search Results: </h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div>
+<span class="nav-other-controls"><button id="light-dark-button" class="light-dark-button button" title="Dark Mode"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span class="name">Dark Mode</span></button></span><span class="treebuttons"><a class="previous-button button" href="sec-quad-functions-parabolas.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch-poly-rat-funcs.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="backmatter.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+</div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2 focused" data-preexpanded-levels="0" data-max-levels="2"><ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-frontmatter"><div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div></li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-review.html" class="internal"><span class="codenumber">1</span> <span class="title">Review</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-complex-numbers.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Complex Numbers (ALEKS R.6)</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-piecewise-functions.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Piecewise Functions (ALEKS 1.7)</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter contains-active">
+<div class="toc-title-box"><a href="ch-poly-rat-funcs.html" class="internal"><span class="codenumber">2</span> <span class="title">Polynomial and Rational Functions</span></a></div>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-quad-functions-parabolas.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Quadratic Functions (ALEKS 2.1)</span></a></div></li>
+<li class="toc-item toc-section active"><div class="toc-title-box"><a href="sec-polynomial-functions.html" class="internal"><span class="codenumber">2.2</span> <span class="title">Polynomial Functions (ALEKS 2.2)</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-backmatter"><div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div></li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec-polynomial-functions"><h2 class="heading hide-type">
+<span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.2</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Polynomial Functions (ALEKS 2.2)</span>
+</h2>
+<article class="definition definition-like" id="def-polynomial-function"><h3 class="heading">
+<span class="type">Definition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.2.1</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Polynomial function.</span>
+</h3>
+<div class="para logical" id="def-polynomial-function-2-1">
+<div class="para">A polynomial function of degree <span class="process-math">\(n\)</span> is a function that can be expressed as</div>
+<div class="displaymath process-math" id="def-polynomial-function-2-1-2">
+\begin{equation*}
+f\left( x\right)=a_{n}x^{n}+a_{n-1}x^{n-1}+...+a_{1}x+a_{0}
+\end{equation*}
+</div>
+<div class="para">where <span class="process-math">\(n\)</span> is a non-negative integer and <span class="process-math">\(a_n \neq 0\text{.}\)</span>
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#def-polynomial-function-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="def-polynomial-function-2-2">The given expression is called standard form, <span class="fillin underline" role="img" aria-label="15-character blank" style="width: 6.818181818181818em;"></span> is the leading term, and <span class="fillin underline" role="img" aria-label="15-character blank" style="width: 6.818181818181818em;"></span> is the constant term.<div class="autopermalink" data-description="Paragraph"><a href="#def-polynomial-function-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="def-polynomial-function-2-3">The domain of a polynomial is the set of all real numbers.<div class="autopermalink" data-description="Paragraph"><a href="#def-polynomial-function-2-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="def-polynomial-function-2-4">The graph of a polynomial is smooth and continuous.<div class="autopermalink" data-description="Paragraph"><a href="#def-polynomial-function-2-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Definition 2.2.1: Polynomial function"><a href="#def-polynomial-function" title="Copy heading and permalink for Definition 2.2.1: Polynomial function" aria-label="Copy heading and permalink for Definition 2.2.1: Polynomial function">🔗</a></div></article><details id="ex-identify-polynomials" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h3 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.2.2</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3></summary><article class="example example-like knowl__content"><div class="para" id="ex-identify-polynomials-1-1">Identify which of the following are polynomial functions and which are not. Write the polynomial functions in standard form and state the degree, leading term, and constant term.<div class="autopermalink" data-description="Paragraph"><a href="#ex-identify-polynomials-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <figure class="table table-like" id="ex-identify-polynomials-1-2"><figcaption><span class="type">Table</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.2.3<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Polynomial Identification<div class="autopermalink" data-description="Table 2.2.3: Polynomial Identification"><a href="#ex-identify-polynomials-1-2" title="Copy heading and permalink for Table 2.2.3: Polynomial Identification" aria-label="Copy heading and permalink for Table 2.2.3: Polynomial Identification">🔗</a></div></figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b2 r2 l2 t2 lines">Function</th>
+<th scope="col" class="c m b2 r2 l0 t2 lines">Poly? Y/N</th>
+<th scope="col" class="c m b2 r2 l0 t2 lines">Standard Form</th>
+<th scope="col" class="c m b2 r2 l0 t2 lines">Degree</th>
+<th scope="col" class="c m b2 r2 l0 t2 lines">Leading Term</th>
+<th scope="col" class="c m b2 r2 l0 t2 lines">Constant Term</th>
+</tr>
+<tr>
+<td class="c m b2 r2 l2 t0 lines"><span class="process-math">\(f(x) = -\pi x^5-1\)</span></td>
+<td class="c m b2 r2 l0 t0 lines"></td>
+<td class="c m b2 r2 l0 t0 lines"></td>
+<td class="c m b2 r2 l0 t0 lines"></td>
+<td class="c m b2 r2 l0 t0 lines"></td>
+<td class="c m b2 r2 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="c m b2 r2 l2 t0 lines"><span class="process-math">\(g(x) = -5x^\pi-1\)</span></td>
+<td class="c m b2 r2 l0 t0 lines"></td>
+<td class="c m b2 r2 l0 t0 lines"></td>
+<td class="c m b2 r2 l0 t0 lines"></td>
+<td class="c m b2 r2 l0 t0 lines"></td>
+<td class="c m b2 r2 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="c m b2 r2 l2 t0 lines"><span class="process-math">\(h(x) = \displaystyle \frac{x^2+3}{4}\)</span></td>
+<td class="c m b2 r2 l0 t0 lines"></td>
+<td class="c m b2 r2 l0 t0 lines"></td>
+<td class="c m b2 r2 l0 t0 lines"></td>
+<td class="c m b2 r2 l0 t0 lines"></td>
+<td class="c m b2 r2 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="c m b2 r2 l2 t0 lines"><span class="process-math">\(i(x) = \displaystyle \frac{x^2+3}{x}\)</span></td>
+<td class="c m b2 r2 l0 t0 lines"></td>
+<td class="c m b2 r2 l0 t0 lines"></td>
+<td class="c m b2 r2 l0 t0 lines"></td>
+<td class="c m b2 r2 l0 t0 lines"></td>
+<td class="c m b2 r2 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="c m b2 r2 l2 t0 lines"><span class="process-math">\(p(x) = \frac{1}{4}x^2+\sqrt{2}x\)</span></td>
+<td class="c m b2 r2 l0 t0 lines"></td>
+<td class="c m b2 r2 l0 t0 lines"></td>
+<td class="c m b2 r2 l0 t0 lines"></td>
+<td class="c m b2 r2 l0 t0 lines"></td>
+<td class="c m b2 r2 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="c m b2 r2 l2 t0 lines"><span class="process-math">\(q(x) = \frac{1}{4}x^2+\sqrt{2x}\)</span></td>
+<td class="c m b2 r2 l0 t0 lines"></td>
+<td class="c m b2 r2 l0 t0 lines"></td>
+<td class="c m b2 r2 l0 t0 lines"></td>
+<td class="c m b2 r2 l0 t0 lines"></td>
+<td class="c m b2 r2 l0 t0 lines"></td>
+</tr>
+</table></div></figure><div class="autopermalink" data-description="Example 2.2.2"><a href="#ex-identify-polynomials" title="Copy heading and permalink for Example 2.2.2" aria-label="Copy heading and permalink for Example 2.2.2">🔗</a></div></article></details><article class="assemblage assemblage-like" id="box-basic-power-functions"><h3 class="heading"><span class="title">Two Basic Power Functions.</span></h3>
+<div class="para" id="box-basic-power-functions-2">1. The graph of <span class="process-math">\(y=x^n\text{,}\)</span> where <span class="process-math">\(n\)</span> is a positive even integer.<div class="autopermalink" data-description="Paragraph"><a href="#box-basic-power-functions-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:2.5%;margin-right:2.5%;grid-template-columns:47.3684210526316% 47.3684210526316%;column-gap:5%;">
+<div class="sbspanel sbspanel--middle middle" style="">
+<div class="para" id="box-basic-power-functions-3-1-1">Domain?<div class="autopermalink" data-description="Paragraph"><a href="#box-basic-power-functions-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="box-basic-power-functions-3-1-2">Range?<div class="autopermalink" data-description="Paragraph"><a href="#box-basic-power-functions-3-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="box-basic-power-functions-3-1-3">Points?<div class="autopermalink" data-description="Paragraph"><a href="#box-basic-power-functions-3-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="box-basic-power-functions-3-1-4">Symmetry?<div class="autopermalink" data-description="Paragraph"><a href="#box-basic-power-functions-3-1-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+<div class="sbspanel sbspanel--middle middle" style=""><figure class="figure figure-like" id="fig-power-even"><div class="image-box"><img src="generated/prefigure/prefig-power-even.svg" role="img" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.2.4<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="process-math">\(y=x^2\)</span><div class="autopermalink" data-description="Figure 2.2.4"><a href="#fig-power-even" title="Copy heading and permalink for Figure 2.2.4" aria-label="Copy heading and permalink for Figure 2.2.4">🔗</a></div></figcaption></figure></div>
+</div></div>
+<div class="para" id="box-basic-power-functions-4">2. The graph of <span class="process-math">\(y=x^n\text{,}\)</span> where <span class="process-math">\(n\)</span> is a positive odd integer.<div class="autopermalink" data-description="Paragraph"><a href="#box-basic-power-functions-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:2.5%;margin-right:2.5%;grid-template-columns:47.3684210526316% 47.3684210526316%;column-gap:5%;">
+<div class="sbspanel sbspanel--middle middle" style="">
+<div class="para" id="box-basic-power-functions-5-1-1">Domain?<div class="autopermalink" data-description="Paragraph"><a href="#box-basic-power-functions-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="box-basic-power-functions-5-1-2">Range?<div class="autopermalink" data-description="Paragraph"><a href="#box-basic-power-functions-5-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="box-basic-power-functions-5-1-3">Points?<div class="autopermalink" data-description="Paragraph"><a href="#box-basic-power-functions-5-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="box-basic-power-functions-5-1-4">Symmetry?<div class="autopermalink" data-description="Paragraph"><a href="#box-basic-power-functions-5-1-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+<div class="sbspanel sbspanel--middle middle" style=""><figure class="figure figure-like" id="fig-power-odd"><div class="image-box"><img src="generated/prefigure/prefig-power-odd.svg" role="img" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.2.5<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="process-math">\(y=x^3\)</span><div class="autopermalink" data-description="Figure 2.2.5"><a href="#fig-power-odd" title="Copy heading and permalink for Figure 2.2.5" aria-label="Copy heading and permalink for Figure 2.2.5">🔗</a></div></figcaption></figure></div>
+</div></div>
+<div class="autopermalink" data-description="Assemblage: Two Basic Power Functions"><a href="#box-basic-power-functions" title="Copy heading and permalink for Assemblage: Two Basic Power Functions" aria-label="Copy heading and permalink for Assemblage: Two Basic Power Functions">🔗</a></div></article><article class="assemblage assemblage-like" id="box-transformations-xn"><h3 class="heading"><span class="title">Transformations of <span class="process-math">\(y=x^n\)</span> as <span class="process-math">\(y=a(x-h)^n+k\)</span>.</span></h3>
+<div class="sbsgroup">
+<div class="sidebyside"><div class="sbsrow" style="margin-left:1.666666666666667%;margin-right:1.666666666666667%;grid-template-columns:31.0344827586207% 31.0344827586207% 31.0344827586207%;column-gap:3.333333333333333%;">
+<div class="sbspanel sbspanel--middle middle" style="">
+<div class="para" id="box-transformations-xn-2-1-1-1">
+<span class="process-math">\(a \gt 0\text{,}\)</span> <span class="process-math">\(n\)</span> even<div class="autopermalink" data-description="Paragraph"><a href="#box-transformations-xn-2-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="box-transformations-xn-2-1-1-3">opens up<div class="autopermalink" data-description="Paragraph"><a href="#box-transformations-xn-2-1-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+<div class="sbspanel sbspanel--middle middle" style=""><ul class="disc" id="box-transformations-xn-2-1-2-1">
+<li id="box-transformations-xn-2-1-2-1-1">
+<div class="para" id="p-derived-box-transformations-xn-2-1-2-1-1">
+<span class="process-math">\(a \lt 0\text{:}\)</span> Reflect over <span class="process-math">\(x\)</span>-axis</div>
+<div class="autopermalink" data-description="Item"><a href="#box-transformations-xn-2-1-2-1-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="box-transformations-xn-2-1-2-1-2">
+<div class="para" id="p-derived-box-transformations-xn-2-1-2-1-2">
+<span class="process-math">\(a\)</span> scales vertically</div>
+<div class="autopermalink" data-description="Item"><a href="#box-transformations-xn-2-1-2-1-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="box-transformations-xn-2-1-2-1-3">
+<div class="para" id="p-derived-box-transformations-xn-2-1-2-1-3">
+<span class="process-math">\(h\)</span> shifts horizontally</div>
+<div class="autopermalink" data-description="Item"><a href="#box-transformations-xn-2-1-2-1-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="box-transformations-xn-2-1-2-1-4">
+<div class="para" id="p-derived-box-transformations-xn-2-1-2-1-4">
+<span class="process-math">\(k\)</span> shifts vertically</div>
+<div class="autopermalink" data-description="Item"><a href="#box-transformations-xn-2-1-2-1-4" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul></div>
+<div class="sbspanel sbspanel--middle middle" style="">
+<div class="para" id="box-transformations-xn-2-1-3-1">
+<span class="process-math">\(a \gt 0\text{,}\)</span> <span class="process-math">\(n\)</span> odd<div class="autopermalink" data-description="Paragraph"><a href="#box-transformations-xn-2-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="box-transformations-xn-2-1-3-3">always increasing<div class="autopermalink" data-description="Paragraph"><a href="#box-transformations-xn-2-1-3-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+</div></div>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:1.666666666666667%;margin-right:1.666666666666667%;grid-template-columns:31.0344827586207% 31.0344827586207% 31.0344827586207%;column-gap:3.333333333333333%;">
+<div class="sbspanel sbspanel--middle middle" style="">
+<div class="para" id="box-transformations-xn-2-2-1-1">
+<span class="process-math">\(a \lt 0\text{,}\)</span> <span class="process-math">\(n\)</span> even<div class="autopermalink" data-description="Paragraph"><a href="#box-transformations-xn-2-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="box-transformations-xn-2-2-1-3">opens down<div class="autopermalink" data-description="Paragraph"><a href="#box-transformations-xn-2-2-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+<div class="sbspanel sbspanel--middle middle" style=""><div class="para" id="box-transformations-xn-2-2-2"><div class="autopermalink" data-description="Paragraph"><a href="#box-transformations-xn-2-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div></div>
+<div class="sbspanel sbspanel--middle middle" style="">
+<div class="para" id="box-transformations-xn-2-2-3-1">
+<span class="process-math">\(a \lt 0\text{,}\)</span> <span class="process-math">\(n\)</span> odd<div class="autopermalink" data-description="Paragraph"><a href="#box-transformations-xn-2-2-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="box-transformations-xn-2-2-3-3">always decreasing<div class="autopermalink" data-description="Paragraph"><a href="#box-transformations-xn-2-2-3-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+</div></div>
+</div>
+<div class="autopermalink" data-description="Assemblage: Transformations of y=x^n as y=a(x-h)^n+k"><a href="#box-transformations-xn" title="Copy heading and permalink for Assemblage: Transformations of y=x^n as y=a(x-h)^n+k" aria-label="Copy heading and permalink for Assemblage: Transformations of y=x^n as y=a(x-h)^n+k">🔗</a></div></article><div class="para" id="sec-polynomial-functions-6">
+<dfn class="terminology">REMARK:</dfn> For power functions <span class="process-math">\(y=x^{n}\)</span> as <span class="process-math">\(n\)</span> increases the graph becomes flatter when <span class="process-math">\(-1 \lt x \lt 1\)</span> and steeper when <span class="process-math">\(\vert x \vert \gt 1\)</span> but the basic shape remains the same.<div class="autopermalink" data-description="Paragraph"><a href="#sec-polynomial-functions-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<article class="assemblage assemblage-like" id="obj-end-behavior"><h3 class="heading"><span class="title">Determine the end behavior of a polynomial function.</span></h3>
+<div class="para" id="obj-end-behavior-2">The end behavior of a polynomial function is the behavior of the graph of <span class="process-math">\(f(x)\)</span> as <span class="process-math">\(x\)</span> approaches positive infinity or negative infinity. The degree of the polynomial and the leading coefficient determine the end behavior of the graph.<div class="autopermalink" data-description="Paragraph"><a href="#obj-end-behavior-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Assemblage: Determine the end behavior of a polynomial function"><a href="#obj-end-behavior" title="Copy heading and permalink for Assemblage: Determine the end behavior of a polynomial function" aria-label="Copy heading and permalink for Assemblage: Determine the end behavior of a polynomial function">🔗</a></div></article><figure class="table table-like" id="sec-polynomial-functions-8"><figcaption><span class="type">Table</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.2.10<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Notation for end behavior<div class="autopermalink" data-description="Table 2.2.10: Notation for end behavior"><a href="#sec-polynomial-functions-8" title="Copy heading and permalink for Table 2.2.10: Notation for end behavior" aria-label="Copy heading and permalink for Table 2.2.10: Notation for end behavior">🔗</a></div></figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="l m b2 r0 l0 t2 lines">The symbol..</th>
+<th scope="col" class="l m b2 r0 l0 t2 lines">is read as..</th>
+<th scope="col" class="l m b2 r0 l0 t2 lines">which means that..</th>
+</tr>
+<tr>
+<td class="l m b2 r0 l0 t0 lines"><span class="process-math">\(x\rightarrow \infty\)</span></td>
+<td class="l m b2 r0 l0 t0 lines">"<span class="process-math">\(x\)</span> approaches infinity"</td>
+<td class="l m b2 r0 l0 t0 lines">
+<span class="process-math">\(x\)</span> becomes infinitely large in the positive direction</td>
+</tr>
+<tr>
+<td class="l m b2 r0 l0 t0 lines"><span class="process-math">\(x\rightarrow -\infty\)</span></td>
+<td class="l m b2 r0 l0 t0 lines">"<span class="process-math">\(x\)</span> approaches negative infinity"</td>
+<td class="l m b2 r0 l0 t0 lines">
+<span class="process-math">\(x\)</span> becomes infinitely large in the negative direction</td>
+</tr>
+<tr>
+<td class="l m b2 r0 l0 t0 lines"><span class="process-math">\(f\left( x\right) \rightarrow \infty\)</span></td>
+<td class="l m b2 r0 l0 t0 lines">"<span class="process-math">\(f(x)\)</span> approaches infinity"</td>
+<td class="l m b2 r0 l0 t0 lines">the <span class="process-math">\(y\)</span> value becomes infinitely large in the positive direction</td>
+</tr>
+<tr>
+<td class="l m b2 r0 l0 t0 lines"><span class="process-math">\(f\left( x\right) \rightarrow -\infty\)</span></td>
+<td class="l m b2 r0 l0 t0 lines">"<span class="process-math">\(f(x)\)</span> approaches negative infinity"</td>
+<td class="l m b2 r0 l0 t0 lines">the <span class="process-math">\(y\)</span> value becomes infinitely large in the negative direction</td>
+</tr>
+</table></div></figure><article class="assemblage assemblage-like" id="box-leading-term-test"><h3 class="heading"><span class="title">The Leading Term Test.</span></h3>
+<div class="sbsgroup">
+<div class="sidebyside"><div class="sbsrow" style="margin-left:2.5%;margin-right:2.5%;grid-template-columns:47.3684210526316% 47.3684210526316%;column-gap:5%;">
+<div class="sbspanel sbspanel--top top" style="">
+<div class="para" id="box-leading-term-test-2-1-1-1">
+<span class="process-math">\(a_n x^{\text{even}}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#box-leading-term-test-2-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="box-leading-term-test-2-1-1-2">
+<span class="process-math">\(a_n \gt 0\)</span><div class="autopermalink" data-description="Paragraph"><a href="#box-leading-term-test-2-1-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="box-leading-term-test-2-1-1-3">As <span class="process-math">\(x\rightarrow \infty\text{,}\)</span> <span class="process-math">\(f\left( x\right) \rightarrow \)</span> <span class="fillin underline" role="img" aria-label="5-character blank" style="width: 2.272727272727273em;"></span><div class="autopermalink" data-description="Paragraph"><a href="#box-leading-term-test-2-1-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="box-leading-term-test-2-1-1-4">As <span class="process-math">\(x\rightarrow -\infty\text{,}\)</span> <span class="process-math">\(f\left( x\right) \rightarrow \)</span> <span class="fillin underline" role="img" aria-label="5-character blank" style="width: 2.272727272727273em;"></span><div class="autopermalink" data-description="Paragraph"><a href="#box-leading-term-test-2-1-1-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+<div class="sbspanel sbspanel--top top" style="">
+<div class="para" id="box-leading-term-test-2-1-2-1">
+<span class="process-math">\(a_n x^{\text{even}}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#box-leading-term-test-2-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="box-leading-term-test-2-1-2-2">
+<span class="process-math">\(a_n \lt 0\)</span><div class="autopermalink" data-description="Paragraph"><a href="#box-leading-term-test-2-1-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="box-leading-term-test-2-1-2-3">As <span class="process-math">\(x\rightarrow \infty\text{,}\)</span> <span class="process-math">\(f\left( x\right) \rightarrow \)</span> <span class="fillin underline" role="img" aria-label="5-character blank" style="width: 2.272727272727273em;"></span><div class="autopermalink" data-description="Paragraph"><a href="#box-leading-term-test-2-1-2-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="box-leading-term-test-2-1-2-4">As <span class="process-math">\(x\rightarrow -\infty\text{,}\)</span> <span class="process-math">\(f\left( x\right) \rightarrow \)</span> <span class="fillin underline" role="img" aria-label="5-character blank" style="width: 2.272727272727273em;"></span><div class="autopermalink" data-description="Paragraph"><a href="#box-leading-term-test-2-1-2-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+</div></div>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:2.5%;margin-right:2.5%;grid-template-columns:47.3684210526316% 47.3684210526316%;column-gap:5%;">
+<div class="sbspanel sbspanel--top top" style="">
+<div class="para" id="box-leading-term-test-2-2-1-1">
+<span class="process-math">\(a_n x^{\text{odd}}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#box-leading-term-test-2-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="box-leading-term-test-2-2-1-2">
+<span class="process-math">\(a_n \gt 0\)</span><div class="autopermalink" data-description="Paragraph"><a href="#box-leading-term-test-2-2-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="box-leading-term-test-2-2-1-3">As <span class="process-math">\(x\rightarrow \infty\text{,}\)</span> <span class="process-math">\(f\left( x\right) \rightarrow \)</span> <span class="fillin underline" role="img" aria-label="5-character blank" style="width: 2.272727272727273em;"></span><div class="autopermalink" data-description="Paragraph"><a href="#box-leading-term-test-2-2-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="box-leading-term-test-2-2-1-4">As <span class="process-math">\(x\rightarrow -\infty\text{,}\)</span> <span class="process-math">\(f\left( x\right) \rightarrow \)</span> <span class="fillin underline" role="img" aria-label="5-character blank" style="width: 2.272727272727273em;"></span><div class="autopermalink" data-description="Paragraph"><a href="#box-leading-term-test-2-2-1-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+<div class="sbspanel sbspanel--top top" style="">
+<div class="para" id="box-leading-term-test-2-2-2-1">
+<span class="process-math">\(a_n x^{\text{odd}}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#box-leading-term-test-2-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="box-leading-term-test-2-2-2-2">
+<span class="process-math">\(a_n \lt 0\)</span><div class="autopermalink" data-description="Paragraph"><a href="#box-leading-term-test-2-2-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="box-leading-term-test-2-2-2-3">As <span class="process-math">\(x\rightarrow \infty\text{,}\)</span> <span class="process-math">\(f\left( x\right) \rightarrow \)</span> <span class="fillin underline" role="img" aria-label="5-character blank" style="width: 2.272727272727273em;"></span><div class="autopermalink" data-description="Paragraph"><a href="#box-leading-term-test-2-2-2-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="box-leading-term-test-2-2-2-4">As <span class="process-math">\(x\rightarrow -\infty\text{,}\)</span> <span class="process-math">\(f\left( x\right) \rightarrow \)</span> <span class="fillin underline" role="img" aria-label="5-character blank" style="width: 2.272727272727273em;"></span><div class="autopermalink" data-description="Paragraph"><a href="#box-leading-term-test-2-2-2-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+</div></div>
+</div>
+<div class="autopermalink" data-description="Assemblage: The Leading Term Test"><a href="#box-leading-term-test" title="Copy heading and permalink for Assemblage: The Leading Term Test" aria-label="Copy heading and permalink for Assemblage: The Leading Term Test">🔗</a></div></article><div class="para" id="sec-polynomial-functions-10">
+<dfn class="terminology">REMARK:</dfn> For a polynomial <span class="process-math">\(f\left( x\right) =a_{n}x^{n}+a_{n-1}x^{n-1}+...+a_{1}x+a_{0}\text{,}\)</span> we can observe the general direction the function follows by looking at the leading term, <span class="process-math">\(a_{n}x^{n}\text{.}\)</span> This is because the leading term dominates the behavior of the remaining terms as <span class="process-math">\(x\rightarrow \pm\infty\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#sec-polynomial-functions-10" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<details id="ex-det-end-behavior" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h3 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.2.15</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3></summary><article class="example example-like knowl__content"><div class="introduction" id="ex-det-end-behavior-1"><div class="para" id="ex-det-end-behavior-1-1">Determine the end behavior of the graph of the following functions.<div class="autopermalink" data-description="Paragraph"><a href="#ex-det-end-behavior-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+<article class="task exercise-like" id="task-end-behav-1"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="para" id="task-end-behav-1-1-1">
+<span class="process-math">\(f\left( x\right) =x^{5}-5x^{3}+4x\)</span><div class="autopermalink" data-description="Paragraph"><a href="#task-end-behav-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 2.2.15.a"><a href="#task-end-behav-1" title="Copy heading and permalink for Task 2.2.15.a" aria-label="Copy heading and permalink for Task 2.2.15.a">🔗</a></div></article><article class="task exercise-like" id="task-end-behav-2"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="para" id="task-end-behav-2-1-1">
+<span class="process-math">\(g\left( x\right) =-2\left( x-5\right) \left( x+1\right) ^{3}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#task-end-behav-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 2.2.15.b"><a href="#task-end-behav-2" title="Copy heading and permalink for Task 2.2.15.b" aria-label="Copy heading and permalink for Task 2.2.15.b">🔗</a></div></article><div class="autopermalink" data-description="Example 2.2.15"><a href="#ex-det-end-behavior" title="Copy heading and permalink for Example 2.2.15" aria-label="Copy heading and permalink for Example 2.2.15">🔗</a></div></article></details><article class="assemblage assemblage-like" id="obj-ident-zeros-multiplicity"><h3 class="heading"><span class="title">Identify zeros and multiplicities of zeros.</span></h3>
+<div class="para" id="obj-ident-zeros-multiplicity-2">The values of <span class="process-math">\(x\)</span> in the domain of <span class="process-math">\(f\)</span> for which <span class="process-math">\(f\left( x\right) =0\)</span> are called the zeros of the function. These are the real solutions (or roots) of the equation <span class="process-math">\(f\left( x\right) =0\)</span> and correspond to the <span class="process-math">\(x\)</span>-intercepts of the graph of <span class="process-math">\(y=f\left( x\right)\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#obj-ident-zeros-multiplicity-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Assemblage: Identify zeros and multiplicities of zeros"><a href="#obj-ident-zeros-multiplicity" title="Copy heading and permalink for Assemblage: Identify zeros and multiplicities of zeros" aria-label="Copy heading and permalink for Assemblage: Identify zeros and multiplicities of zeros">🔗</a></div></article><details id="ex-determine-zeros" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h3 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.2.16</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3></summary><article class="example example-like knowl__content"><div class="para" id="ex-determine-zeros-1-1">Determine the zeros of <span class="process-math">\(f\left( x\right) =x^{3}-5x^{2}-16x+80\)</span><div class="autopermalink" data-description="Paragraph"><a href="#ex-determine-zeros-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Example 2.2.16"><a href="#ex-determine-zeros" title="Copy heading and permalink for Example 2.2.16" aria-label="Copy heading and permalink for Example 2.2.16">🔗</a></div></article></details><div class="para" id="sec-polynomial-functions-14">Students - Check your understanding<div class="autopermalink" data-description="Paragraph"><a href="#sec-polynomial-functions-14" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<details id="cyu-leading-term-g" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h3 class="heading">
+<span class="type">Checkpoint</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.2.17</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3></summary><article class="exercise exercise-like knowl__content"><div class="introduction" id="cyu-leading-term-g-1"><div class="para logical" id="cyu-leading-term-g-1-1">
+<div class="para">Use the leading term to determine the end behavior of</div>
+<div class="displaymath process-math" id="cyu-leading-term-g-1-1-1">
+\begin{equation*}
+g\left( x\right) = \frac{1}{4}x\left( 2x-3\right) ^{3}\left( x+4\right) ^{2}.
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#cyu-leading-term-g-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+<article class="task exercise-like" id="task-cyu-behav-1"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="para" id="task-cyu-behav-1-1-1">Graph rises at both ends.<div class="autopermalink" data-description="Paragraph"><a href="#task-cyu-behav-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 2.2.17.a"><a href="#task-cyu-behav-1" title="Copy heading and permalink for Task 2.2.17.a" aria-label="Copy heading and permalink for Task 2.2.17.a">🔗</a></div></article><article class="task exercise-like" id="task-cyu-behav-2"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="para" id="task-cyu-behav-2-1-1">Graph falls at both ends.<div class="autopermalink" data-description="Paragraph"><a href="#task-cyu-behav-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 2.2.17.b"><a href="#task-cyu-behav-2" title="Copy heading and permalink for Task 2.2.17.b" aria-label="Copy heading and permalink for Task 2.2.17.b">🔗</a></div></article><article class="task exercise-like" id="task-cyu-behav-3"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<div class="para" id="task-cyu-behav-3-1-1">Graph rises to the right and falls to the left.<div class="autopermalink" data-description="Paragraph"><a href="#task-cyu-behav-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 2.2.17.c"><a href="#task-cyu-behav-3" title="Copy heading and permalink for Task 2.2.17.c" aria-label="Copy heading and permalink for Task 2.2.17.c">🔗</a></div></article><article class="task exercise-like" id="task-cyu-behav-4"><h4 class="heading"><span class="codenumber">(d)</span></h4>
+<div class="para" id="task-cyu-behav-4-1-1">Graph falls to the right and rises to the left.<div class="autopermalink" data-description="Paragraph"><a href="#task-cyu-behav-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 2.2.17.d"><a href="#task-cyu-behav-4" title="Copy heading and permalink for Task 2.2.17.d" aria-label="Copy heading and permalink for Task 2.2.17.d">🔗</a></div></article><div class="autopermalink" data-description="Checkpoint 2.2.17"><a href="#cyu-leading-term-g" title="Copy heading and permalink for Checkpoint 2.2.17" aria-label="Copy heading and permalink for Checkpoint 2.2.17">🔗</a></div></article></details><details id="cyu-power-functions-pts" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h3 class="heading">
+<span class="type">Checkpoint</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.2.18</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3></summary><article class="exercise exercise-like knowl__content"><div class="introduction" id="cyu-power-functions-pts-1"><div class="para" id="cyu-power-functions-pts-1-1">The graph of power functions of the form <span class="process-math">\(f(x) = x^{n}\text{,}\)</span> where <span class="process-math">\(n\)</span> is an even integer, always contain what three points?<div class="autopermalink" data-description="Paragraph"><a href="#cyu-power-functions-pts-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+<article class="task exercise-like" id="task-cyu-pts-1"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="para" id="task-cyu-pts-1-1-1">
+<span class="process-math">\((-1, -1), (0, 0), (1, -1)\)</span><div class="autopermalink" data-description="Paragraph"><a href="#task-cyu-pts-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 2.2.18.a"><a href="#task-cyu-pts-1" title="Copy heading and permalink for Task 2.2.18.a" aria-label="Copy heading and permalink for Task 2.2.18.a">🔗</a></div></article><article class="task exercise-like" id="task-cyu-pts-2"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="para" id="task-cyu-pts-2-1-1">
+<span class="process-math">\((-1, -1), (0, 0), (1, 1)\)</span><div class="autopermalink" data-description="Paragraph"><a href="#task-cyu-pts-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 2.2.18.b"><a href="#task-cyu-pts-2" title="Copy heading and permalink for Task 2.2.18.b" aria-label="Copy heading and permalink for Task 2.2.18.b">🔗</a></div></article><article class="task exercise-like" id="task-cyu-pts-3"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<div class="para" id="task-cyu-pts-3-1-1">
+<span class="process-math">\((-1, 1), (0, 0), (1, 1)\)</span><div class="autopermalink" data-description="Paragraph"><a href="#task-cyu-pts-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 2.2.18.c"><a href="#task-cyu-pts-3" title="Copy heading and permalink for Task 2.2.18.c" aria-label="Copy heading and permalink for Task 2.2.18.c">🔗</a></div></article><article class="task exercise-like" id="task-cyu-pts-4"><h4 class="heading"><span class="codenumber">(d)</span></h4>
+<div class="para" id="task-cyu-pts-4-1-1">
+<span class="process-math">\((-1, 1), (0, 0), (1, -1)\)</span><div class="autopermalink" data-description="Paragraph"><a href="#task-cyu-pts-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 2.2.18.d"><a href="#task-cyu-pts-4" title="Copy heading and permalink for Task 2.2.18.d" aria-label="Copy heading and permalink for Task 2.2.18.d">🔗</a></div></article><div class="autopermalink" data-description="Checkpoint 2.2.18"><a href="#cyu-power-functions-pts" title="Copy heading and permalink for Checkpoint 2.2.18" aria-label="Copy heading and permalink for Checkpoint 2.2.18">🔗</a></div></article></details><details id="cyu-construct-poly" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h3 class="heading">
+<span class="type">Checkpoint</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.2.19</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3></summary><article class="exercise exercise-like knowl__content"><div class="introduction" id="cyu-construct-poly-1">
+<div class="para" id="cyu-construct-poly-1-1">Construct a polynomial function <span class="process-math">\(f\)</span> with the following characteristics.<div class="autopermalink" data-description="Paragraph"><a href="#cyu-construct-poly-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<ul class="disc" id="cyu-construct-poly-1-2">
+<li id="cyu-construct-poly-1-2-1">
+<div class="para" id="p-derived-cyu-construct-poly-1-2-1">zeros: <span class="process-math">\(- 1\text{,}\)</span> <span class="process-math">\(1\text{,}\)</span> and <span class="process-math">\(4\)</span>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#cyu-construct-poly-1-2-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="cyu-construct-poly-1-2-2">
+<div class="para" id="p-derived-cyu-construct-poly-1-2-2">degree: <span class="process-math">\(3\)</span>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#cyu-construct-poly-1-2-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="cyu-construct-poly-1-2-3">
+<div class="para" id="p-derived-cyu-construct-poly-1-2-3">y-intercept: <span class="process-math">\(12\)</span>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#cyu-construct-poly-1-2-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+</div>
+<article class="task exercise-like" id="task-cyu-poly-1"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="para" id="task-cyu-poly-1-1-1">
+<span class="process-math">\(f\left( x\right) = (x + 1)(x - 1)(x - 4)\)</span><div class="autopermalink" data-description="Paragraph"><a href="#task-cyu-poly-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 2.2.19.a"><a href="#task-cyu-poly-1" title="Copy heading and permalink for Task 2.2.19.a" aria-label="Copy heading and permalink for Task 2.2.19.a">🔗</a></div></article><article class="task exercise-like" id="task-cyu-poly-2"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="para" id="task-cyu-poly-2-1-1">
+<span class="process-math">\(f\left( x\right) = 3(x + 1)^{2}(x - 1)(x - 4)\)</span><div class="autopermalink" data-description="Paragraph"><a href="#task-cyu-poly-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 2.2.19.b"><a href="#task-cyu-poly-2" title="Copy heading and permalink for Task 2.2.19.b" aria-label="Copy heading and permalink for Task 2.2.19.b">🔗</a></div></article><article class="task exercise-like" id="task-cyu-poly-3"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<div class="para" id="task-cyu-poly-3-1-1">
+<span class="process-math">\(f\left( x\right) = 3(x + 1)(x - 1)(x - 4)\)</span><div class="autopermalink" data-description="Paragraph"><a href="#task-cyu-poly-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 2.2.19.c"><a href="#task-cyu-poly-3" title="Copy heading and permalink for Task 2.2.19.c" aria-label="Copy heading and permalink for Task 2.2.19.c">🔗</a></div></article><article class="task exercise-like" id="task-cyu-poly-4"><h4 class="heading"><span class="codenumber">(d)</span></h4>
+<div class="para" id="task-cyu-poly-4-1-1">
+<span class="process-math">\(f\left( x\right) = -3(x + 1)(x - 1)(x - 4)\)</span><div class="autopermalink" data-description="Paragraph"><a href="#task-cyu-poly-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 2.2.19.d"><a href="#task-cyu-poly-4" title="Copy heading and permalink for Task 2.2.19.d" aria-label="Copy heading and permalink for Task 2.2.19.d">🔗</a></div></article><div class="autopermalink" data-description="Checkpoint 2.2.19"><a href="#cyu-construct-poly" title="Copy heading and permalink for Checkpoint 2.2.19" aria-label="Copy heading and permalink for Checkpoint 2.2.19">🔗</a></div></article></details><article class="definition definition-like" id="def-multiple-zeros"><h3 class="heading">
+<span class="type">Definition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.2.20</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Multiplicity of a zero.</span>
+</h3>
+<div class="para" id="def-multiple-zeros-2-1">If <span class="process-math">\((x-c)^{k}\)</span> is a factor of the polynomial <span class="process-math">\(f\left( x\right)\)</span> and <span class="process-math">\((x-c)^{k+1}\)</span> is not, then we say c is a zero of multiplicity k of <span class="process-math">\(f(x)\text{.}\)</span> In other words, if a polynomial function has a factor <span class="process-math">\(\left( x-c\right)\)</span> that appears exactly <span class="process-math">\(k\)</span> times, then <span class="process-math">\(c\)</span> is a zero of multiplicity <span class="process-math">\(k\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#def-multiple-zeros-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Definition 2.2.20: Multiplicity of a zero"><a href="#def-multiple-zeros" title="Copy heading and permalink for Definition 2.2.20: Multiplicity of a zero" aria-label="Copy heading and permalink for Definition 2.2.20: Multiplicity of a zero">🔗</a></div></article><details id="ex-determine-mult" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h3 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.2.21</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3></summary><article class="example example-like knowl__content"><div class="para logical" id="ex-determine-mult-1-1">
+<div class="para">Determine the zeros and their multiplicities for the following polynomial.</div>
+<div class="displaymath process-math" id="ex-determine-mult-1-1-1">
+\begin{equation*}
+f\left( x\right) =8x\left( x-1\right) ^{2}\left( x+3\right) ^{3}
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#ex-determine-mult-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <figure class="table table-like" id="ex-determine-mult-1-2"><figcaption><span class="type">Table</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.2.22<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Zeros and Multiplicity Table<div class="autopermalink" data-description="Table 2.2.22: Zeros and Multiplicity Table"><a href="#ex-determine-mult-1-2" title="Copy heading and permalink for Table 2.2.22: Zeros and Multiplicity Table" aria-label="Copy heading and permalink for Table 2.2.22: Zeros and Multiplicity Table">🔗</a></div></figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b2 r2 l2 t2 lines">Factors</th>
+<th scope="col" class="c m b2 r2 l0 t2 lines">Zeroes</th>
+<th scope="col" class="c m b2 r2 l0 t2 lines">Multiplicity</th>
+</tr>
+<tr>
+<td class="c m b2 r2 l2 t0 lines"></td>
+<td class="c m b2 r2 l0 t0 lines"></td>
+<td class="c m b2 r2 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="c m b2 r2 l2 t0 lines"></td>
+<td class="c m b2 r2 l0 t0 lines"></td>
+<td class="c m b2 r2 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="c m b2 r2 l2 t0 lines"></td>
+<td class="c m b2 r2 l0 t0 lines"></td>
+<td class="c m b2 r2 l0 t0 lines"></td>
+</tr>
+</table></div></figure><div class="autopermalink" data-description="Example 2.2.21"><a href="#ex-determine-mult" title="Copy heading and permalink for Example 2.2.21" aria-label="Copy heading and permalink for Example 2.2.21">🔗</a></div></article></details><article class="assemblage assemblage-like" id="box-multiplicity-xints"><h3 class="heading"><span class="title">Multiplicity, <span class="process-math">\(x\)</span>-intercepts, and graphing <span class="process-math">\(f(x)\)</span>.</span></h3>
+<div class="para" id="box-multiplicity-xints-2">If <span class="process-math">\(c\)</span> is a zero of odd multiplicity, then the graph <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span> the <span class="process-math">\(x\)</span>-axis at <span class="process-math">\(c\text{.}\)</span> If <span class="process-math">\(c\)</span> is a zero of even multiplicity, then the graph <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span> the <span class="process-math">\(x\)</span>-axis at <span class="process-math">\(c\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#box-multiplicity-xints-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Assemblage: Multiplicity, x-intercepts, and graphing f(x)"><a href="#box-multiplicity-xints" title="Copy heading and permalink for Assemblage: Multiplicity, x-intercepts, and graphing f(x)" aria-label="Copy heading and permalink for Assemblage: Multiplicity, x-intercepts, and graphing f(x)">🔗</a></div></article><div class="para" id="sec-polynomial-functions-21">
+<dfn class="terminology">REMARK:</dfn> Notice the effect the multiplicity of the zero has on the graph.<div class="autopermalink" data-description="Paragraph"><a href="#sec-polynomial-functions-21" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:1.666666666666667%;margin-right:1.666666666666667%;grid-template-columns:31.0344827586207% 31.0344827586207% 31.0344827586207%;column-gap:3.333333333333333%;">
+<div class="sbspanel sbspanel--middle middle" style=""><div class="para" id="sec-polynomial-functions-22-1-1">a) <span class="process-math">\(y = x\left( x-1\right)\left( x+3\right)\)</span><div class="autopermalink" data-description="Paragraph"><a href="#sec-polynomial-functions-22-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+<div class="sbspanel sbspanel--middle middle" style=""><div class="para" id="sec-polynomial-functions-22-2-1">b) <span class="process-math">\(y = x\left( x-1\right)^{2}\left( x+3\right)\)</span><div class="autopermalink" data-description="Paragraph"><a href="#sec-polynomial-functions-22-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+<div class="sbspanel sbspanel--middle middle" style=""><div class="para" id="sec-polynomial-functions-22-3-1">c) <span class="process-math">\(y = x\left( x-1\right)\left( x+3\right)^{2}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#sec-polynomial-functions-22-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+</div></div>
+<details id="ex-ident-zeros-cross-touch" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h3 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.2.26</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3></summary><article class="example example-like knowl__content"><div class="para" id="ex-ident-zeros-cross-touch-1-1">Given <span class="process-math">\(f\left( x\right) =-3x^{2}\left( x+4\right) \left( x-7\right) ^{3}\text{,}\)</span> identify the zeros of the function and whether there is a cross point or a touch point at each zero.<div class="autopermalink" data-description="Paragraph"><a href="#ex-ident-zeros-cross-touch-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <figure class="table table-like" id="ex-ident-zeros-cross-touch-1-2"><figcaption><span class="type">Table</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.2.27<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Cross and Touch Table<div class="autopermalink" data-description="Table 2.2.27: Cross and Touch Table"><a href="#ex-ident-zeros-cross-touch-1-2" title="Copy heading and permalink for Table 2.2.27: Cross and Touch Table" aria-label="Copy heading and permalink for Table 2.2.27: Cross and Touch Table">🔗</a></div></figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b2 r2 l2 t2 lines">Factors</th>
+<th scope="col" class="c m b2 r2 l0 t2 lines">Zeroes</th>
+<th scope="col" class="c m b2 r2 l0 t2 lines">Multiplicity</th>
+<th scope="col" class="c m b2 r2 l0 t2 lines">Cross/Touch</th>
+</tr>
+<tr>
+<td class="c m b2 r2 l2 t0 lines"></td>
+<td class="c m b2 r2 l0 t0 lines"></td>
+<td class="c m b2 r2 l0 t0 lines"></td>
+<td class="c m b2 r2 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="c m b2 r2 l2 t0 lines"></td>
+<td class="c m b2 r2 l0 t0 lines"></td>
+<td class="c m b2 r2 l0 t0 lines"></td>
+<td class="c m b2 r2 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="c m b2 r2 l2 t0 lines"></td>
+<td class="c m b2 r2 l0 t0 lines"></td>
+<td class="c m b2 r2 l0 t0 lines"></td>
+<td class="c m b2 r2 l0 t0 lines"></td>
+</tr>
+</table></div></figure><div class="autopermalink" data-description="Example 2.2.26"><a href="#ex-ident-zeros-cross-touch" title="Copy heading and permalink for Example 2.2.26" aria-label="Copy heading and permalink for Example 2.2.26">🔗</a></div></article></details><article class="assemblage assemblage-like" id="obj-turning-points"><h3 class="heading"><span class="title">Identifying turning points.</span></h3>
+<div class="para" id="obj-turning-points-2">The turning points of a polynomial function are the points where the function changes from increasing to decreasing or vice versa. The graph of a polynomial function of degree <span class="process-math">\(n\)</span> has at most <span class="process-math">\(n-1\)</span> turning points.<div class="autopermalink" data-description="Paragraph"><a href="#obj-turning-points-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Assemblage: Identifying turning points"><a href="#obj-turning-points" title="Copy heading and permalink for Assemblage: Identifying turning points" aria-label="Copy heading and permalink for Assemblage: Identifying turning points">🔗</a></div></article><details id="ex-turning-points" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h3 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.2.28</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3></summary><article class="example example-like knowl__content"><div class="para" id="ex-turning-points-1-1">Give the maximum number of turning points for <span class="process-math">\(f\left( x\right) =x^{3}-21x+20\)</span><div class="autopermalink" data-description="Paragraph"><a href="#ex-turning-points-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <figure class="figure figure-like" id="fig-turning-pts"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="generated/prefigure/prefig-turning-pts.svg" role="img" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.2.29<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><div class="autopermalink" data-description="Figure 2.2.29"><a href="#fig-turning-pts" title="Copy heading and permalink for Figure 2.2.29" aria-label="Copy heading and permalink for Figure 2.2.29">🔗</a></div></figcaption></figure><div class="autopermalink" data-description="Example 2.2.28"><a href="#ex-turning-points" title="Copy heading and permalink for Example 2.2.28" aria-label="Copy heading and permalink for Example 2.2.28">🔗</a></div></article></details><article class="theorem theorem-like" id="thm-ivt"><h3 class="heading">
+<span class="type">Theorem</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.2.30</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Intermediate Value Theorem.</span>
+</h3>
+<div class="para" id="thm-ivt-2-1">Let <span class="process-math">\(f\)</span> be a polynomial function. For <span class="process-math">\(a \lt b\text{,}\)</span> if <span class="process-math">\(f\left( a\right)\)</span> and <span class="process-math">\(f\left( b\right)\)</span> have opposite signs, then <span class="process-math">\(f\)</span> has at least one zero in the interval <span class="process-math">\(\left[ a,b\right]\text{.}\)</span> If the signs of <span class="process-math">\(f(a)\)</span> and <span class="process-math">\(f(b)\)</span> are the same, then the Intermediate Value Theorem is inconclusive.<div class="autopermalink" data-description="Paragraph"><a href="#thm-ivt-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Theorem 2.2.30: Intermediate Value Theorem"><a href="#thm-ivt" title="Copy heading and permalink for Theorem 2.2.30: Intermediate Value Theorem" aria-label="Copy heading and permalink for Theorem 2.2.30: Intermediate Value Theorem">🔗</a></div></article><article class="assemblage assemblage-like" id="obj-apply-ivt"><h3 class="heading"><span class="title">Applying the Intermediate Value Theorem (IVT).</span></h3>
+<div class="para" id="obj-apply-ivt-2">The Intermediate Value Theorem only asserts the existence of a zero when its hypothesis is satisfied. We can use the Intermediate Value Theorem repeatedly in a technique called "the bisection method" to approximate the value of a zero.<div class="autopermalink" data-description="Paragraph"><a href="#obj-apply-ivt-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Assemblage: Applying the Intermediate Value Theorem (IVT)"><a href="#obj-apply-ivt" title="Copy heading and permalink for Assemblage: Applying the Intermediate Value Theorem (IVT)" aria-label="Copy heading and permalink for Assemblage: Applying the Intermediate Value Theorem (IVT)">🔗</a></div></article><details id="ex-apply-ivt" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h3 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.2.31</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3></summary><article class="example example-like knowl__content"><div class="introduction" id="ex-apply-ivt-1"><div class="para" id="ex-apply-ivt-1-1">Determine whether or not the Intermediate Value Theorem guarantees that <span class="process-math">\(f\left( x\right) =x^{3}-13x^{2}+33x+35\)</span> has a zero in the given interval.<div class="autopermalink" data-description="Paragraph"><a href="#ex-apply-ivt-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+<article class="task exercise-like" id="task-ivt-1"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="para" id="task-ivt-1-1-1">
+<span class="process-math">\(\left[ -1,0\right]\)</span><div class="autopermalink" data-description="Paragraph"><a href="#task-ivt-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 2.2.31.a"><a href="#task-ivt-1" title="Copy heading and permalink for Task 2.2.31.a" aria-label="Copy heading and permalink for Task 2.2.31.a">🔗</a></div></article><article class="task exercise-like" id="task-ivt-2"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="para" id="task-ivt-2-1-1">
+<span class="process-math">\(\left[ 1,2\right]\)</span><div class="autopermalink" data-description="Paragraph"><a href="#task-ivt-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 2.2.31.b"><a href="#task-ivt-2" title="Copy heading and permalink for Task 2.2.31.b" aria-label="Copy heading and permalink for Task 2.2.31.b">🔗</a></div></article><article class="task exercise-like" id="task-ivt-3"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<div class="para" id="task-ivt-3-1-1">
+<span class="process-math">\(\left[ 8,9\right]\)</span><div class="autopermalink" data-description="Paragraph"><a href="#task-ivt-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 2.2.31.c"><a href="#task-ivt-3" title="Copy heading and permalink for Task 2.2.31.c" aria-label="Copy heading and permalink for Task 2.2.31.c">🔗</a></div></article><div class="autopermalink" data-description="Example 2.2.31"><a href="#ex-apply-ivt" title="Copy heading and permalink for Example 2.2.31" aria-label="Copy heading and permalink for Example 2.2.31">🔗</a></div></article></details><article class="assemblage assemblage-like" id="obj-sketch-poly"><h3 class="heading"><span class="title">Sketch a Polynomial Function.</span></h3>
+<div class="para" id="obj-sketch-poly-2">To graph a polynomial function defined by <span class="process-math">\(y = f\left(x\right)\text{,}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#obj-sketch-poly-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Assemblage: Sketch a Polynomial Function"><a href="#obj-sketch-poly" title="Copy heading and permalink for Assemblage: Sketch a Polynomial Function" aria-label="Copy heading and permalink for Assemblage: Sketch a Polynomial Function">🔗</a></div></article><details id="ex-sketch-poly" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h3 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.2.32</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3></summary><article class="example example-like knowl__content"><div class="para" id="ex-sketch-poly-1-1">Sketch the function <span class="process-math">\(f\left( x\right) =\left( x-1\right) ^{2}\left( x+3\right) \left( x-4\right)\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#ex-sketch-poly-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <figure class="figure figure-like" id="fig-blank-grid-poly-1"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="generated/prefigure/prefig-blank-grid-poly-1.svg" role="img" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.2.33<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Blank Grid<div class="autopermalink" data-description="Figure 2.2.33"><a href="#fig-blank-grid-poly-1" title="Copy heading and permalink for Figure 2.2.33" aria-label="Copy heading and permalink for Figure 2.2.33">🔗</a></div></figcaption></figure><div class="autopermalink" data-description="Example 2.2.32"><a href="#ex-sketch-poly" title="Copy heading and permalink for Example 2.2.32" aria-label="Copy heading and permalink for Example 2.2.32">🔗</a></div></article></details><div class="para" id="sec-polynomial-functions-31">Students - Check your understanding<div class="autopermalink" data-description="Paragraph"><a href="#sec-polynomial-functions-31" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<details id="cyu-graph-poly-function" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h3 class="heading">
+<span class="type">Checkpoint</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.2.34</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3></summary><article class="exercise exercise-like knowl__content"><div class="para" id="cyu-graph-poly-function-1-1">Graph the function <span class="process-math">\(f\left( x\right) =-\left( x+1\right) \left( x-3\right)^{2}\text{.}\)</span> Identify the leading term, intercepts and multiplicity of zeros.<div class="autopermalink" data-description="Paragraph"><a href="#cyu-graph-poly-function-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <figure class="figure figure-like" id="fig-blank-grid-poly-2"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="generated/prefigure/prefig-blank-grid-poly-2.svg" role="img" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.2.35<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Blank Grid<div class="autopermalink" data-description="Figure 2.2.35"><a href="#fig-blank-grid-poly-2" title="Copy heading and permalink for Figure 2.2.35" aria-label="Copy heading and permalink for Figure 2.2.35">🔗</a></div></figcaption></figure><div class="autopermalink" data-description="Checkpoint 2.2.34"><a href="#cyu-graph-poly-function" title="Copy heading and permalink for Checkpoint 2.2.34" aria-label="Copy heading and permalink for Checkpoint 2.2.34">🔗</a></div></article></details><details id="cyu-zeros-touch-cross" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h3 class="heading">
+<span class="type">Checkpoint</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.2.36</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3></summary><article class="exercise exercise-like knowl__content"><div class="introduction" id="cyu-zeros-touch-cross-1"><div class="para" id="cyu-zeros-touch-cross-1-1">Determine the zeros and multiplicities for <span class="process-math">\(m\left( x\right) =\left( x-4\right) ^{2}\left( 2x+5\right) ^{3}\text{.}\)</span> Does the graph touch or cross at the zeros? Select all that apply.<div class="autopermalink" data-description="Paragraph"><a href="#cyu-zeros-touch-cross-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+<article class="task exercise-like" id="task-cyu-tc-1"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="para" id="task-cyu-tc-1-1-1">
+<span class="process-math">\(x=4\text{,}\)</span> multiplicity is <span class="process-math">\(2\text{,}\)</span> graph touches at the zero<div class="autopermalink" data-description="Paragraph"><a href="#task-cyu-tc-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 2.2.36.a"><a href="#task-cyu-tc-1" title="Copy heading and permalink for Task 2.2.36.a" aria-label="Copy heading and permalink for Task 2.2.36.a">🔗</a></div></article><article class="task exercise-like" id="task-cyu-tc-2"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="para" id="task-cyu-tc-2-1-1">
+<span class="process-math">\(x=4\text{,}\)</span> multiplicity is <span class="process-math">\(3\text{,}\)</span> graph crosses at the zero<div class="autopermalink" data-description="Paragraph"><a href="#task-cyu-tc-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 2.2.36.b"><a href="#task-cyu-tc-2" title="Copy heading and permalink for Task 2.2.36.b" aria-label="Copy heading and permalink for Task 2.2.36.b">🔗</a></div></article><article class="task exercise-like" id="task-cyu-tc-3"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<div class="para" id="task-cyu-tc-3-1-1">
+<span class="process-math">\(x= - \displaystyle\frac{5}{2}\text{,}\)</span> multiplicity is <span class="process-math">\(2\text{,}\)</span> graph touches at the zero<div class="autopermalink" data-description="Paragraph"><a href="#task-cyu-tc-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 2.2.36.c"><a href="#task-cyu-tc-3" title="Copy heading and permalink for Task 2.2.36.c" aria-label="Copy heading and permalink for Task 2.2.36.c">🔗</a></div></article><article class="task exercise-like" id="task-cyu-tc-4"><h4 class="heading"><span class="codenumber">(d)</span></h4>
+<div class="para" id="task-cyu-tc-4-1-1">
+<span class="process-math">\(x= - \displaystyle\frac{5}{2}\text{,}\)</span> multiplicity is <span class="process-math">\(3\text{,}\)</span> graph crosses at the zero<div class="autopermalink" data-description="Paragraph"><a href="#task-cyu-tc-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 2.2.36.d"><a href="#task-cyu-tc-4" title="Copy heading and permalink for Task 2.2.36.d" aria-label="Copy heading and permalink for Task 2.2.36.d">🔗</a></div></article><div class="autopermalink" data-description="Checkpoint 2.2.36"><a href="#cyu-zeros-touch-cross" title="Copy heading and permalink for Checkpoint 2.2.36" aria-label="Copy heading and permalink for Checkpoint 2.2.36">🔗</a></div></article></details><details id="cyu-use-ivt" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h3 class="heading">
+<span class="type">Checkpoint</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.2.37</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3></summary><article class="exercise exercise-like knowl__content"><div class="introduction" id="cyu-use-ivt-1"><div class="para logical" id="cyu-use-ivt-1-1">
+<div class="para">Use the Intermediate Value Theorem to determine if a zero exists for</div>
+<div class="displaymath process-math" id="cyu-use-ivt-1-1-1">
+\begin{equation*}
+f\left( x\right) =x^{4}+6x^{3}-26x+15
+\end{equation*}
+</div>
+<div class="para">in the interval <span class="process-math">\(\left[ 1,2\right]\text{.}\)</span>
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#cyu-use-ivt-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+<article class="task exercise-like" id="task-cyu-ivt-1"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="para" id="task-cyu-ivt-1-1-1">Yes, <span class="process-math">\(f(x)\)</span> has at least one zero in <span class="process-math">\(\left[ 1,2\right]\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#task-cyu-ivt-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 2.2.37.a"><a href="#task-cyu-ivt-1" title="Copy heading and permalink for Task 2.2.37.a" aria-label="Copy heading and permalink for Task 2.2.37.a">🔗</a></div></article><article class="task exercise-like" id="task-cyu-ivt-2"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="para" id="task-cyu-ivt-2-1-1">No zeros exist in <span class="process-math">\(\left[ 1,2\right]\)</span> for <span class="process-math">\(f(x)\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#task-cyu-ivt-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 2.2.37.b"><a href="#task-cyu-ivt-2" title="Copy heading and permalink for Task 2.2.37.b" aria-label="Copy heading and permalink for Task 2.2.37.b">🔗</a></div></article><article class="task exercise-like" id="task-cyu-ivt-3"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<div class="para" id="task-cyu-ivt-3-1-1">The Intermediate Value Theorem does not apply.<div class="autopermalink" data-description="Paragraph"><a href="#task-cyu-ivt-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 2.2.37.c"><a href="#task-cyu-ivt-3" title="Copy heading and permalink for Task 2.2.37.c" aria-label="Copy heading and permalink for Task 2.2.37.c">🔗</a></div></article><div class="autopermalink" data-description="Checkpoint 2.2.37"><a href="#cyu-use-ivt" title="Copy heading and permalink for Checkpoint 2.2.37" aria-label="Copy heading and permalink for Checkpoint 2.2.37">🔗</a></div></article></details><details id="cyu-poly-graph-analysis" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h3 class="heading">
+<span class="type">Checkpoint</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.2.38</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3></summary><article class="exercise exercise-like knowl__content"><div class="introduction" id="cyu-poly-graph-analysis-1">
+<div class="para" id="cyu-poly-graph-analysis-1-1">Below is the graph of a polynomial function with real coefficients. Use the graph to answer the following questions.<div class="autopermalink" data-description="Paragraph"><a href="#cyu-poly-graph-analysis-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<ul class="disc" id="cyu-poly-graph-analysis-1-2">
+<li id="cyu-poly-graph-analysis-1-2-1">
+<div class="para" id="p-derived-cyu-poly-graph-analysis-1-2-1">Zeros: <span class="process-math">\(-5.5, -1.5, 3.5, 7.5\text{.}\)</span>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#cyu-poly-graph-analysis-1-2-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="cyu-poly-graph-analysis-1-2-2">
+<div class="para" id="p-derived-cyu-poly-graph-analysis-1-2-2">y-intercept is <span class="process-math">\(-1.7\text{.}\)</span>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#cyu-poly-graph-analysis-1-2-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="cyu-poly-graph-analysis-1-2-3">
+<div class="para" id="p-derived-cyu-poly-graph-analysis-1-2-3">Local maximum at <span class="process-math">\(\left(-4, 2.5\right)\)</span> and <span class="process-math">\((6, 2.5)\text{.}\)</span>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#cyu-poly-graph-analysis-1-2-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="cyu-poly-graph-analysis-1-2-4">
+<div class="para" id="p-derived-cyu-poly-graph-analysis-1-2-4">Local minimum at <span class="process-math">\(\left(1, -2\right)\text{.}\)</span>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#cyu-poly-graph-analysis-1-2-4" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<figure class="figure figure-like" id="fig-poly-graph-analysis"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="generated/prefigure/prefig-poly-graph-analysis.svg" role="img" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.2.39<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Polynomial Graph<div class="autopermalink" data-description="Figure 2.2.39"><a href="#fig-poly-graph-analysis" title="Copy heading and permalink for Figure 2.2.39" aria-label="Copy heading and permalink for Figure 2.2.39">🔗</a></div></figcaption></figure>
+</div>
+<article class="task exercise-like" id="task-poly-analysis-1"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="para" id="task-poly-analysis-1-1-1">Over which intervals is the function decreasing? Choose all that apply. <span class="process-math">\((-\infty, -4)\text{,}\)</span> <span class="process-math">\((-4,1)\text{,}\)</span> <span class="process-math">\((1, 6)\text{,}\)</span> <span class="process-math">\((-4,6)\text{,}\)</span> <span class="process-math">\((6, \infty)\)</span><div class="autopermalink" data-description="Paragraph"><a href="#task-poly-analysis-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 2.2.38.a"><a href="#task-poly-analysis-1" title="Copy heading and permalink for Task 2.2.38.a" aria-label="Copy heading and permalink for Task 2.2.38.a">🔗</a></div></article><article class="task exercise-like" id="task-poly-analysis-2"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="para" id="task-poly-analysis-2-1-1">At which x-values does the function have local maxima? If there is more than one value, separate them with commas.<div class="autopermalink" data-description="Paragraph"><a href="#task-poly-analysis-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 2.2.38.b"><a href="#task-poly-analysis-2" title="Copy heading and permalink for Task 2.2.38.b" aria-label="Copy heading and permalink for Task 2.2.38.b">🔗</a></div></article><article class="task exercise-like" id="task-poly-analysis-3"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<div class="para" id="task-poly-analysis-3-1-1">What is the sign of the function’s leading coefficient?<div class="autopermalink" data-description="Paragraph"><a href="#task-poly-analysis-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 2.2.38.c"><a href="#task-poly-analysis-3" title="Copy heading and permalink for Task 2.2.38.c" aria-label="Copy heading and permalink for Task 2.2.38.c">🔗</a></div></article><article class="task exercise-like" id="task-poly-analysis-4"><h4 class="heading"><span class="codenumber">(d)</span></h4>
+<div class="para" id="task-poly-analysis-4-1-1">Which of the following is a possibility for the degree of the function? Choose all that apply. <span class="process-math">\(4\text{,}\)</span> <span class="process-math">\(5\text{,}\)</span> <span class="process-math">\(6\text{,}\)</span> <span class="process-math">\(7\text{,}\)</span> <span class="process-math">\(8\text{,}\)</span> <span class="process-math">\(9\)</span><div class="autopermalink" data-description="Paragraph"><a href="#task-poly-analysis-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 2.2.38.d"><a href="#task-poly-analysis-4" title="Copy heading and permalink for Task 2.2.38.d" aria-label="Copy heading and permalink for Task 2.2.38.d">🔗</a></div></article><div class="autopermalink" data-description="Checkpoint 2.2.38"><a href="#cyu-poly-graph-analysis" title="Copy heading and permalink for Checkpoint 2.2.38" aria-label="Copy heading and permalink for Checkpoint 2.2.38">🔗</a></div></article></details><div class="autopermalink" data-description="Section 2.2: Polynomial Functions (ALEKS 2.2)"><a href="#sec-polynomial-functions" title="Copy heading and permalink for Section 2.2: Polynomial Functions (ALEKS 2.2)" aria-label="Copy heading and permalink for Section 2.2: Polynomial Functions (ALEKS 2.2)">🔗</a></div></section></div>
+<div id="ptx-content-footer" class="ptx-content-footer">
+<a class="previous-button button" href="sec-quad-functions-parabolas.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="backmatter.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="338 3000 8772 6866" role="img"><title>PreTeXt logo</title><g style="stroke-width:.025in; stroke:currentColor; fill:none"><polyline points="472,3590 472,9732 " style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png" alt="Runstone Academy logo"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png" alt="MathJax logo"></a>
+</div>
+</body>
+</html>

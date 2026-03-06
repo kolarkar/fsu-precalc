@@ -1,0 +1,151 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="continuous-piecewise-graph-figure" width="330" height="330" viewBox="0 0 330 330">
+  <defs>
+    <clipPath id="continuous-piecewise-graph-clipPath-0">
+      <rect x="15.0" y="15.0" width="300.0" height="300.0"/>
+    </clipPath>
+    <clipPath id="continuous-piecewise-graph-clipPath-1">
+      <rect x="15.0" y="15.0" width="300.0" height="300.0"/>
+    </clipPath>
+  </defs>
+  <g id="continuous-piecewise-graph-grid-axes">
+    <g id="continuous-piecewise-graph-grid" stroke="#ccc" stroke-width="1">
+      <line x1="15.0" y1="315.0" x2="15.0" y2="15.0"/>
+      <line x1="52.5" y1="315.0" x2="52.5" y2="15.0"/>
+      <line x1="90.0" y1="315.0" x2="90.0" y2="15.0"/>
+      <line x1="127.5" y1="315.0" x2="127.5" y2="15.0"/>
+      <line x1="165.0" y1="315.0" x2="165.0" y2="15.0"/>
+      <line x1="202.5" y1="315.0" x2="202.5" y2="15.0"/>
+      <line x1="240.0" y1="315.0" x2="240.0" y2="15.0"/>
+      <line x1="277.5" y1="315.0" x2="277.5" y2="15.0"/>
+      <line x1="315.0" y1="315.0" x2="315.0" y2="15.0"/>
+      <line x1="15.0" y1="315.0" x2="315.0" y2="315.0"/>
+      <line x1="15.0" y1="277.5" x2="315.0" y2="277.5"/>
+      <line x1="15.0" y1="240.0" x2="315.0" y2="240.0"/>
+      <line x1="15.0" y1="202.5" x2="315.0" y2="202.5"/>
+      <line x1="15.0" y1="165.0" x2="315.0" y2="165.0"/>
+      <line x1="15.0" y1="127.5" x2="315.0" y2="127.5"/>
+      <line x1="15.0" y1="90.0" x2="315.0" y2="90.0"/>
+      <line x1="15.0" y1="52.5" x2="315.0" y2="52.5"/>
+      <line x1="15.0" y1="15.0" x2="315.0" y2="15.0"/>
+    </g>
+    <g id="continuous-piecewise-graph-axes" stroke="black" stroke-width="2">
+      <line id="continuous-piecewise-graph-line-18" x1="15.0" y1="165.0" x2="315.0" y2="165.0" stroke="black" stroke-width="2"/>
+      <g>
+        <line id="continuous-piecewise-graph-line-19" x1="90.0" y1="168.0" x2="90.0" y2="162.0"/>
+        <line id="continuous-piecewise-graph-line-20" x1="240.0" y1="168.0" x2="240.0" y2="162.0"/>
+      </g>
+      <line id="continuous-piecewise-graph-line-21" x1="165.0" y1="315.0" x2="165.0" y2="15.0" stroke="black" stroke-width="2"/>
+      <g>
+        <line id="continuous-piecewise-graph-line-22" x1="162.0" y1="240.0" x2="168.0" y2="240.0"/>
+        <line id="continuous-piecewise-graph-line-23" x1="162.0" y1="90.0" x2="168.0" y2="90.0"/>
+      </g>
+    </g>
+    <g id="continuous-piecewise-graph-label-0" transform="translate(311.0,161.0) translate(-10.4,-8.2)">
+      <g id="continuous-piecewise-graph-g-0">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.200px" width="10.352px" height="8.200px" role="img" focusable="false" viewBox="0 -442 572 453" x="0.0" y="0.0">
+          <defs>
+            <path id="continuous-piecewise-graph-MJX-2-TEX-I-1D465" d="M52 289Q59 331 106 386T222 442Q257 442 286 424T329 379Q371 442 430 442Q467 442 494 420T522 361Q522 332 508 314T481 292T458 288Q439 288 427 299T415 328Q415 374 465 391Q454 404 425 404Q412 404 406 402Q368 386 350 336Q290 115 290 78Q290 50 306 38T341 26Q378 26 414 59T463 140Q466 150 469 151T485 153H489Q504 153 504 145Q504 144 502 134Q486 77 440 33T333 -11Q263 -11 227 52Q186 -10 133 -10H127Q78 -10 57 16T35 71Q35 103 54 123T99 143Q142 143 142 101Q142 81 130 66T107 46T94 41L91 40Q91 39 97 36T113 29T132 26Q168 26 194 71Q203 87 217 139T245 247T261 313Q266 340 266 352Q266 380 251 392T217 404Q177 404 142 372T93 290Q91 281 88 280T72 278H58Q52 284 52 289Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple" data-semantic-id="0" data-semantic-speech="x">
+                <use data-c="1D465" xlink:href="#continuous-piecewise-graph-MJX-2-TEX-I-1D465"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="continuous-piecewise-graph-label-1" transform="translate(169.0,19.0) translate(0.0,-0.0)">
+      <g id="continuous-piecewise-graph-g-1">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -3.712px" width="8.872px" height="11.712px" role="img" focusable="false" viewBox="0 -442 490 647" x="0.0" y="0.0">
+          <defs>
+            <path id="continuous-piecewise-graph-MJX-3-TEX-I-1D466" d="M21 287Q21 301 36 335T84 406T158 442Q199 442 224 419T250 355Q248 336 247 334Q247 331 231 288T198 191T182 105Q182 62 196 45T238 27Q261 27 281 38T312 61T339 94Q339 95 344 114T358 173T377 247Q415 397 419 404Q432 431 462 431Q475 431 483 424T494 412T496 403Q496 390 447 193T391 -23Q363 -106 294 -155T156 -205Q111 -205 77 -183T43 -117Q43 -95 50 -80T69 -58T89 -48T106 -45Q150 -45 150 -87Q150 -107 138 -122T115 -142T102 -147L99 -148Q101 -153 118 -160T152 -167H160Q177 -167 186 -165Q219 -156 247 -127T290 -65T313 -9T321 21L315 17Q309 13 296 6T270 -6Q250 -11 231 -11Q185 -11 150 11T104 82Q103 89 103 113Q103 170 138 262T173 379Q173 380 173 381Q173 390 173 393T169 400T158 404H154Q131 404 112 385T82 344T65 302T57 280Q55 278 41 278H27Q21 284 21 287Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple" data-semantic-id="0" data-semantic-speech="y">
+                <use data-c="1D466" xlink:href="#continuous-piecewise-graph-MJX-3-TEX-I-1D466"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="continuous-piecewise-graph-label-2" transform="translate(90.0,176.0) translate(-7.5,-0.0)">
+      <g id="continuous-piecewise-graph-g-2">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="15.080px" height="12.456px" role="img" focusable="false" viewBox="0 -666 833 688" x="0.0" y="0.0">
+          <defs>
+            <path id="continuous-piecewise-graph-MJX-4-TEX-N-2D" d="M11 179V252H277V179H11Z"/>
+            <path id="continuous-piecewise-graph-MJX-4-TEX-N-35" d="M164 157Q164 133 148 117T109 101H102Q148 22 224 22Q294 22 326 82Q345 115 345 210Q345 313 318 349Q292 382 260 382H254Q176 382 136 314Q132 307 129 306T114 304Q97 304 95 310Q93 314 93 485V614Q93 664 98 664Q100 666 102 666Q103 666 123 658T178 642T253 634Q324 634 389 662Q397 666 402 666Q410 666 410 648V635Q328 538 205 538Q174 538 149 544L139 546V374Q158 388 169 396T205 412T256 420Q337 420 393 355T449 201Q449 109 385 44T229 -22Q148 -22 99 32T50 154Q50 178 61 192T84 210T107 214Q132 214 148 197T164 157Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="hyphen 5">
+                <use data-c="2D" xlink:href="#continuous-piecewise-graph-MJX-4-TEX-N-2D"/>
+                <use data-c="35" xlink:href="#continuous-piecewise-graph-MJX-4-TEX-N-35" transform="translate(333,0)"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="continuous-piecewise-graph-label-3" transform="translate(240.0,176.0) translate(-4.5,-0.0)">
+      <g id="continuous-piecewise-graph-g-3">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="9.048px" height="12.456px" role="img" focusable="false" viewBox="0 -666 500 688" x="0.0" y="0.0">
+          <defs>
+            <path id="continuous-piecewise-graph-MJX-5-TEX-N-35" d="M164 157Q164 133 148 117T109 101H102Q148 22 224 22Q294 22 326 82Q345 115 345 210Q345 313 318 349Q292 382 260 382H254Q176 382 136 314Q132 307 129 306T114 304Q97 304 95 310Q93 314 93 485V614Q93 664 98 664Q100 666 102 666Q103 666 123 658T178 642T253 634Q324 634 389 662Q397 666 402 666Q410 666 410 648V635Q328 538 205 538Q174 538 149 544L139 546V374Q158 388 169 396T205 412T256 420Q337 420 393 355T449 201Q449 109 385 44T229 -22Q148 -22 99 32T50 154Q50 178 61 192T84 210T107 214Q132 214 148 197T164 157Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="5">
+                <use data-c="35" xlink:href="#continuous-piecewise-graph-MJX-5-TEX-N-35"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="continuous-piecewise-graph-label-4" transform="translate(154.0,240.0) translate(-15.1,-6.2)">
+      <g id="continuous-piecewise-graph-g-4">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="15.080px" height="12.456px" role="img" focusable="false" viewBox="0 -666 833 688" x="0.0" y="0.0">
+          <defs>
+            <path id="continuous-piecewise-graph-MJX-6-TEX-N-2D" d="M11 179V252H277V179H11Z"/>
+            <path id="continuous-piecewise-graph-MJX-6-TEX-N-35" d="M164 157Q164 133 148 117T109 101H102Q148 22 224 22Q294 22 326 82Q345 115 345 210Q345 313 318 349Q292 382 260 382H254Q176 382 136 314Q132 307 129 306T114 304Q97 304 95 310Q93 314 93 485V614Q93 664 98 664Q100 666 102 666Q103 666 123 658T178 642T253 634Q324 634 389 662Q397 666 402 666Q410 666 410 648V635Q328 538 205 538Q174 538 149 544L139 546V374Q158 388 169 396T205 412T256 420Q337 420 393 355T449 201Q449 109 385 44T229 -22Q148 -22 99 32T50 154Q50 178 61 192T84 210T107 214Q132 214 148 197T164 157Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="hyphen 5">
+                <use data-c="2D" xlink:href="#continuous-piecewise-graph-MJX-6-TEX-N-2D"/>
+                <use data-c="35" xlink:href="#continuous-piecewise-graph-MJX-6-TEX-N-35" transform="translate(333,0)"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="continuous-piecewise-graph-label-5" transform="translate(154.0,90.0) translate(-9.0,-6.2)">
+      <g id="continuous-piecewise-graph-g-5">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="9.048px" height="12.456px" role="img" focusable="false" viewBox="0 -666 500 688" x="0.0" y="0.0">
+          <defs>
+            <path id="continuous-piecewise-graph-MJX-7-TEX-N-35" d="M164 157Q164 133 148 117T109 101H102Q148 22 224 22Q294 22 326 82Q345 115 345 210Q345 313 318 349Q292 382 260 382H254Q176 382 136 314Q132 307 129 306T114 304Q97 304 95 310Q93 314 93 485V614Q93 664 98 664Q100 666 102 666Q103 666 123 658T178 642T253 634Q324 634 389 662Q397 666 402 666Q410 666 410 648V635Q328 538 205 538Q174 538 149 544L139 546V374Q158 388 169 396T205 412T256 420Q337 420 393 355T449 201Q449 109 385 44T229 -22Q148 -22 99 32T50 154Q50 178 61 192T84 210T107 214Q132 214 148 197T164 157Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="5">
+                <use data-c="35" xlink:href="#continuous-piecewise-graph-MJX-7-TEX-N-35"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+  </g>
+  <path id="continuous-piecewise-graph-graph-0" stroke="blue" stroke-width="1.5" fill="none" d="M 15.0 75.0 L 15.9 75.0 L 16.8 75.0 L 17.7 75.0 L 18.6 75.0 L 19.5 75.0 L 20.4 75.0 L 21.3 75.0 L 22.2 75.0 L 23.1 75.0 L 24.0 75.0 L 24.9 75.0 L 25.8 75.0 L 26.7 75.0 L 27.6 75.0 L 28.5 75.0 L 29.4 75.0 L 30.3 75.0 L 31.2 75.0 L 32.1 75.0 L 33.0 75.0 L 33.9 75.0 L 34.8 75.0 L 35.7 75.0 L 36.6 75.0 L 37.5 75.0 L 38.4 75.0 L 39.3 75.0 L 40.2 75.0 L 41.1 75.0 L 42.0 75.0 L 42.9 75.0 L 43.8 75.0 L 44.7 75.0 L 45.6 75.0 L 46.5 75.0 L 47.4 75.0 L 48.3 75.0 L 49.2 75.0 L 50.1 75.0 L 51.0 75.0 L 51.9 75.0 L 52.8 75.0 L 53.7 75.0 L 54.6 75.0 L 55.5 75.0 L 56.4 75.0 L 57.3 75.0 L 58.2 75.0 L 59.1 75.0 L 60.0 75.0 L 60.9 75.0 L 61.8 75.0 L 62.7 75.0 L 63.6 75.0 L 64.5 75.0 L 65.4 75.0 L 66.3 75.0 L 67.2 75.0 L 68.1 75.0 L 69.0 75.0 L 69.9 75.0 L 70.8 75.0 L 71.7 75.0 L 72.6 75.0 L 73.5 75.0 L 74.4 75.0 L 75.3 75.0 L 76.2 75.0 L 77.1 75.0 L 78.0 75.0 L 78.9 75.0 L 79.8 75.0 L 80.7 75.0 L 81.6 75.0 L 82.5 75.0 L 83.4 75.0 L 84.3 75.0 L 85.2 75.0 L 86.1 75.0 L 87.0 75.0 L 87.9 75.0 L 88.8 75.0 L 89.7 75.0 L 90.6 75.0 L 91.5 75.0 L 92.4 75.0 L 93.3 75.0 L 94.2 75.0 L 95.1 75.0 L 96.0 75.0 L 96.9 75.0 L 97.8 75.0 L 98.7 75.0 L 99.6 75.0 L 100.5 75.0 L 101.4 75.0 L 102.3 75.0 L 103.2 75.0 L 104.1 75.0 L 105.0 75.0" clip-path="url(#continuous-piecewise-graph-clipPath-1)"/>
+  <circle id="continuous-piecewise-graph-circle-0" cx="105.0" cy="75.0" r="3" stroke="black" stroke-width="1.5" fill="white"/>
+  <path id="continuous-piecewise-graph-graph-1" stroke="blue" stroke-width="1.5" fill="none" d="M 105.0 75.0 L 106.2 84.5 L 107.4 93.8 L 108.6 102.9 L 109.8 111.9 L 111.0 120.6 L 112.2 129.1 L 113.4 137.5 L 114.6 145.7 L 115.8 153.6 L 117.0 161.4 L 118.2 169.0 L 119.4 176.4 L 120.6 183.6 L 121.8 190.6 L 123.0 197.4 L 124.2 204.0 L 125.4 210.5 L 126.6 216.7 L 127.8 222.7 L 129.0 228.6 L 130.2 234.3 L 131.4 239.7 L 132.6 245.0 L 133.8 250.1 L 135.0 255.0 L 136.2 259.7 L 137.4 264.2 L 138.6 268.5 L 139.8 272.7 L 141.0 276.6 L 142.2 280.3 L 143.4 283.9 L 144.6 287.3 L 145.8 290.4 L 147.0 293.4 L 148.2 296.2 L 149.4 298.8 L 150.6 301.2 L 151.8 303.4 L 153.0 305.4 L 154.2 307.2 L 155.4 308.9 L 156.6 310.3 L 157.8 311.5 L 159.0 312.6 L 160.2 313.5 L 161.4 314.1 L 162.6 314.6 L 163.8 314.9 L 165.0 315.0 L 166.2 314.9 L 167.4 314.6 L 168.6 314.1 L 169.8 313.5 L 171.0 312.6 L 172.2 311.5 L 173.4 310.3 L 174.6 308.9 L 175.8 307.2 L 177.0 305.4 L 178.2 303.4 L 179.4 301.2 L 180.6 298.8 L 181.8 296.2 L 183.0 293.4 L 184.2 290.4 L 185.4 287.3 L 186.6 283.9 L 187.8 280.3 L 189.0 276.6 L 190.2 272.7 L 191.4 268.5 L 192.6 264.2 L 193.8 259.7 L 195.0 255.0 L 196.2 250.1 L 197.4 245.0 L 198.6 239.7 L 199.8 234.3 L 201.0 228.6 L 202.2 222.7 L 203.4 216.7 L 204.6 210.5 L 205.8 204.0 L 207.0 197.4 L 208.2 190.6 L 209.4 183.6 L 210.6 176.4 L 211.8 169.0 L 213.0 161.4 L 214.2 153.6 L 215.4 145.7 L 216.6 137.5 L 217.8 129.1 L 219.0 120.6 L 220.2 111.9 L 221.4 102.9 L 222.6 93.8 L 223.8 84.5 L 225.0 75.0" clip-path="url(#continuous-piecewise-graph-clipPath-1)"/>
+  <circle id="continuous-piecewise-graph-circle-1" cx="105.0" cy="75.0" r="3" stroke="black" stroke-width="2" fill="red"/>
+  <circle id="continuous-piecewise-graph-circle-2" cx="225.0" cy="75.0" r="3" stroke="black" stroke-width="1.5" fill="white"/>
+  <path id="continuous-piecewise-graph-graph-2" stroke="blue" stroke-width="1.5" fill="none" d="M 225.0 75.0 L 225.9 73.2 L 226.8 71.4 L 227.7 69.6 L 228.6 67.8 L 229.5 66.0 L 230.4 64.2 L 231.3 62.4 L 232.2 60.6 L 233.1 58.8 L 234.0 57.0 L 234.9 55.2 L 235.8 53.4 L 236.7 51.6 L 237.6 49.8 L 238.5 48.0 L 239.4 46.2 L 240.3 44.4 L 241.2 42.6 L 242.1 40.8 L 243.0 39.0 L 243.9 37.2 L 244.8 35.4 L 245.7 33.6 L 246.6 31.8 L 247.5 30.0 L 248.4 28.2 L 249.3 26.4 L 250.2 24.6 L 251.1 22.8 L 252.0 21.0 L 252.9 19.2 L 253.8 17.4 L 254.7 15.6 L 255.6 13.8 L 256.5 12.0 L 257.4 10.2 L 258.3 8.4 L 259.2 6.6 L 260.1 4.8 L 261.0 3.0 L 261.9 1.2 L 262.8 -0.6 L 263.7 -2.4 L 264.6 -4.2 L 265.5 -6.0 L 266.4 -7.8 L 267.3 -9.6 L 268.2 -11.4 L 269.1 -13.2 L 270.0 -15.0 L 270.9 -16.8 L 271.8 -18.6 L 272.7 -20.4 L 273.6 -22.2 L 274.5 -24.0 L 275.4 -25.8 L 276.3 -27.6 L 277.2 -29.4 L 278.1 -31.2 L 279.0 -33.0 L 279.9 -34.8 L 280.8 -36.6 L 281.7 -38.4 L 282.6 -40.2 L 283.5 -42.0 L 284.4 -43.8 L 285.3 -45.6 L 286.2 -47.4 L 287.1 -49.2 L 288.0 -51.0 L 288.9 -52.8 L 289.8 -54.6 L 290.7 -56.4 L 291.6 -58.2 L 292.5 -60.0 L 293.4 -61.8 L 294.3 -63.6 L 295.2 -65.4 L 296.1 -67.2 L 297.0 -69.0 L 297.9 -70.8 L 298.8 -72.6 L 299.7 -74.4 L 300.6 -76.2 L 301.5 -78.0 L 302.4 -79.8 L 303.3 -81.6 L 304.2 -83.4 L 305.1 -85.2 L 306.0 -87.0 L 306.9 -88.8 L 307.8 -90.6 L 308.7 -92.4 L 309.6 -94.2 L 310.5 -96.0 L 311.4 -97.8 L 312.3 -99.6 L 313.2 -101.4 L 314.1 -103.2 L 315.0 -105.0" clip-path="url(#continuous-piecewise-graph-clipPath-1)"/>
+  <circle id="continuous-piecewise-graph-circle-3" cx="225.0" cy="75.0" r="3" stroke="black" stroke-width="2" fill="red"/>
+</svg>
