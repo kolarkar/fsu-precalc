@@ -208,7 +208,9 @@
         <table>
           <title>Notation for end behavior</title>
           <tabular halign="left" top="medium" bottom="medium" left="none" right="none">
-            <row header="yes" bottom="medium">
+                <col width="30%" />
+                <col width="30%" />
+                <col width="30%" />            <row header="yes" bottom="medium">
               <cell>The symbol..</cell>
               <cell>is read as..</cell>
               <cell>which means that..</cell>
@@ -440,14 +442,29 @@
             <table>
               <title>Zeros and Multiplicity Table</title>
               <tabular halign="center" top="medium" bottom="medium" left="medium" right="medium">
+                <col width="30%" />
+                <col width="30%" />
+                <col width="30%" />
                 <row header="yes" bottom="medium">
                   <cell>Factors</cell>
                   <cell>Zeroes</cell>
                   <cell>Multiplicity</cell>
                 </row>
-                <row><cell/><cell/><cell/></row>
-                <row><cell/><cell/><cell/></row>
-                <row><cell/><cell/><cell/></row>
+                <row>
+                  <cell><fillin characters="15" /></cell>
+                  <cell><fillin characters="15" /></cell>
+                  <cell><fillin characters="15" /></cell>
+                </row>
+                <row>
+                  <cell><fillin characters="15" /></cell>
+                  <cell><fillin characters="15" /></cell>
+                  <cell><fillin characters="15" /></cell>
+                </row>
+                <row>
+                  <cell><fillin characters="15" /></cell>
+                  <cell><fillin characters="15" /></cell>
+                  <cell><fillin characters="15" /></cell>
+                </row>
               </tabular>
             </table>
           </statement>
@@ -534,15 +551,33 @@
             <table>
               <title>Cross and Touch Table</title>
               <tabular halign="center" top="medium" bottom="medium" left="medium" right="medium">
+                <col width="30%" />
+                <col width="30%" />
+                <col width="30%" />
                 <row header="yes" bottom="medium">
                   <cell>Factors</cell>
                   <cell>Zeroes</cell>
                   <cell>Multiplicity</cell>
                   <cell>Cross/Touch</cell>
                 </row>
-                <row><cell/><cell/><cell/><cell/></row>
-                <row><cell/><cell/><cell/><cell/></row>
-                <row><cell/><cell/><cell/><cell/></row>
+                <row>
+                  <cell><fillin characters="15" /></cell>
+                  <cell><fillin characters="15" /></cell>
+                  <cell><fillin characters="15" /></cell>
+                  <cell><fillin characters="15" /></cell>
+                </row>
+                <row>
+                  <cell><fillin characters="15" /></cell>
+                  <cell><fillin characters="15" /></cell>
+                  <cell><fillin characters="15" /></cell>
+                  <cell><fillin characters="15" /></cell>
+                </row>
+                <row>
+                  <cell><fillin characters="15" /></cell>
+                  <cell><fillin characters="15" /></cell>
+                  <cell><fillin characters="15" /></cell>
+                  <cell><fillin characters="15" /></cell>
+                </row>
               </tabular>
             </table>
           </statement>
