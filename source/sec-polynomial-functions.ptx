@@ -426,7 +426,7 @@
           <statement>
             <p>
               If <m>(x-c)^{k}</m> is a factor of the polynomial <m>f\left( x\right)</m>
-              and <m>(x-c)^{k+1}</m> is not, then we say <b>c is a zero of multiplicity k</b> of <m>f(x)</m>.
+              and <m>(x-c)^{k+1}</m> is not, then we say <m>c</m> is a zero of multiplicity <m>k</m> of <m>f(x)</m>.
               In other words, if a polynomial function has a factor <m>\left( x-c\right)</m> that appears
               exactly <m>k</m> times, then <m>c</m> is a zero of multiplicity <m>k</m>.
             </p>
