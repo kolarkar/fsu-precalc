@@ -216,7 +216,7 @@
             <row>
               <cell><m>x\rightarrow \infty</m></cell>
               <cell>"<m>x</m> approaches infinity"</cell>
-              <cell><m>x</m> becomes infinitely large in the positive direction</cell>
+              <cell><p><m>x</m> becomes infinitely large in the positive direction</p></cell>
             </row>
             <row>
               <cell><m>x\rightarrow -\infty</m></cell>
