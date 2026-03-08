@@ -27,6 +27,14 @@
               <li><m>-\sqrt{-25}</m></li>
             </ol>
           </statement>
+          <answer>
+            <p>
+              <ol cols="2">
+              <li><m>2\sqrt{3}i</m></li>
+              <li><m>-5i</m></li>
+            </ol>
+            </p>
+          </answer>
         </example>
 
         <assemblage xml:id="obj-simplifying-imaginary">
@@ -49,6 +57,18 @@
               <li><m>i^{-30}</m></li>
             </ol>
           </statement>
+          <answer>
+            <p>
+            <ol cols="2">
+              <li><m>-i</m></li>
+              <li><m>1</m></li>
+              <li><m>i</m></li>
+              <li><m>-1</m></li>
+              <li><m>-i</m></li>
+              <li><m>-1</m></li>
+            </ol>
+            </p>
+          </answer>
         </example>
 
         <definition xml:id="def-complex-number">
