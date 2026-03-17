@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-zeros-of-polynomials">
+        <title>Zeros of Polynomials (ALEKS 2.4)</title>
+
+        <definition xml:id="def-zeroes-of-a-plynml">
+          <title>Zeros of a Polynomial</title>
+          <statement>
+            <p>
+              The <b>zeros of a polynomial</b> <m>f(x)</m> are the solutions to the equation <m>f(x)=0</m>.
+            </p>
+            <p>
+              The real zeros of <m>f(x)</m> are the <m>x</m>-intercepts on the graph of the function.
+            </p>
+          </statement>
+        </definition>
+
+        <theorem xml:id="thm-rtn-0-thm">
+          <title>Rational Zero Theorem</title>
+          <statement>
+            <p>
+              If <m>f(x) = a_{n}x^{n}+a_{n-1}x^{n-1}+a_{n-2}x^{n-2}+...+a_{1}x+a_{0}</m> 
+              has integer coefficients and <m>a_{n} \neq 0</m>, and if <m>\frac{p}{q}</m> (written in lowest
+              terms) is a rational zero of <m>f</m>, then <m>p</m> is a factor of the constant term <m>a_{0}</m> and <m>q</m>
+              is a factor of the leading coefficient <m>a_{n}</m>.
+            </p>
+            <p>
+              If a rational zero exists for a polynomial, then it must be of the form
+              <me>\frac{p}{q}=\frac{\text{Factors of }a_{0}\text{ (constant term)}}{\text{Factors of }a_{n}\text{ (leading coefficient)}}</me>
+            </p>
+          </statement>
+        </theorem>
+
+        <assemblage xml:id="obj-apply-rational-zero">
+          <title>Apply the Rational Zero Theorem</title>
+          <p>
+            The Rational Zero Theorem limits the possible number of rational zeros to a finite number of tasks but does not guarantee the existence of rational zeros.
+          </p>
+        </assemblage>
+
+        <example xml:id="ex-rational-zeros">
+          <introduction>
+            <p>For <m>f(x) =3x^{3}-2x^{2}-7x-2</m></p>
+          </introduction>
+          <task xml:id="task-rz-1">
+            <statement><p>List all possible rational zeros.</p></statement>
+            <workspace>1.5in</workspace>
+          </task>
+          <task xml:id="task-rz-2">
+            <statement><p>Find the real zeros and their multiplicities.</p></statement>
+            <workspace>1.5in</workspace>
+          </task>
+        </example>
+
+        <pagebreak />
+
+        <theorem xml:id="thm-fndmntl-thm-of-algbra">
+          <title>Fundamental Theorem of Algebra</title>
+          <statement>
+            <p>
+              If <m>f(x)</m> is a polynomial of degree <m>n\geq 1</m> with <em>complex</em> coefficients, then <m>f(x)</m> has at least one complex zero.
+            </p>
+          </statement>
+        </theorem>
+
+        <theorem xml:id="thm-lnr-fctrzn">
+          <title>Linear Factorization Theorem</title>
+          <statement>
+            <p>
+              If <m>f(x) =a_{n}x^{n}+a_{n-1}x^{n-1}+a_{n-2}x^{n-2}+...+a_{1}x+a_{0}</m> where <m>n\geq 1</m>
+              and <m>a_{n} \neq 0</m>, then <m>f(x) =a_{n}(x-c_{1})(x-c_{2}) ... (x-c_{n})</m> where <m>c_{1},c_{2},...,c_{n}</m> are complex numbers.
+            </p>
+          </statement>
+        </theorem>
+
+        <assemblage xml:id="obj-apply-fta">
+          <title>Apply the Fundamental Theorem of Algebra</title>
+          <p>
+            The Fundamental Theorem of Algebra guarantees that a zero exists. Every polynomial of degree <m>n</m> has at most <m>n</m> real zeros. 
+            To factor <m>f(x)</m> over the real numbers:
+          </p>
+          <ul>
+            <li><b>Step 1:</b> Use the Rational Zeros Theorem to identify the possible rational zeros.</li>
+            <li><b>Step 2:</b> Use the Factor Theorem or Remainder Theorem to test possible zeros.</li>
+            <li><b>Step 3:</b> Each time a zero is found, use factoring techniques or polynomial division to find the remaining factors.</li>
+          </ul>
+        </assemblage>
+
+        <example xml:id="ex-fta-remaining">
+          <statement>
+            <p>
+              Given that <m>x=-\frac{1}{2}</m> is one solution to <m>2x^{4}-x^{3}+17x^{2}-9x-9=0</m>, find the remaining solutions.
+            </p>
+          </statement>
+          <workspace>3in</workspace>
+        </example>
+
+        <p>
+          <b>Important Note:</b> Not all polynomials have rational solutions. For example
+          <me>f(x)=x^2+1 \text{ and } f(x)=x^2-2.</me>
+        </p>
+        
+        <pagebreak />
+
+        <theorem xml:id="thm-cnjgt-0s">
+          <title>Conjugate Zeros Theorem</title>
+          <statement>
+            <p>
+              If <m>f(x)</m> is a polynomial with <em>real</em> coefficients and if <m>a+bi</m> (<m>b \neq 0</m>) is a zero of <m>f(x)</m> then its conjugate <m>a-bi</m> is also a zero of <m>f(x)</m>.
+            </p>
+          </statement>
+        </theorem>
+
+        <workspace>0.9in</workspace>
+
+        <example xml:id="ex-conjugate-zeros">
+          <introduction>
+            <p>
+              Suppose that <m>R(x)</m> is a polynomial of degree <m>12</m> whose coefficients are real numbers. 
+              Answer the following questions given that <m>R(x)</m> has the following zeros: <m>5</m>, <m>-5i</m>, <m>1-i</m>
+            </p>
+          </introduction>
+          <task xml:id="task-conj-1">
+            <statement><p>Find another zero of <m>R(x)</m>.</p></statement>
+            <workspace>1.5in</workspace>
+          </task>
+          <task xml:id="task-conj-2">
+            <statement><p>What is the maximum number of <b>real zeros</b> that <m>R(x)</m> can have?</p></statement>
+            <workspace>1.5in</workspace>
+          </task>
+          <task xml:id="task-conj-3">
+            <statement><p>What is the maximum number of <b>nonreal zeros</b> that <m>R(x)</m> can have?</p></statement>
+            <workspace>1.5in</workspace>
+          </task>
+        </example>
+
+        <pagebreak />
+
+        <theorem xml:id="thm-num-0s-of-plnml">
+          <title>Number of Zeros of a Polynomial</title>
+          <statement>
+            <p>
+              If <m>f(x)</m> is a polynomial of degree <m>n\geq 1</m> with complex coefficients, then <m>f(x)</m> has exactly <m>n</m> complex zeros provided that each zero is counted by its multiplicity.
+            </p>
+          </statement>
+        </theorem>
+
+        <example xml:id="ex-find-all-zeros-1">
+          <statement>
+            <p>
+              The function below has at least one rational zero. Use this fact to find all zeros of the function and express <m>f(x)</m> as a product of linear factors.
+              <me>f(x) = x^4 +x^3 -9x^2 -11x +6</me>
+            </p>
+          </statement>
+          <workspace>4in</workspace>
+        </example>
+
+        <pagebreak />
+
+        <example xml:id="ex-build-poly-4">
+          <statement>
+            <p>
+              Find a polynomial <m>f(x)</m> of degree <m>4</m> with real coefficients and the following zeros: <m>-3, 4, 1-i</m>
+            </p>
+          </statement>
+          <workspace>5.5in</workspace>
+        </example>
+
+        <example xml:id="ex-build-poly-3">
+          <statement>
+            <p>
+              Find a polynomial <m>p(x)</m> with real coefficients of degree <m>3</m> with zeros <m>-2i</m> and <m>4</m> 
+              that satisfies the condition <m>p(0) =32</m>.
+            </p>
+          </statement>
+          <workspace>3in</workspace>
+        </example>
+
+        <pagebreak />
+
+        <p><b>Students - Check your understanding</b></p>
+
+        <activity xml:id="cyu-rational-zeros-list">
+          <introduction>
+            <p>
+              Which of the following contains all possible rational zeros for <m>f(x)</m>?
+              <me>f(x)=8x^{5}+4x^{4}-3x^{3}-6x-2</me>
+            </p>
+          </introduction>
+          <task xml:id="task-cyu-rz-1">
+            <statement><p><m>\pm 1,\pm 2,\pm 4,\pm 8</m></p></statement>
+            <workspace>0.25in</workspace>
+          </task>
+          <task xml:id="task-cyu-rz-2">
+            <statement><p><m>\pm 1,\pm 2,\pm 3,\pm 4,\pm 6,\pm 8</m></p></statement>
+            <workspace>0.25in</workspace>
+          </task>
+          <task xml:id="task-cyu-rz-3">
+            <statement><p><m>\pm 1,\pm 2,\pm \displaystyle \frac{1}{2},\pm \frac{1}{4},\pm \displaystyle \frac{1}{8}</m></p></statement>
+            <workspace>0.25in</workspace>
+          </task>
+          <task xml:id="task-cyu-rz-4">
+            <statement><p><m>\pm 1,\pm 2,\pm 4,\pm 8,\pm \displaystyle \frac{1}{2}</m></p></statement>
+            <workspace>0.25in</workspace>
+          </task>
+        </activity>
+        
+        <workspace>0.75in</workspace>
+
+        <activity xml:id="cyu-not-possible-zero">
+          <introduction>
+            <p>
+              Which of the following is <b>not</b> a possible zero of the following function? Select all that apply.
+            </p>
+            <me>f(x)=4x^{5}-2x^{3}+10</me>
+          </introduction>
+          <task xml:id="task-cyu-np-1"><statement><p><m>4</m></p></statement></task>
+          <task xml:id="task-cyu-np-2"><statement><p><m>5</m></p></statement></task>
+          <task xml:id="task-cyu-np-3"><statement><p><m>\displaystyle\frac{5}{2}</m></p></statement></task>
+          <task xml:id="task-cyu-np-4"><statement><p><m>\displaystyle\frac{2}{5}</m></p></statement></task>
+        </activity>
+        
+        <workspace>0.75in</workspace>
+
+        <activity xml:id="cyu-true-false-poly">
+          <introduction>
+            <p>Decide whether the following statement is true or false.</p>
+            <p>
+              A polynomial function of degree <m>4</m> with real coefficients could have <m>-1</m>, <m>8 + 3i</m>, <m>8 - 3i</m>, and <m>-8 + 8i</m> as its zeros. Choose the correct answer below.
+            </p>
+          </introduction>
+          <task xml:id="task-cyu-tf-1">
+            <statement><p>False</p></statement>
+            <workspace>0.2in</workspace>
+          </task>
+          <task xml:id="task-cyu-tf-2">
+            <statement><p>True</p></statement>
+            <workspace>0.2in</workspace>
+          </task>
+        </activity>
+
+        <pagebreak />
+
+        <p><b>Students - Check your understanding</b></p>
+
+        <activity xml:id="cyu-find-all-zeros-rational">
+          <statement>
+            <p>
+              The function below has at least one rational zero. Use this fact to find all the zeros of the function.
+              <me>f(x)=2x^{4}+x^{3}-5x^{2}-x+3</me>
+            </p>
+          </statement>
+          <workspace>2.8in</workspace>
+        </activity>
+
+        <activity xml:id="cyu-find-remaining-zeros">
+          <statement>
+            <p>
+              One zero of <m>f(x)=3x^{4} +5x^{3} +145x^{2} +245x - 98</m> is <m>-7i</m>. Find the remaining zeros of the function.
+            </p>
+          </statement>
+          <workspace>2.8in</workspace>
+        </activity>
+
+        <activity xml:id="cyu-find-degree-4">
+          <statement>
+            <p>
+              Find a degree <m>4</m> polynomial with zeros of <m>5</m>, with multiplicity <m>2</m>, and <m>3i</m>.
+            </p>
+          </statement>
+          <workspace>2.8in</workspace>
+        </activity>
+
+      </section>

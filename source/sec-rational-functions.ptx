@@ -1,0 +1,716 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-rational-functions">
+        <title>Rational Functions (ALEKS 2.5)</title>
+
+        <definition xml:id="def-rational-function">
+          <title>Rational function</title>
+          <statement>
+            <p>
+              Let <m>p(x)</m> and <m>q(x)</m> be polynomials where <m>q(x) \neq 0</m>.
+              A function <m>R(x)</m> defined by
+              <me>R(x) =\frac{p(x)}{q(x)}</me>
+              is called a <b>rational function</b>. The domain of <m>R(x)</m> is all real numbers, excluding the real zeros of <m>q(x)</m> since division by zero is undefined.
+            </p>
+          </statement>
+        </definition>
+
+        <p><b>Two Basic Rational Functions</b></p>
+
+        <sidebyside widths="45% 45%" margins="auto" valign="middle">
+          <stack>
+            <p><b>1.</b> The graph of <m>y= \displaystyle \frac{1}{x^n}</m>, where <m>n</m> is a positive odd integer.</p>
+            <p>Domain?</p>
+            <p>Asymptotes?</p>
+            <p>Range?</p>
+            <p>Intercepts?</p>
+          </stack>
+          <image>
+            <prefigure xmlns="https://prefigure.org" label="prefig-rat-basic-odd">
+              <diagram dimensions="(200,200)" margins="15">
+                <definition>f(x) = 1/x</definition>
+                <coordinates bbox="(-5,-6,5,6)">
+                  <grid-axes xlabel="x" ylabel="y" />
+                  <graph function="f" domain="[-5,-0.1]" color="blue" thickness="1.5" />
+                  <graph function="f" domain="[0.1,5]" color="blue" thickness="1.5" />
+                </coordinates>
+              </diagram>
+            </prefigure>
+          </image>
+        </sidebyside>
+
+        <workspace>0.6in</workspace>
+
+        <sidebyside widths="45% 45%" margins="auto" valign="middle">
+          <stack>
+            <p><b>2.</b> The graph of <m>y= \displaystyle \frac{1}{x^n}</m>, where <m>n</m> is a positive even integer.</p>
+            <p>Domain?</p>
+            <p>Asymptotes?</p>
+            <p>Range?</p>
+            <p>Intercepts?</p>
+          </stack>
+          <image>
+            <prefigure xmlns="https://prefigure.org" label="prefig-rat-basic-even">
+              <diagram dimensions="(200,200)" margins="15">
+                <definition>f(x) = 1/(x^2)</definition>
+                <coordinates bbox="(-5,-6,5,6)">
+                  <grid-axes xlabel="x" ylabel="y" />
+                  <graph function="f" domain="[-5,-0.1]" color="blue" thickness="1.5" />
+                  <graph function="f" domain="[0.1,5]" color="blue" thickness="1.5" />
+                </coordinates>
+              </diagram>
+            </prefigure>
+          </image>
+        </sidebyside>
+
+        <workspace>0.6in</workspace>
+
+        <example xml:id="ex-rat-transform">
+          <statement>
+            <p>
+              Use transformations to graph <m>f(x)</m>. State the domain in interval notation.
+              <me>f(x) = \displaystyle \frac{1}{x-3}-1</me>
+            </p>
+            <image width="50%">
+              <prefigure xmlns="https://prefigure.org" label="prefig-blank-grid-rat-transform">
+                <diagram dimensions="(300,300)" margins="15">
+                  <definition>f(x) = 1/x</definition>
+                  <coordinates bbox="(-8,-8,8,8)">
+                    <grid-axes xlabel="x" ylabel="y" />
+                    <graph function="f" domain="[-8,-0.1]" color="#b0b0b0" thickness="1.5" />
+                    <graph function="f" domain="[0.1,8]" color="#b0b0b0" thickness="1.5" />
+                  </coordinates>
+                </diagram>
+              </prefigure>
+            </image>
+          </statement>
+        </example>
+
+        <pagebreak />
+
+        <assemblage xml:id="obj-infinite-behavior">
+          <title>Apply Notation Describing Infinite Behavior of a Function</title>
+          <p>
+            Sometimes, a function <m>f(x)</m> may approach <m>\pm \infty</m>, close to a particular value of <m>x</m>;
+            or as <m>x</m> gets larger and larger; or as <m>x</m> gets smaller and smaller.
+          </p>
+        </assemblage>
+        
+        <workspace>0.5in</workspace>
+
+        <table>
+          <title>Notation for infinite behavior</title>
+          <tabular top="medium" bottom="medium" left="none" right="none">
+            <col width="20%" />
+            <col width="30%" />
+            <col width="50%" />
+            <row header="yes" bottom="medium">
+              <cell>The symbol..</cell>
+              <cell>is read as..</cell>
+              <cell>which means that..</cell>
+            </row>
+            <row>
+              <cell><m>x\rightarrow c^{+}</m></cell>
+              <cell><p>"<m>x</m> approaches <m>c</m> from the right"</p></cell>
+              <cell><p><m>x</m> decreases to values closer to <m>c</m>, but never equals <m>c</m></p></cell>
+            </row>
+            <row>
+              <cell><m>x\rightarrow c^{-}</m></cell>
+              <cell><p>"<m>x</m> approaches <m>c</m> from the left"</p></cell>
+              <cell><p><m>x</m> increases to values closer to <m>c</m>, but never equals <m>c</m></p></cell>
+            </row>
+            <row>
+              <cell><m>x\rightarrow  \infty</m></cell>
+              <cell><p>"<m>x</m> approaches infinity"</p></cell>
+              <cell><p><m>x</m> increases without bound</p></cell>
+            </row>
+            <row>
+              <cell><m>x \rightarrow -\infty</m></cell>
+              <cell><p>"<m>x</m> approaches negative infinity"</p></cell>
+              <cell><p><m>x</m> decreases without bound</p></cell>
+            </row>
+          </tabular>
+        </table>
+        
+        <workspace>0.5in</workspace>
+
+        <example xml:id="ex-infinite-behavior-graph">
+          <statement>
+            <p>
+              The graph <m>f(x) = \displaystyle \frac{x-1}{x-3}</m> is given. Complete the statements.
+            </p>
+            <sidebyside widths="50% 45%" margins="auto" valign="middle">
+              <stack>
+                <ul>
+                  <li>As <m>x\rightarrow \infty</m>, <m>f(x) \rightarrow </m> <fillin characters="10"/></li>
+                  <li>As <m>x\rightarrow -\infty</m>, <m>f(x) \rightarrow </m> <fillin characters="10"/></li>
+                  <li>As <m>x\rightarrow 3^{+}</m>, <m>f(x) \rightarrow </m> <fillin characters="10"/></li>
+                  <li>As <m>x\rightarrow 3^{-}</m>, <m>f(x) \rightarrow </m> <fillin characters="10"/></li>
+                </ul>
+              </stack>
+              <image>
+                <prefigure xmlns="https://prefigure.org" label="prefig-infinite-behavior">
+                  <diagram dimensions="(300,300)" margins="15">
+                    <definition>f(x) = (x-1)/(x-3)</definition>
+                    <coordinates bbox="(-3.5,-5.5,10.5,8.5)">
+                      <grid-axes xlabel="x" ylabel="y" />
+                      <graph function="f" domain="[-3.5, 2.9]" color="black" thickness="1.5" />
+                      <graph function="f" domain="[3.1, 10.5]" color="black" thickness="1.5" />
+                      <path points="(3,-5.5) (3,8.5)" color="red" stroke="dashed"/>
+                      <path points="(-3.5,1) (10.5,1)" color="red" stroke="dashed"/>
+                    </coordinates>
+                  </diagram>
+                </prefigure>
+              </image>
+            </sidebyside>
+          </statement>
+        </example>
+        
+        <workspace>0.5in</workspace>
+
+        <p>
+          <term>REMARK:</term> The graph of a rational function will never
+          cross a vertical asymptote, but may cross a horizontal asymptote.
+          If there's more than one vertical asymptote the graph of a rational function
+          may cross a horizontal asymptote in the "middle".
+        </p>
+
+        <pagebreak />
+
+        <definition xml:id="def-v-asymptote">
+          <title>Vertical Asymptote</title>
+          <statement>
+            <p>
+              The line <m>x = c</m> is a <b>vertical asymptote</b> of the graph of a function <m>f</m> if <m>f(x)</m> approaches infinity or negative infinity as <m>x</m> approaches <m>c</m> from either side.
+            </p>
+          </statement>
+        </definition>
+
+        <assemblage xml:id="obj-identify-vertical-asym">
+          <title>Identify vertical asymptotes</title>
+          <p>
+            Let <m>f(x) =\frac{p(x)}{q(x)}</m>, where <m>p(x)</m> and <m>q(x)</m> have no common factors
+            other than 1. To locate the vertical asymptotes of <m>f(x)</m>,
+            determine the real numbers <m>x</m> where the denominator is zero, but the
+            numerator is not zero.
+          </p>
+          <sbsgroup>
+            <sidebyside widths="45% 45%" margins="auto" valign="middle">
+              <stack>
+                <p>As <m>x\rightarrow c^{+}</m>, <m>f(x) \rightarrow \infty</m></p>
+                <image>
+                  <prefigure xmlns="https://prefigure.org" label="prefig-vasym-1">
+                    <diagram dimensions="(150,150)" margins="10">
+                      <definition>f(x) = 1/(x-1)</definition>
+                      <coordinates bbox="(-1,-1,2,2)">
+                        <grid-axes xlabel="x" ylabel="y" />
+                        <graph function="f" domain="[1.05,2]" color="blue" thickness="1.5" />
+                        <path points="(1,-1) (1,2)" color="red" stroke="dashed"/>
+                      </coordinates>
+                    </diagram>
+                  </prefigure>
+                </image>
+              </stack>
+              <stack>
+                <p>As <m>x\rightarrow c^{-}</m>, <m>f(x) \rightarrow \infty</m></p>
+                <image>
+                  <prefigure xmlns="https://prefigure.org" label="prefig-vasym-2">
+                    <diagram dimensions="(150,150)" margins="10">
+                      <definition>f(x) = 1/(1-x)</definition>
+                      <coordinates bbox="(-1,-1,2,2)">
+                        <grid-axes xlabel="x" ylabel="y" />
+                        <graph function="f" domain="[-1,0.95]" color="blue" thickness="1.5" />
+                        <path points="(1,-1) (1,2)" color="red" stroke="dashed"/>
+                      </coordinates>
+                    </diagram>
+                  </prefigure>
+                </image>
+              </stack>
+            </sidebyside>
+            <sidebyside widths="45% 45%" margins="auto" valign="middle">
+              <stack>
+                <p>As <m>x\rightarrow c^{+}</m>, <m>f(x) \rightarrow -\infty</m></p>
+                <image>
+                  <prefigure xmlns="https://prefigure.org" label="prefig-vasym-3">
+                    <diagram dimensions="(150,150)" margins="10">
+                      <definition>f(x) = -1/(x-1)</definition>
+                      <coordinates bbox="(-1,-1,2,2)">
+                        <grid-axes xlabel="x" ylabel="y" />
+                        <graph function="f" domain="[1.05,2]" color="blue" thickness="1.5" />
+                        <path points="(1,-1) (1,2)" color="red" stroke="dashed"/>
+                      </coordinates>
+                    </diagram>
+                  </prefigure>
+                </image>
+              </stack>
+              <stack>
+                <p>As <m>x\rightarrow c^{-}</m>, <m>f(x) \rightarrow -\infty</m></p>
+                <image>
+                  <prefigure xmlns="https://prefigure.org" label="prefig-vasym-4">
+                    <diagram dimensions="(150,150)" margins="10">
+                      <definition>f(x) = -1/(1-x)</definition>
+                      <coordinates bbox="(-1,-1,2,2)">
+                        <grid-axes xlabel="x" ylabel="y" />
+                        <graph function="f" domain="[-1,0.95]" color="blue" thickness="1.5" />
+                        <path points="(1,-1) (1,2)" color="red" stroke="dashed"/>
+                      </coordinates>
+                    </diagram>
+                  </prefigure>
+                </image>
+              </stack>
+            </sidebyside>
+          </sbsgroup>
+        </assemblage>
+
+        <example xml:id="ex-find-vertical-asym">
+          <introduction>
+            <p>Identify the vertical asymptotes, if any.</p>
+          </introduction>
+          <task xml:id="task-vert-1">
+            <statement><p><m>f(x) =\displaystyle \frac{x-3}{x^{2}-4x-5}</m></p></statement>
+            <workspace>0.75in</workspace>
+          </task>
+          <task xml:id="task-vert-2">
+            <statement><p><m>f(x) = \displaystyle \frac{x-3}{x^{2}-2x-3}</m></p></statement>
+            <workspace>0.75in</workspace>
+          </task>
+          <task xml:id="task-vert-3">
+            <statement><p><m>f(x) = \displaystyle \frac{-8}{x^{2}+25}</m></p></statement>
+            <workspace>0.75in</workspace>
+          </task>
+        </example>
+
+        <pagebreak />
+
+        <definition xml:id="def-h-asymptote">
+          <title>Horizontal Asymptote</title>
+          <statement>
+            <p>
+              The line <m>y = d</m> is a <b>horizontal asymptote</b> of the graph of a function <m>f</m> if <m>f(x)</m> approaches <m>d</m> as <m>x</m> approaches infinity or negative infinity.
+            </p>
+          </statement>
+        </definition>
+
+        <assemblage xml:id="obj-identify-horizontal-asym">
+          <title>Identify horizontal asymptotes</title>
+          <p>
+            Let <m>f</m> be a rational function defined by 
+            <me>f(x) =\displaystyle \frac{a_{n}x^{n}+a_{n-1}x^{n-1}+...+a_{0}}{b_{m}x^{m}+b_{m-1}x^{m-1}+...+b_{0}}</me>
+            where <m>n</m> is the degree of the numerator and <m>m</m> is the degree of the denominator.
+          </p>
+          <ul>
+            <li>If <m>n \gt m</m>, <m>f</m> has <fillin characters="15" />.</li>
+            <li>If <m>n \lt m</m>, then the horizontal asymptote of <m>f</m> is <fillin characters="15" />.</li>
+            <li>If <m>n=m</m>, then the horizontal asymptote of <m>f</m> is <fillin characters="15" />.</li>
+          </ul>
+          
+          <sbsgroup>
+            <sidebyside widths="45% 45%" margins="auto" valign="middle">
+              <stack>
+                <p>As <m>x\rightarrow \infty</m>, <m>f(x) \rightarrow d</m></p>
+                <image>
+                  <prefigure xmlns="https://prefigure.org" label="prefig-hasym-1">
+                    <diagram dimensions="(150,150)" margins="10">
+                      <definition>f(x) = 1 + 1/x</definition>
+                      <coordinates bbox="(-1,-1,2,2)">
+                        <grid-axes xlabel="x" ylabel="y" />
+                        <graph function="f" domain="[0.5,2]" color="blue" thickness="1.5" />
+                        <path points="(-1,1) (2,1)" color="red" stroke="dashed"/>
+                      </coordinates>
+                    </diagram>
+                  </prefigure>
+                </image>
+              </stack>
+              <stack>
+                <p>As <m>x\rightarrow \infty</m>, <m>f(x) \rightarrow d</m></p>
+                <image>
+                  <prefigure xmlns="https://prefigure.org" label="prefig-hasym-2">
+                    <diagram dimensions="(150,150)" margins="10">
+                      <definition>f(x) = 1 - 1/x</definition>
+                      <coordinates bbox="(-1,-1,2,2)">
+                        <grid-axes xlabel="x" ylabel="y" />
+                        <graph function="f" domain="[0.5,2]" color="blue" thickness="1.5" />
+                        <path points="(-1,1) (2,1)" color="red" stroke="dashed"/>
+                      </coordinates>
+                    </diagram>
+                  </prefigure>
+                </image>
+              </stack>
+            </sidebyside>
+            <sidebyside widths="45% 45%" margins="auto" valign="middle">
+              <stack>
+                <p>As <m>x\rightarrow -\infty</m>, <m>f(x) \rightarrow d</m></p>
+                <image>
+                  <prefigure xmlns="https://prefigure.org" label="prefig-hasym-3">
+                    <diagram dimensions="(150,150)" margins="10">
+                      <definition>f(x) = 1 + 1/x</definition>
+                      <coordinates bbox="(-2,-1,1,2)">
+                        <grid-axes xlabel="x" ylabel="y" />
+                        <graph function="f" domain="[-2,-0.5]" color="blue" thickness="1.5" />
+                        <path points="(-2,1) (1,1)" color="red" stroke="dashed"/>
+                      </coordinates>
+                    </diagram>
+                  </prefigure>
+                </image>
+              </stack>
+              <stack>
+                <p>As <m>x\rightarrow -\infty</m>, <m>f(x) \rightarrow d</m></p>
+                <image>
+                  <prefigure xmlns="https://prefigure.org" label="prefig-hasym-4">
+                    <diagram dimensions="(150,150)" margins="10">
+                      <definition>f(x) = 1 - 1/x</definition>
+                      <coordinates bbox="(-2,-1,1,2)">
+                        <grid-axes xlabel="x" ylabel="y" />
+                        <graph function="f" domain="[-2,-0.5]" color="blue" thickness="1.5" />
+                        <path points="(-2,1) (1,1)" color="red" stroke="dashed"/>
+                      </coordinates>
+                    </diagram>
+                  </prefigure>
+                </image>
+              </stack>
+            </sidebyside>
+          </sbsgroup>
+        </assemblage>
+
+        <workspace>0.2in</workspace>
+
+        <example xml:id="ex-find-horizontal-asym">
+          <introduction>
+            <p>Identify the horizontal asymptotes, if any.</p>
+          </introduction>
+          <task xml:id="task-horiz-1">
+            <statement><p><m>f(x) =\displaystyle \frac{3x}{x^{2}-9}</m></p></statement>
+            <workspace>1.2in</workspace>
+          </task>
+          <task xml:id="task-horiz-2">
+            <statement><p><m>f(x) =\displaystyle \frac{3x^{2}}{x^{2}-9}</m></p></statement>
+            <workspace>1.2in</workspace>
+          </task>
+          <task xml:id="task-horiz-3">
+            <statement><p><m>f(x) =\displaystyle \frac{3x^{3}}{x^{2}-9}</m></p></statement>
+            <workspace>1.2in</workspace>
+          </task>
+        </example>
+
+        <pagebreak />
+
+        <p><b>Students - Check your understanding</b></p>
+
+        <activity xml:id="cyu-domain-rat">
+          <introduction>
+            <p>Find the domain of the rational function. <m>g(x)= \displaystyle\frac{x}{x^{3}-343}</m></p>
+          </introduction>
+          <task xml:id="task-cyu-dom-1"><statement><p><m>\{ x \mid x \neq 7\}</m></p></statement><workspace>0.2in</workspace></task>
+          <task xml:id="task-cyu-dom-2"><statement><p><m>\{x \mid x \neq 49\}</m></p></statement><workspace>0.2in</workspace></task>
+          <task xml:id="task-cyu-dom-3"><statement><p><m>\{x \mid x \neq -7\}</m></p></statement><workspace>0.2in</workspace></task>
+          <task xml:id="task-cyu-dom-4"><statement><p><m>\{x \mid x \neq 7, -7\}</m></p></statement><workspace>0.2in</workspace></task>
+        </activity>
+        
+        <workspace>0.75in</workspace>
+
+        <activity xml:id="cyu-vert-asym-rat">
+          <introduction>
+            <p>Find the vertical asymptotes of the rational function. <m>f(x)= \displaystyle\frac{x-3}{x^{3} - 9x}</m></p>
+          </introduction>
+          <task xml:id="task-cyu-va-1"><statement><p><m>x = -3, x = 3</m></p></statement><workspace>0.1in</workspace></task>
+          <task xml:id="task-cyu-va-2"><statement><p><m>x = 0, x = -3, x = 3</m></p></statement><workspace>0.1in</workspace></task>
+          <task xml:id="task-cyu-va-3"><statement><p><m>x = 0, x = -3</m></p></statement><workspace>0.1in</workspace></task>
+          <task xml:id="task-cyu-va-4"><statement><p><m>x = 0, x = 3</m></p></statement><workspace>0.1in</workspace></task>
+        </activity>
+
+        <activity xml:id="cyu-horiz-asym-rat">
+          <introduction>
+            <p>Find the horizontal asymptotes of <m>f(x)= \displaystyle\frac{9-x^{2}}{2x+4}</m></p>
+          </introduction>
+          <task xml:id="task-cyu-ha-1"><statement><p>Horizontal Asymptote is <m>y=1</m></p></statement><workspace>0.2in</workspace></task>
+          <task xml:id="task-cyu-ha-2"><statement><p>Horizontal Asymptote is <m>y=2</m></p></statement><workspace>0.2in</workspace></task>
+          <task xml:id="task-cyu-ha-3"><statement><p>No Horizontal Asymptote</p></statement><workspace>0.2in</workspace></task>
+        </activity>
+
+        <pagebreak />
+
+        <p>
+          <term>REMARK:</term> The graph of a rational function will never cross a vertical asymptote, but may cross a horizontal asymptote.
+        </p>
+        
+        <workspace>0.2in</workspace>
+
+        <example xml:id="ex-graph-matching-rat">
+          <introduction>
+            <p>
+              The figure below shows the graph of a rational function <m>f(x)</m>.
+              It has vertical asymptotes <m>x= -3</m> and <m>x = 4</m>, and horizontal asymptote <m>y = 0</m>.
+              The graph has an <m>x</m>-intercept at <m>(1,0)</m> and passes through the point <m>(-1, 1)</m>.
+              The equation for <m>f(x)</m> has one of the five forms below.
+              Choose the appropriate form for <m>f(x)</m> and then write the equation.
+              Assume <m>f(x)</m> is in simplest form.
+            </p>
+            <image width="50%">
+              <prefigure xmlns="https://prefigure.org" label="prefig-graph-matching-rat">
+                <diagram dimensions="(300,300)" margins="15">
+                  <definition>f(x) = 5*(x-1)/(x^2 - x - 12)</definition>
+                  <coordinates bbox="(-12.5,-12.5,12.5,12.5)">
+                    <grid-axes xlabel="x" ylabel="y" />
+                    <graph function="f" domain="[-11,-3.1]" color="black" thickness="1.5" />
+                    <graph function="f" domain="[-2.9,3.9]" color="black" thickness="1.5" />
+                    <graph function="f" domain="[4.1,11]" color="black" thickness="1.5" />
+                    <path points="(-3,-12.5) (-3,12.5)" color="red" stroke="dashed"/>
+                    <path points="(4,-12.5) (4,12.5)" color="red" stroke="dashed"/>
+                    <path points="(-12.5,0) (12.5,0)" color="red" stroke="dashed"/>
+                  </coordinates>
+                </diagram>
+              </prefigure>
+            </image>
+          </introduction>
+          <task xml:id="task-match-1"><statement><p><m>f(x) = \displaystyle \frac{a}{x-b}</m></p></statement><workspace>0.5in</workspace></task>
+          <task xml:id="task-match-2"><statement><p><m>f(x) = \displaystyle \frac{a(x-b)}{x-c}</m></p></statement><workspace>0.5in</workspace></task>
+          <task xml:id="task-match-3"><statement><p><m>f(x) = \displaystyle \frac{a}{(x-b)(x-c)}</m></p></statement><workspace>0.5in</workspace></task>
+          <task xml:id="task-match-4"><statement><p><m>f(x) = \displaystyle \frac{a(x-b)}{(x-c)(x-d)}</m></p></statement><workspace>0.5in</workspace></task>
+          <task xml:id="task-match-5"><statement><p><m>f(x) = \displaystyle \frac{a(x-b)(x-c)}{(x-d)(x-e)}</m></p></statement><workspace>0.5in</workspace></task>
+        </example>
+
+        <pagebreak />
+
+        <definition xml:id="def-slant-asymptote">
+          <title>Slant Asymptote</title>
+          <statement>
+            <p>
+              A rational function will have a <b>slant asymptote</b> (also known as an oblique asymptote) if
+              the degree of the numerator is exactly one greater than the degree of the
+              denominator.
+            </p>
+          </statement>
+        </definition>
+
+        <assemblage xml:id="obj-ident-slant-asym">
+          <title>Identify Slant Asymptotes</title>
+          <p>
+            To find an equation of a slant asymptote, divide the numerator of the
+            function by the denominator. The quotient will be linear and the slant
+            asymptote will be <m>y=</m> quotient.
+          </p>
+        </assemblage>
+
+        <example xml:id="ex-find-slant-asym">
+          <introduction>
+            <p>Determine the asymptotes of the following functions.</p>
+          </introduction>
+          <task xml:id="task-slant-1">
+            <statement><p><m>f(x) =\displaystyle \frac{2x^{2} -5x -3}{x-2}</m></p></statement>
+            <workspace>3.3in</workspace>
+          </task>
+          <task xml:id="task-slant-2">
+            <statement><p><m>f(x) =\displaystyle \frac{3x^{3}}{x^{2}-9}</m></p></statement>
+            <workspace>3.3in</workspace>
+          </task>
+        </example>
+
+        <pagebreak />
+
+        <assemblage xml:id="obj-graph-rat-funcs">
+          <title>Graph Rational Functions</title>
+          <p>
+            Given a function <m>f(x) =\frac{p(x)}{q(x)}</m>, where <m>p(x)</m> and <m>q(x)</m> are
+            polynomials with no common factors, use the following features to graph <m>f(x)</m>.
+          </p>
+          <dl>
+            <li>
+              <title>Asymptotes:</title>
+              <p>Determine if the function has vertical asymptotes and graph them as dashed lines.</p>
+            </li>
+            <li>
+              <title>Intercepts:</title>
+              <p>Determine the <m>x</m>- and <m>y</m>-intercepts. Determine if the function has a horizontal asymptote or a slant asymptote, and graph the asymptote as a dashed line. Determine if the function crosses the horizontal or slant asymptote.</p>
+            </li>
+            <li>
+              <title>Symmetry:</title>
+              <p><m>f</m> is symmetric to the <m>y</m>-axis if <m>f(-x) =f(x)</m>. <m>f</m> is symmetric to the origin if <m>f(-x) =-f(x)</m>.</p>
+            </li>
+            <li>
+              <title>Plot points:</title>
+              <p>Plot at least one point on the intervals defined by the <m>x</m>-intercepts, vertical asymptotes, and points where the function crosses a horizontal or slant asymptote.</p>
+            </li>
+          </dl>
+        </assemblage>
+
+        <example xml:id="ex-graph-rat-1">
+          <statement>
+            <p>Graph <m>h(x) =\displaystyle \frac{6}{x^{2}-9}</m>.</p>
+            <image width="50%">
+              <prefigure xmlns="https://prefigure.org" label="prefig-blank-grid-rat-2">
+                <diagram dimensions="(300,300)" margins="15">
+                  <coordinates bbox="(-9,-9,9,9)">
+                    <grid-axes xlabel="x" ylabel="y" />
+                  </coordinates>
+                </diagram>
+              </prefigure>
+            </image>
+          </statement>
+        </example>
+
+        <pagebreak />
+
+        <example xml:id="ex-graph-rat-2">
+          <statement>
+            <p>Graph <m>f(x) =\displaystyle \frac{2x^{2}-8x+8}{x-3}</m>.</p>
+            <image width="50%">
+              <prefigure xmlns="https://prefigure.org" label="prefig-blank-grid-rat-3">
+                <diagram dimensions="(400,300)" margins="15">
+                  <coordinates bbox="(-10,-10,15,15)">
+                    <grid-axes xlabel="x" ylabel="y" />
+                  </coordinates>
+                </diagram>
+              </prefigure>
+            </image>
+          </statement>
+        </example>
+
+        <pagebreak />
+
+        <assemblage xml:id="obj-graph-holes">
+          <title>Graphing rational functions with "holes"</title>
+          <p>
+            If a rational function contains a common variable factor <m>x-c</m> in the numerator and the denominator, 
+            then there is a <b>"hole"</b> or <b>removable discontinuity</b> in the graph at that
+            value of <m>x</m>. If the factor that makes the zero in the denominator cannot be
+            cancelled out, then there is a vertical asymptote in the graph at that value of <m>x</m>.
+          </p>
+        </assemblage>
+
+        <example xml:id="ex-graph-holes">
+          <statement>
+            <p>
+              Below is a graph of <m>g(x) =\displaystyle \frac{2x-3}{x+1}</m>. Use this graph to sketch the graph of <m>f(x) =\displaystyle \frac{2x^{2}+x-6}{x^{2}+3x+2}</m>.
+            </p>
+            <sidebyside widths="45% 45%" margins="auto">
+              <image>
+                <prefigure xmlns="https://prefigure.org" label="prefig-rat-hole-orig">
+                  <diagram dimensions="(250,250)" margins="15">
+                    <definition>g(x) = (2*x-3)/(x+1)</definition>
+                    <coordinates bbox="(-12,-7,8,14)">
+                      <grid-axes xlabel="x" ylabel="g(x)" />
+                      <graph function="g" domain="[-12,-1.2]" color="black" thickness="1.5" />
+                      <graph function="g" domain="[-0.8,8]" color="black" thickness="1.5" />
+                      <path points="(-1,-7) (-1,14)" color="red" stroke="dashed"/>
+                      <path points="(-12,2) (8,2)" color="red" stroke="dashed"/>
+                    </coordinates>
+                  </diagram>
+                </prefigure>
+              </image>
+              <image>
+                <prefigure xmlns="https://prefigure.org" label="prefig-rat-hole-blank">
+                  <diagram dimensions="(250,250)" margins="15">
+                    <coordinates bbox="(-12,-7,8,14)">
+                      <grid-axes xlabel="x" ylabel="f(x)" />
+                    </coordinates>
+                  </diagram>
+                </prefigure>
+              </image>
+            </sidebyside>
+          </statement>
+        </example>
+        
+        <workspace>1.45in</workspace>
+
+        <pagebreak />
+        
+        <p><b>Students - Check your understanding</b></p>
+
+        <activity xml:id="cyu-graph-reading-rat">
+          <introduction>
+            <p>
+              The graph of a rational function <m>f(x)</m> is shown below. Assume that all asymptotes and intercepts are shown and that the graph has no "holes".
+              Use the graph to complete the following questions.
+            </p>
+            <image width="40%">
+              <prefigure xmlns="https://prefigure.org" label="prefig-rat-reading-graph">
+                <diagram dimensions="(250,250)" margins="15">
+                  <definition>f(x) = 20/((x+2)^2)</definition>
+                  <coordinates bbox="(-10.5,-2.5,10.5,12.5)">
+                    <grid-axes xlabel="x" ylabel="y" />
+                    <graph function="f" domain="[-10,-2.2]" color="black" thickness="1.5" />
+                    <graph function="f" domain="[-1.8,10]" color="black" thickness="1.5" />
+                    <path points="(-2,-2.5) (-2,12.5)" color="red" stroke="dashed"/>
+                    <path points="(-10.5,0) (10.5,0)" color="red" stroke="dashed"/>
+                  </coordinates>
+                </diagram>
+              </prefigure>
+            </image>
+          </introduction>
+          <task xml:id="task-reading-1">
+            <statement><p>Write the equations for all vertical and horizontal asymptotes.</p></statement>
+            <workspace>0.8in</workspace>
+          </task>
+          <task xml:id="task-reading-2">
+            <statement><p>Find all <m>x</m>-intercepts and <m>y</m>-intercepts.</p></statement>
+            <workspace>0.8in</workspace>
+          </task>
+          <task xml:id="task-reading-3">
+            <statement><p>Find the domain and range of <m>f(x)</m>. Write each answer as an interval or union of intervals.</p></statement>
+            <workspace>0.8in</workspace>
+          </task>
+        </activity>
+        
+        <workspace>1.2in</workspace>
+
+        <activity xml:id="cyu-cross-asymptote">
+          <statement>
+            <p>
+              Determine if the function <m>f(x) = \displaystyle \frac{2x^{2}-4}{x^{2}-3x-4}</m> crosses its horizontal asymptote.
+            </p>
+          </statement>
+        </activity>
+
+        <pagebreak />
+
+        <p><b>Students - Check your understanding</b></p>
+
+        <activity xml:id="cyu-sketch-rat-1">
+          <statement>
+            <p>Sketch a graph of the following rational function: <m>H(x) = \displaystyle \frac{-1}{x^{2}+6x+9}</m></p>
+            <image width="40%">
+              <prefigure xmlns="https://prefigure.org" label="prefig-blank-grid-rat-4">
+                <diagram dimensions="(250,250)" margins="15">
+                  <coordinates bbox="(-8,-8,3,3)">
+                    <grid-axes xlabel="x" ylabel="y" />
+                  </coordinates>
+                </diagram>
+              </prefigure>
+            </image>
+          </statement>
+        </activity>
+        
+        <workspace>0.75in</workspace>
+
+        <activity xml:id="cyu-sketch-rat-2">
+          <statement>
+            <p>Graph <m>f(x) = \displaystyle \frac{2x^{2}+9x+4}{x+3}</m>.</p>
+            <image width="45%">
+              <prefigure xmlns="https://prefigure.org" label="prefig-blank-grid-rat-5">
+                <diagram dimensions="(250,250)" margins="15">
+                  <coordinates bbox="(-6,-6,6,6)">
+                    <grid-axes xlabel="x" ylabel="y" />
+                  </coordinates>
+                </diagram>
+              </prefigure>
+            </image>
+          </statement>
+        </activity>
+
+        <workspace>0.75in</workspace>
+
+        <activity xml:id="cyu-sketch-rat-3">
+          <statement>
+            <p>Graph <m>g(x) = \displaystyle \frac{2x-2}{x^{2}+2x-3}</m>.</p>
+            <image width="45%">
+              <prefigure xmlns="https://prefigure.org" label="prefig-blank-grid-rat-6">
+                <diagram dimensions="(250,250)" margins="15">
+                  <coordinates bbox="(-6,-6,6,6)">
+                    <grid-axes xlabel="x" ylabel="y" />
+                  </coordinates>
+                </diagram>
+              </prefigure>
+            </image>
+          </statement>
+        </activity>
+      </section>

@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-division-of-polynomials">
+        <title>Division of Polynomials (ALEKS 2.3)</title>
+        
+        <p>
+          We will examine two types of polynomial division: long division and synthetic division.
+          Polynomial division can be used to factor a polynomial equation and find the zeros of a polynomial.
+        </p>
+
+        <definition xml:id="def-polynomial-division">
+          <title>The Division Algorithm</title>
+          <statement>
+            <p>
+              Suppose that <m>f\left( x\right)</m> and <m>d\left( x\right)</m> are polynomials
+              where <m>d\left( x\right) \neq 0</m> and the degree of <m>d\left( x\right)</m> is
+              less than or equal to the degree of <m>f\left( x\right)</m>. Then there exists
+              unique polynomials <m>q\left( x\right)</m> and <m>r\left( x\right)</m> such that
+            </p>
+            <me>
+              f\left( x\right) =d\left( x\right) q\left( x\right) +r\left( x\right) \text{ \qquad or \qquad } \frac{f\left( x\right) }{d\left( x\right) }=q\left( x\right) +\frac{r\left( x\right) }{d\left( x\right) }
+            </me>
+            <me>
+              f(x) =d(x) q(x) + r(x) \text{ or } \frac{f(x)}{d(x)} = q(x) + \frac{r(x)}{d(x)}
+            </me>
+            <p>
+              where either the degree of <m>r\left( x\right)</m> is less than <m>d\left( x\right)</m>, or <m>r\left( x\right)</m> is the zero polynomial.
+            </p>
+          </statement>
+        </definition>
+
+        <assemblage xml:id="obj-long-division">
+          <title>Divide polynomials using long division</title>
+          <p>
+            The polynomial <m>f\left( x\right)</m> is the <b>dividend</b>, <m>d\left( x\right)</m> is
+            the <b>divisor</b>, <m>q\left( x\right)</m> is the <b>quotient</b>, and <m>r\left( x\right)</m> is
+            the <b>remainder</b>.
+          </p>
+        </assemblage>
+
+        <p>
+          To begin the division always write the terms of the dividend and divisor in descending order with zeros as place holders for missing powers of <m>x</m>.
+        </p>
+
+        <example xml:id="ex-long-div-1">
+          <statement>
+            <p>Use polynomial long division to divide <m>\left( 2x^{3}-11x^{2}+13x+15\right) \div \left( 2x-5\right)</m>.</p>
+          </statement>
+          <workspace>4in</workspace>
+        </example>
+        
+        <pagebreak />
+        
+        <example xml:id="ex-long-div-2">
+          <statement>
+            <p>Use polynomial long division to divide <m>\left( -10x^{2}+2x^{3}-5\right) \div \left( x-4\right)</m>.</p>
+          </statement>
+          <workspace>3.2in</workspace>
+        </example>
+
+        <assemblage xml:id="obj-synthetic-division">
+          <title>Divide polynomials using synthetic division</title>
+          <p>
+            We can use synthetic division when the divisor is a binomial of the form <m>\left( x-c\right)</m> and <m>c</m> is a constant.
+          </p>
+        </assemblage>
+
+        <example xml:id="ex-synth-div">
+          <statement>
+            <p><m>\left( -10x^{2}+2x^{3}-5\right) \div \left( x-4\right)</m></p>
+          </statement>
+        </example>
+
+        <p><alert>The setup:</alert></p>
+        <dl>
+          <li><title>Step 1:</title><p>Write the value of <m>c</m> in a box.</p></li>
+          <li><title>Step 2:</title><p>Write the coefficients of the dividend to the right of the box.</p></li>
+          <li><title>Step 3:</title><p>Skip a line and draw a horizontal line below the list of coefficients.</p></li>
+          <li><title>Step 4:</title><p>Bring down the leading coefficient in dividend and write it below line.</p></li>
+        </dl>
+
+        <p><alert>The division:</alert></p>
+        <dl>
+          <li><title>Step 5:</title><p>Multiply the value of <m>c</m> by the number below the line. Write the result in the next column above the line.</p></li>
+          <li><title>Step 6:</title><p>Add the numbers in the column above the line, and write result below line.</p></li>
+        </dl>
+
+        <p>
+          Repeat steps 5 and 6 until all columns have been completed.
+        </p>
+        <p>
+          The right-most number below the line is the remainder. The numbers below the line are coefficients of the quotient in order by the degree of the term.
+        </p>
+
+        <pagebreak />
+
+        <p><b>Students - Check your understanding</b></p>
+
+        <activity xml:id="cyu-long-div-practice">
+          <statement>
+            <p>
+              Divide using polynomial long division. 
+              <me>\left( 2x^{3}+2x^{2}-16x+32\right) \div \left( x^{2}-3x+4\right)</me>
+            </p>
+          </statement>
+          <workspace>4in</workspace>
+        </activity>
+
+        <activity xml:id="cyu-synth-div-practice">
+          <introduction>
+            <p>Divide using synthetic division.</p>
+          </introduction>
+          <task xml:id="task-synth-1">
+            <statement><p><m>\left( x^{3}-13x^{2}+46x-49\right) \div \left( x-8\right)</m></p></statement>
+            <workspace>2.2in</workspace>
+          </task>
+          <task xml:id="task-synth-2">
+            <statement><p><m>\left( 3x^{3}-48x+25x^{2}+20\right) \div \left( x+10\right)</m></p></statement>
+            <workspace>2.2in</workspace>
+          </task>
+        </activity>
+
+        <pagebreak />
+
+        <assemblage xml:id="obj-rem-factor-thms">
+          <title>Apply the Remainder and Factor Theorems</title>
+          <p>
+            The value of <m>f\left( c\right)</m> equals the remainder we get from dividing <m>f\left( x\right)</m> by <m>x-c</m>.
+            On the other hand, the factor theorem tells us when <m>x-c</m> is a factor of <m>f\left( x\right)</m>.
+          </p>
+        </assemblage>
+
+        <theorem xml:id="thm-remainder">
+          <title>Remainder Theorem</title>
+          <statement>
+            <p>
+              If a polynomial <m>f\left( x\right)</m> is divided by <m>x-c</m>, then the remainder is <m>f\left( c\right)</m>.
+            </p>
+          </statement>
+        </theorem>
+
+        <example xml:id="ex-remainder-thm">
+          <statement>
+            <p>
+              Given <m>f\left( x\right) =x^{7}-3x^{5}+2x^{2}-1</m>, use the remainder theorem to evaluate <m>f\left( -2\right)</m>.
+            </p>
+          </statement>
+          <workspace>1.5in</workspace>
+        </example>
+
+        <theorem xml:id="thm-factor">
+          <title>Factor Theorem</title>
+          <statement>
+            <p>
+              Let <m>f(x)</m> be a polynomial.
+              If <m>f\left( c\right) =0</m>, then <m>\left( x-c\right)</m> is a factor of <m>f\left( x\right)</m>.
+              If <m>\left( x-c\right)</m> is a factor of <m>f\left( x\right)</m>, then <m>f\left( c\right) =0</m>.
+            </p>
+          </statement>
+        </theorem>
+
+        <example xml:id="ex-factor-thm">
+          <statement>
+            <p>
+              Use the factor theorem to determine if <m>(x-\sqrt{5})</m> is a factor of <m>P(x)</m>.
+              <me>P\left(x\right) =x^{3}-4x^{2}-5x+20.</me>
+            </p>
+          </statement>
+          <workspace>1.5in</workspace>
+        </example>
+
+        <p>
+          <term>REMARK:</term>
+          Polynomials may also be evaluated over the set of complex numbers rather than restricting <m>x</m> to the set of real numbers.
+          A complex number <m>a + bi</m> is a zero of a polynomial <m>f\left( x\right)</m> <b>if</b> <m>f\left(a+bi\right) = 0</m>.
+        </p>
+
+        <example xml:id="ex-complex-zero-check">
+          <statement>
+            <p>
+              Use <b>both</b> the factor theorem and the remainder theorem to determine if <m>8i</m> is a zero of
+              <me>f\left( x\right) =2x^{3}+x^{2}+128x+64.</me>
+            </p>
+          </statement>
+          <workspace>3in</workspace>
+        </example>
+
+        <pagebreak />
+
+        <example xml:id="ex-factor-poly">
+          <statement>
+            <p>
+              Factor <m>f\left( x\right) =4x^{5}-24x^{4}-3x^{3}+18x^{2}-x+6</m>, given that <m>\left( x-6\right)</m> is a factor.
+            </p>
+          </statement>
+          <workspace>4in</workspace>
+        </example>
+
+        <example xml:id="ex-write-poly-zeros">
+          <statement>
+            <p>
+              Write a polynomial of degree <m>3</m> in standard form that has the zeros <m>1</m>, with a multiplicity of two, and <m>-5</m>.
+            </p>
+          </statement>
+          <workspace>2.5in</workspace>
+        </example>
+
+        <pagebreak />
+
+        <p><b>Students - Check your understanding</b></p>
+
+        <activity xml:id="cyu-identify-zeros">
+          <introduction>
+            <p>For which of the following functions is the given value of <m>c</m> a zero? Select all that apply.</p>
+          </introduction>
+          <task xml:id="task-cyu-zero-1">
+            <statement><p><m>f\left( x\right) =2x^{4}-3x^{2}+5x-11</m>; <m>c=2</m></p></statement>
+            <workspace>0.5in</workspace>
+          </task>
+          <task xml:id="task-cyu-zero-2">
+            <statement><p><m>f\left( x\right) =2x^{3}+5x^{2}-14x-35</m>; <m>c=\sqrt{7}</m></p></statement>
+            <workspace>0.5in</workspace>
+          </task>
+          <task xml:id="task-cyu-zero-3">
+            <statement><p><m>f\left( x\right) =x^{3}-7x^{2}+16x-10</m>; <m>c=3+i</m></p></statement>
+            <workspace>0.5in</workspace>
+          </task>
+        </activity>
+
+        <activity xml:id="cyu-find-k">
+          <introduction>
+            <p>Find <m>k</m> such that <m>f(x)=x^3-kx^2+kx+35</m> has the factor <m>x-5</m>.</p>
+          </introduction>
+          <task xml:id="task-cyu-k-1"><statement><p><m>k=8</m></p></statement><workspace>0.25in</workspace></task>
+          <task xml:id="task-cyu-k-2"><statement><p><m>k=37</m></p></statement><workspace>0.25in</workspace></task>
+          <task xml:id="task-cyu-k-3"><statement><p><m>k=-3</m></p></statement><workspace>0.25in</workspace></task>
+          <task xml:id="task-cyu-k-4"><statement><p><m>k=-8</m></p></statement><workspace>0.25in</workspace></task>
+        </activity>
+
+        <activity xml:id="cyu-choose-function-factor">
+          <introduction>
+            <p>Choose the function that has <m>x-2</m> as a factor.</p>
+          </introduction>
+          <task xml:id="task-cyu-func-1"><statement><p><m>f\left( x\right) =2x^{3}+4x^{2}-18x-36</m></p></statement></task>
+          <task xml:id="task-cyu-func-2"><statement><p><m>f\left( x\right) =3x^{3}-3x^{2}-42x+72</m></p></statement></task>
+          <task xml:id="task-cyu-func-3"><statement><p><m>f\left( x\right) =3x^{3}+9x^{2}-30x-72</m></p></statement></task>
+          <task xml:id="task-cyu-func-4"><statement><p><m>f\left( x\right) =2x^{3}+x^{2}-12x+6</m></p></statement></task>
+        </activity>
+      </section>

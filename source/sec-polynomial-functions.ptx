@@ -7,18 +7,18 @@
           <title>Polynomial function</title>
           <statement>
             <p>
-              A <b>polynomial function of degree <m>n</m></b> is a function that can be expressed as
+              A polynomial function of degree <m>n</m> is a function that can be expressed as
               <me>f\left( x\right)=a_{n}x^{n}+a_{n-1}x^{n-1}+...+a_{1}x+a_{0}</me>
               where <m>n</m> is a non-negative integer and <m>a_n \neq 0</m>.
             </p>
             <p>
-              The given expression is called <b>standard form</b>, <fillin characters="15" /> is the <b>leading term</b>, and <fillin characters="15" /> is the <b>constant term</b>.
+              The given expression is called <em>standard form</em>, <fillin characters="15" /> is the <em>leading term</em>, and <fillin characters="15" /> is the <em>constant term</em>.
             </p>
             <p>
-              The <b>domain</b> of a polynomial is the set of all real numbers.
+              The <em>domain</em> of a polynomial is the set of all real numbers.
             </p>
             <p>
-              The <b>graph</b> of a polynomial is smooth and continuous.
+              The <em>graph</em> of a polynomial is smooth and continuous.
             </p>
           </statement>
         </definition>
@@ -53,7 +53,7 @@
 
         <assemblage xml:id="box-basic-power-functions">
           <title>Two Basic Power Functions</title>
-          <p><b>1.</b> The graph of <m>y=x^n</m>, where <m>n</m> is a positive <b>even</b> integer.</p>
+          <p>1. The graph of <m>y=x^n</m>, where <m>n</m> is a positive <em>even</em> integer.</p>
           <sidebyside widths="45% 45%" margins="auto" valign="middle">
             <stack>
               <p>Domain?</p>
@@ -77,7 +77,7 @@
             </figure>
           </sidebyside>
           
-          <p><b>2.</b> The graph of <m>y=x^n</m>, where <m>n</m> is a positive <b>odd</b> integer.</p>
+          <p>2. The graph of <m>y=x^n</m>, where <m>n</m> is a positive <b>odd</b> integer.</p>
           <sidebyside widths="45% 45%" margins="auto" valign="middle">
             <stack>
               <p>Domain?</p>
@@ -107,8 +107,7 @@
           <sbsgroup>
             <sidebyside widths="30% 30% 30%" margins="auto" valign="middle">
               <stack>
-                <p halign="center"><m>a \gt 0</m>, <m>n</m> even</p>
-                <figure xml:id="fig-trans-a-pos-even">
+                <p><m>a \gt 0</m>, <m>n</m> even</p>
                   <image>
                     <prefigure xmlns="https://prefigure.org" label="prefig-trans-a-pos-even">
                       <diagram dimensions="(150,150)" margins="15">
@@ -121,8 +120,7 @@
                       </diagram>
                     </prefigure>
                   </image>
-                </figure>
-                <p halign="center">opens up</p>
+                <p>opens up</p>
               </stack>
               <stack>
                 <ul>
@@ -133,8 +131,7 @@
                 </ul>
               </stack>
               <stack>
-                <p halign="center"><m>a \gt 0</m>, <m>n</m> odd</p>
-                <figure xml:id="fig-trans-a-pos-odd">
+                <p><m>a \gt 0</m>, <m>n</m> odd</p>
                   <image>
                     <prefigure xmlns="https://prefigure.org" label="prefig-trans-a-pos-odd">
                       <diagram dimensions="(150,150)" margins="15">
@@ -147,14 +144,12 @@
                       </diagram>
                     </prefigure>
                   </image>
-                </figure>
-                <p halign="center">always increasing</p>
+                <p>always increasing</p>
               </stack>
             </sidebyside>
             <sidebyside widths="30% 30% 30%" margins="auto" valign="middle">
               <stack>
-                <p halign="center"><m>a \lt 0</m>, <m>n</m> even</p>
-                <figure xml:id="fig-trans-a-neg-even">
+                <p><m>a \lt 0</m>, <m>n</m> even</p>
                   <image>
                     <prefigure xmlns="https://prefigure.org" label="prefig-trans-a-neg-even">
                       <diagram dimensions="(150,150)" margins="15">
@@ -167,13 +162,11 @@
                       </diagram>
                     </prefigure>
                   </image>
-                </figure>
-                <p halign="center">opens down</p>
+                <p>opens down</p>
               </stack>
               <p></p>
               <stack>
-                <p halign="center"><m>a \lt 0</m>, <m>n</m> odd</p>
-                <figure xml:id="fig-trans-a-neg-odd">
+                <p><m>a \lt 0</m>, <m>n</m> odd</p>
                   <image>
                     <prefigure xmlns="https://prefigure.org" label="prefig-trans-a-neg-odd">
                       <diagram dimensions="(150,150)" margins="15">
@@ -186,8 +179,7 @@
                       </diagram>
                     </prefigure>
                   </image>
-                </figure>
-                <p halign="center">always decreasing</p>
+                <p>always decreasing</p>
               </stack>
             </sidebyside>
           </sbsgroup>
@@ -208,47 +200,49 @@
         <table>
           <title>Notation for end behavior</title>
           <tabular halign="left" top="medium" bottom="medium" left="none" right="none">
-                <col width="30%" />
-                <col width="30%" />
-                <col width="30%" />            <row header="yes" bottom="medium">
+            <col width="20%" />
+            <col width="30%" />
+            <col width="50%" />
+            <row header="yes" bottom="medium">
               <cell>The symbol..</cell>
               <cell>is read as..</cell>
               <cell>which means that..</cell>
             </row>
             <row>
               <cell><m>x\rightarrow \infty</m></cell>
-              <cell>"<m>x</m> approaches infinity"</cell>
+              <cell><p>"<m>x</m> approaches infinity"</p></cell>
               <cell><p><m>x</m> becomes infinitely large in the positive direction</p></cell>
             </row>
             <row>
               <cell><m>x\rightarrow -\infty</m></cell>
-              <cell>"<m>x</m> approaches negative infinity"</cell>
-              <cell><m>x</m> becomes infinitely large in the negative direction</cell>
+              <cell><p>"<m>x</m> approaches negative infinity"</p></cell>
+              <cell><p><m>x</m> becomes infinitely large in the negative direction</p></cell>
             </row>
             <row>
               <cell><m>f\left( x\right) \rightarrow \infty</m></cell>
-              <cell>"<m>f(x)</m> approaches infinity"</cell>
-              <cell>the <m>y</m> value becomes infinitely large in the positive direction</cell>
+              <cell><p>"<m>f(x)</m> approaches infinity"</p></cell>
+              <cell><p>the <m>y</m> value becomes infinitely large in the positive direction</p></cell>
             </row>
             <row>
               <cell><m>f\left( x\right) \rightarrow -\infty</m></cell>
-              <cell>"<m>f(x)</m> approaches negative infinity"</cell>
-              <cell>the <m>y</m> value becomes infinitely large in the negative direction</cell>
+              <cell><p>"<m>f(x)</m> approaches negative infinity"</p></cell>
+              <cell><p>the <m>y</m> value becomes infinitely large in the negative direction</p></cell>
             </row>
           </tabular>
         </table>
 
-        <assemblage xml:id="box-leading-term-test">
+
+<assemblage xml:id="box-leading-term-test">
           <title>The Leading Term Test</title>
           <sbsgroup>
             <sidebyside widths="45% 45%" margins="auto">
               <stack>
-                <p halign="center"><b><m>a_n x^{\text{even}}</m></b></p>
-                <p halign="center"><m>a_n \gt 0</m></p>
+                <p><b><m>a_n x^{\text{even}}</m></b></p>
+                <p><m>a_n \gt 0</m></p>
                 <p>As <m>x\rightarrow \infty</m>, <m>f\left( x\right) \rightarrow </m> <fillin characters="5" /></p>
                 <p>As <m>x\rightarrow -\infty</m>, <m>f\left( x\right) \rightarrow </m> <fillin characters="5" /></p>
-                <figure xml:id="fig-lead-even-pos">
-                  <image>
+<!--                <figure xml:id="fig-lead-even-pos"> -->
+                  <image width="30%">
                     <prefigure xmlns="https://prefigure.org" label="prefig-lead-even-pos">
                       <diagram dimensions="(150,150)" margins="10">
                         <definition>f(x) = 2*(x^4) - 5*(x^3) + 3*x + 3</definition>
@@ -259,14 +253,13 @@
                       </diagram>
                     </prefigure>
                   </image>
-                </figure>
+<!--                </figure>  -->
               </stack>
               <stack>
-                <p halign="center"><b><m>a_n x^{\text{even}}</m></b></p>
-                <p halign="center"><m>a_n \lt 0</m></p>
+                <p><b><m>a_n x^{\text{even}}</m></b></p>
+                <p><m>a_n \lt 0</m></p>
                 <p>As <m>x\rightarrow \infty</m>, <m>f\left( x\right) \rightarrow </m> <fillin characters="5" /></p>
                 <p>As <m>x\rightarrow -\infty</m>, <m>f\left( x\right) \rightarrow </m> <fillin characters="5" /></p>
-                <figure xml:id="fig-lead-even-neg">
                   <image>
                     <prefigure xmlns="https://prefigure.org" label="prefig-lead-even-neg">
                       <diagram dimensions="(150,150)" margins="10">
@@ -278,16 +271,14 @@
                       </diagram>
                     </prefigure>
                   </image>
-                </figure>
               </stack>
             </sidebyside>
             <sidebyside widths="45% 45%" margins="auto">
               <stack>
-                <p halign="center"><b><m>a_n x^{\text{odd}}</m></b></p>
-                <p halign="center"><m>a_n \gt 0</m></p>
+                <p><b><m>a_n x^{\text{odd}}</m></b></p>
+                <p><m>a_n \gt 0</m></p>
                 <p>As <m>x\rightarrow \infty</m>, <m>f\left( x\right) \rightarrow </m> <fillin characters="5" /></p>
                 <p>As <m>x\rightarrow -\infty</m>, <m>f\left( x\right) \rightarrow </m> <fillin characters="5" /></p>
-                <figure xml:id="fig-lead-odd-pos">
                   <image>
                     <prefigure xmlns="https://prefigure.org" label="prefig-lead-odd-pos">
                       <diagram dimensions="(150,150)" margins="10">
@@ -299,14 +290,12 @@
                       </diagram>
                     </prefigure>
                   </image>
-                </figure>
               </stack>
               <stack>
-                <p halign="center"><b><m>a_n x^{\text{odd}}</m></b></p>
-                <p halign="center"><m>a_n \lt 0</m></p>
+                <p><b><m>a_n x^{\text{odd}}</m></b></p>
+                <p><m>a_n \lt 0</m></p>
                 <p>As <m>x\rightarrow \infty</m>, <m>f\left( x\right) \rightarrow </m> <fillin characters="5" /></p>
                 <p>As <m>x\rightarrow -\infty</m>, <m>f\left( x\right) \rightarrow </m> <fillin characters="5" /></p>
-                <figure xml:id="fig-lead-odd-neg">
                   <image>
                     <prefigure xmlns="https://prefigure.org" label="prefig-lead-odd-neg">
                       <diagram dimensions="(150,150)" margins="10">
@@ -318,11 +307,11 @@
                       </diagram>
                     </prefigure>
                   </image>
-                </figure>
               </stack>
             </sidebyside>
           </sbsgroup>
         </assemblage>
+
 
         <p>
           <term>REMARK:</term> For a polynomial <m>f\left( x\right) =a_{n}x^{n}+a_{n-1}x^{n-1}+...+a_{1}x+a_{0}</m>, we can observe the general direction the function follows by looking at the leading term, <m>a_{n}x^{n}</m>.
@@ -344,8 +333,8 @@
         <assemblage xml:id="obj-ident-zeros-multiplicity">
           <title>Identify zeros and multiplicities of zeros</title>
           <p>
-            The values of <m>x</m> in the domain of <m>f</m> for which <m>f\left( x\right) =0</m> are called the <b>zeros of the function</b>.
-            These are the real solutions (or <b>roots</b>) of the equation <m>f\left( x\right) =0</m> and correspond to the <m>x</m>-intercepts of the graph of <m>y=f\left( x\right)</m>.
+            The values of <m>x</m> in the domain of <m>f</m> for which <m>f\left( x\right) =0</m> are called the <em>zeros of the function</em>.
+            These are the real solutions (or <em>roots</em>) of the equation <m>f\left( x\right) =0</m> and correspond to the <m>x</m>-intercepts of the graph of <m>y=f\left( x\right)</m>.
           </p>
         </assemblage>
 
@@ -355,7 +344,7 @@
           </statement>
         </example>
 
-        <p><b>Students - Check your understanding</b></p>
+        <p>Students - Check your understanding</p>
 
         <exercise xml:id="cyu-leading-term-g">
           <introduction>
@@ -401,11 +390,11 @@
         <exercise xml:id="cyu-construct-poly">
           <introduction>
             <p>Construct a polynomial function <m>f</m> with the following characteristics.</p>
-            <ul>
+            <p><ul>
               <li>zeros: <m>- 1</m>, <m>1</m>, and <m>4</m></li>
               <li>degree: <m>3</m></li>
               <li>y-intercept: <m>12</m></li>
-            </ul>
+            </ul></p>
           </introduction>
           <task xml:id="task-cyu-poly-1">
             <statement><p><m>f\left( x\right) = (x + 1)(x - 1)(x - 4)</m></p></statement>
@@ -484,7 +473,7 @@
 
         <sidebyside widths="30% 30% 30%" margins="auto" valign="middle">
           <stack>
-            <p halign="center">a) <m>y = x\left( x-1\right)\left( x+3\right)</m></p>
+            <p>a) <m>y = x\left( x-1\right)\left( x+3\right)</m></p>
             <figure xml:id="fig-mult-odd">
               <image>
                 <prefigure xmlns="https://prefigure.org" label="prefig-mult-odd">
@@ -503,7 +492,7 @@
             </figure>
           </stack>
           <stack>
-            <p halign="center">b) <m>y = x\left( x-1\right)^{2}\left( x+3\right)</m></p>
+            <p>b) <m>y = x\left( x-1\right)^{2}\left( x+3\right)</m></p>
             <figure xml:id="fig-mult-even-mid">
               <image>
                 <prefigure xmlns="https://prefigure.org" label="prefig-mult-even-mid">
@@ -522,7 +511,7 @@
             </figure>
           </stack>
           <stack>
-            <p halign="center">c) <m>y = x\left( x-1\right)\left( x+3\right)^{2}</m></p>
+            <p>c) <m>y = x\left( x-1\right)\left( x+3\right)^{2}</m></p>
             <figure xml:id="fig-mult-even-left">
               <image>
                 <prefigure xmlns="https://prefigure.org" label="prefig-mult-even-left">
@@ -649,7 +638,7 @@
         <assemblage xml:id="obj-sketch-poly">
           <title>Sketch a Polynomial Function</title>
           <p>To graph a polynomial function defined by <m>y = f\left(x\right)</m>,</p>
-          <ul>
+          <p><ul>
             <li>Use the leading term to determine the end behavior of the graph.</li>
             <li>Determine the <m>y</m>-intercept by evaluating <m>f\left(0\right)</m>.</li>
             <li>Determine the real zeros of <m>f</m> and their multiplicities (these are the <m>x</m>-intercepts of the graph of <m>f</m>).</li>
@@ -662,7 +651,7 @@
                 <li><m>f</m> is an odd function (symmetric to the origin) if <m>f\left(-x\right)=-f\left(x\right)</m>.</li>
               </ul>
             </li>
-          </ul>
+          </ul></p>
         </assemblage>
 
         <example xml:id="ex-sketch-poly">
@@ -683,7 +672,7 @@
           </statement>
         </example>
 
-        <p><b>Students - Check your understanding</b></p>
+        <p>Students - Check your understanding</p>
 
         <exercise xml:id="cyu-graph-poly-function">
           <statement>
@@ -748,12 +737,12 @@
         <exercise xml:id="cyu-poly-graph-analysis">
           <introduction>
             <p>Below is the graph of a polynomial function with real coefficients. Use the graph to answer the following questions.</p>
-            <ul>
+            <p><ul>
               <li>Zeros: <m>-5.5, -1.5, 3.5, 7.5</m>.</li>
               <li>y-intercept is <m>-1.7</m>.</li>
               <li>Local maximum at <m>\left(-4, 2.5\right)</m> and <m>(6, 2.5)</m>.</li>
               <li>Local minimum at <m>\left(1, -2\right)</m>.</li>
-            </ul>
+            </ul></p>
             <figure xml:id="fig-poly-graph-analysis">
               <caption>Polynomial Graph</caption>
               <image width="50%">

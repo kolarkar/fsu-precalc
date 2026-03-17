@@ -12,6 +12,11 @@
 
   <xi:include href="sec-polynomial-functions.ptx" />
 
-  
+  <xi:include href="sec-polynomial-division.ptx" />
+
+  <xi:include href="sec-polynomial-zeroes.ptx" />
+
+  <xi:include href="sec-rational-functions.ptx" />>
+
 
 </chapter>

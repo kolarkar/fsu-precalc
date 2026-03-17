@@ -22,10 +22,10 @@
         <example xml:id="ex-simplify-imaginary">
           <statement>
             <p>Simplify the following.</p>
-            <ol cols="2">
+            <p><ol cols="2">
               <li><m>\sqrt{-12}</m></li>
               <li><m>-\sqrt{-25}</m></li>
-            </ol>
+            </ol></p>
           </statement>
           <answer>
             <p>
@@ -48,14 +48,14 @@
         <example xml:id="ex-powers-of-i">
           <statement>
             <p>Simplify the given powers of <m>i</m>.</p>
-            <ol cols="2">
+            <p><ol cols="2">
               <li><m>i^{3}</m></li>
               <li><m>i^{4}</m></li>
               <li><m>i^{5}</m></li>
               <li><m>i^{6}</m></li>
               <li><m>i^{103}</m></li>
               <li><m>i^{-30}</m></li>
-            </ol>
+            </ol></p>
           </statement>
           <answer>
             <p>
@@ -91,12 +91,13 @@
         <example xml:id="ex-standard-form-complex">
           <statement>
             <p>Write the following numbers in standard <m>a + bi</m> form.</p>
-            <ol cols="2">
+            <p>
+              <ol cols="2">
               <li><m>4i-(3+2i)+(1-3i)</m></li>
               <li><m>(4+2i)(3-i)</m></li>
               <li><m>(3 + 4i)^{2}</m></li>
               <li><m>\sqrt{-3}\cdot\sqrt{-12}</m></li>
-            </ol>
+            </ol></p>
           </statement>
         </example>
 
@@ -116,17 +117,17 @@
         <example xml:id="ex-divide-complex">
           <statement>
             <p>Divide the following complex numbers and write answer in <m>a+bi</m> form.</p>
-            <ol cols="2">
+            <p><ol cols="2">
               <li><m>\displaystyle\frac{4+2i}{3-i}</m></li>
               <li><m>\displaystyle\frac{4}{3+5i}</m></li>
               <li><m>\displaystyle\frac{\sqrt{-24}}{\sqrt{-8}}</m></li>
-            </ol>
+            </ol></p>
           </statement>
         </example>
 
-        <p><b>Students - Check your understanding</b></p>
+        <p>Students - Check your understanding</p>
 
-        <exercise xml:id="cyu-standard-form" workspace="2in">
+        <exercise xml:id="cyu-standard-form">
           <statement>
             <p>
               Write down the following as a complex number in its standard form.
@@ -140,7 +141,7 @@
           </statement>
         </exercise>
 
-        <exercise xml:id="cyu-powers-i" workspace="2in">
+        <exercise xml:id="cyu-powers-i">
           <statement>
             <p>Simplify the following powers of <m>i</m>.</p>
             <ol cols="3">
@@ -151,7 +152,7 @@
           </statement>
         </exercise>
 
-        <exercise xml:id="cyu-operations-complex" workspace="2in">
+        <exercise xml:id="cyu-operations-complex">
           <statement>
             <p>Perform the indicated operations. Write answer in <m>a+bi</m> form.</p>
             <ol cols="1">
@@ -196,13 +197,13 @@
               The discriminant of the quadratic equation <m>ax^2+bx+c=0</m> is <fillin characters="15" />.
             </p>
             <p>
-              If the <b>discriminant</b> of a quadratic equation is:
+              If the <em>discriminant</em> of a quadratic equation is:
             </p>
-            <ol cols="1">
+            <p><ol>
               <li>zero, there is <fillin characters="15" />.</li>
               <li>positive, there are <fillin characters="15" />.</li>
               <li>negative, there are <fillin characters="15" />.</li>
-            </ol>
+            </ol></p>
           </statement>
         </definition>
 
@@ -216,15 +217,15 @@
         <example xml:id="ex-use-discriminant">
           <statement>
             <p>Use the discriminant to determine the number and type of solutions for each equation.</p>
-            <ol cols="1">
+            <p><ol>
               <li><m>5x^{2}-3x+1=0</m></li>
               <li><m>2x^{2}=3-6x</m></li>
               <li><m>4x^{2}+12x=-9</m></li>
-            </ol>
+            </ol></p>
           </statement>
         </example>
 
-        <p><b>Students - Check your understanding</b></p>
+        <p>Students - Check your understanding</p>
 
         <exercise xml:id="cyu-solve-equations">
           <statement>
